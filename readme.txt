@@ -24,10 +24,10 @@ Füge Kontrolle und Flexibilität für Content Management und Designkonsistenz h
 
 [POWERED BY PSOURCE](https://n3rds.work/psource_kategorien/psource-plugins/)
 
-[Projektseite](https://n3rds.work/piestingtal_source/ps-custom-post-widget/)
+[Projektseite](https://n3rds.work/piestingtal_source/psource-custompress-plugin/)
 [Handbuch](https://n3rds.work/docs/ps-custom-posts-type-widget-handbuch/)
 [Supportforum](https://n3rds.work/forums/forum/psource-support-foren/ps-custom-posts-type-widget-supportforum/)
-[GitHub](https://github.com/piestingtal-source/ps-custom-post-widget)
+[GitHub](hhttps://github.com/piestingtal-source/custompress)
 
 == Mehr PSOURCE ==
 
