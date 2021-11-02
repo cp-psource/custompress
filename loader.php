@@ -11,7 +11,7 @@ Domain Path: languages
 License: GNU General Public License (Version 2 - GPLv2)
 Network: false
 */
-require 'ext/plugin-update-checker/plugin-update-checker.php';
+require 'psource/psource-plugin-update/psource-plugin-updater.php';
 $MyUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=custompress', 
 	__FILE__, 
