@@ -672,7 +672,7 @@
 						<input type="hidden" name="ep_mask[EP_COMMENTS]" value="0" />
 						<label>
 							<input type="checkbox" name="ep_mask[EP_COMMENTS]" value="<?php echo EP_COMMENTS; ?>" <?php checked( isset( $_POST['ep_mask']['EP_COMMENTS'] ) && $_POST['ep_mask']['EP_COMMENTS'] & EP_COMMENTS, EP_COMMENTS); ?> />
-							<span class="description"><strong><?php esc_html_e('EP_COMMENTS: für CKommentare.', $this->text_domain); ?></strong></span>
+							<span class="description"><strong><?php esc_html_e('EP_COMMENTS: für Kommentare.', $this->text_domain); ?></strong></span>
 						</label>
 						<br />
 						<input type="hidden" name="ep_mask[EP_SEARCH]" value="0" />

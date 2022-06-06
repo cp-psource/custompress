@@ -93,8 +93,8 @@ $this->render_admin('update-message');
 				<form action="#" method="post" id="form-<?php echo( $name ); ?>" class="del-form">
 					<?php wp_nonce_field('delete_post_type'); ?>
 					<input type="hidden" name="post_type_name" value="<?php echo( $name ); ?>" />
-					<input type="submit" class="button confirm" value="<?php esc_attr_e( 'Confirm', $this->text_domain ); ?>" name="submit" />
-					<input type="submit" class="button cancel"  value="<?php esc_attr_e( 'Cancel', $this->text_domain ); ?>" onClick="content_types.cancel('<?php echo( $name ); ?>'); return false;" />
+					<input type="submit" class="button confirm" value="<?php esc_attr_e( 'Bestätigen', $this->text_domain ); ?>" name="submit" />
+					<input type="submit" class="button cancel"  value="<?php esc_attr_e( 'Abbrechen', $this->text_domain ); ?>" onClick="content_types.cancel('<?php echo( $name ); ?>'); return false;" />
 				</form>
 			</td>
 			<td><?php echo ( empty( $post_type['labels']['name'] ) ) ? '' : esc_html( $post_type['labels']['name'] ); ?></td>
