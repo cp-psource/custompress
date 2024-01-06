@@ -603,7 +603,9 @@ if ( ! class_exists( 'CustomPress_Core' ) ):
 				// Retrieves categories list of current post.
 				$list = array();
 				foreach ( $categories as $category ) {
-					$list[] = get_the_term_list( $post->ID, $category, '', $separator, '' );
+					if ( ! empty( $post ) && is_object( $post ) ) {
+						$list[] = get_the_term_list( $post->ID, $category, '', $separator, '' );
+					}
 				}
 				$list    = array_filter( $list );
 				$thelist = implode( $separator, $list );

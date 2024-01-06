@@ -50,6 +50,10 @@ Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswor
 
 == ChangeLog ==
 
-= 1.4.1 = DerN3rd =
+= 1.4.2 =
+
+* Fix: PHP Warning:  Attempt to read property "ID"
+
+= 1.4.1 =
 
 * Release 
