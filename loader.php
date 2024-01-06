@@ -12,7 +12,8 @@ License: GNU General Public License (Version 2 - GPLv2)
 Network: false
 */
 require 'psource/psource-plugin-update/psource-plugin-updater.php';
-$MyUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+use Psource\PluginUpdateChecker\v5\PucFactory;
+$MyUpdateChecker = PucFactory::buildUpdateChecker(
 	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=custompress', 
 	__FILE__, 
 	'custompress' 
