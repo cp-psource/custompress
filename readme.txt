@@ -53,6 +53,7 @@ Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswor
 = 1.4.2 =
 
 * Fix: PHP Warning:  Attempt to read property "ID"
+* Add: README.md
 
 = 1.4.1 =
 
