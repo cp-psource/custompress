@@ -4,7 +4,7 @@ Donate link: https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free
 Tags: widget, custom,post, wordpress, classicpress
 Requires at least: 4.9
 Tested up to: 4.9
-Stable tag: 1.4.1
+Stable tag: 1.4.2
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -13,14 +13,13 @@ CustomPress - Benutzerdefinierter Post-, Taxonomie- und Feldmanager.
 
 == Description ==
 
-PSource CustomPress ist das ultimative Plugin, um WordPress von einer Blogging-Plattform in ein vollständiges Content-Management-System umzuwandeln.
-Bringe WordPress mit PSource CustomPress auf die nächste Stufe. Verwalte mehr Inhalte effizienter mit benutzerdefinierten Beitragstypen.
+CustomPress ist das ultimative Plugin, um ClassicPress von einer Blogging-Plattform in ein vollständiges Content-Management-System umzuwandeln.
+Bringe ClassicPress mit PSource CustomPress auf die nächste Stufe. Verwalte mehr Inhalte effizienter mit benutzerdefinierten Beitragstypen.
 
 Erstelle benutzerdefinierte Beitragstypen für ein wirklich benutzerdefiniertes CMS.
 Macht, Organisation und Kontrolle
 Erstelle und sortiere Inhalte in benutzerdefinierten Beitragstypen für alles, von Filmen über Bücher, Immobilienanzeigen bis hin zum Entwerfen von Galerien. 
 Füge Kontrolle und Flexibilität für Content Management und Designkonsistenz hinzu.
-
 
 [POWERED BY PSOURCE](https://n3rds.work/psource_kategorien/psource-plugins/)
 

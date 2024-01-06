@@ -3,7 +3,7 @@
 Plugin Name: CustomPress
 Plugin URI: https://n3rds.work/piestingtal_source/psource-custompress-plugin/
 Description: CustomPress - Benutzerdefinierter Post-, Taxonomie- und Feldmanager.
-Version: 1.4.1
+Version: 1.4.2
 Author: WMS N@W
 Author URI: https://n3rds.work
 Text Domain: custompress
@@ -43,7 +43,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 
 /* Define plugin version */
-if( !defined('CPT_VERSION') ) define ( 'CPT_VERSION', '1.4.1' );
+if( !defined('CPT_VERSION') ) define ( 'CPT_VERSION', '1.4.2' );
 /* define the plugin folder url */
 if( !defined('CPT_PLUGIN_URL') ) define ( 'CPT_PLUGIN_URL', plugin_dir_url(__FILE__) );
 /* define the plugin folder dir */
