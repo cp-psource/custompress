@@ -1,0 +1,2046 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CustomPress\n"
+"POT-Creation-Date: 2024-01-06 15:31+0100\n"
+"PO-Revision-Date: 2024-01-06 15:31+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: loader.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: psource/psource-plugin-update/vendor\n"
+
+#. Plugin Name of the plugin/theme
+#: core/admin.php:134 core/admin.php:157 loader.php:26
+msgid "CustomPress"
+msgstr ""
+
+#: core/admin.php:137 core/admin.php:159
+msgid "Inhaltstypen"
+msgstr ""
+
+#: core/admin.php:142 core/admin.php:160
+msgid "Einstellungen"
+msgstr ""
+
+#: core/admin.php:143 core/admin.php:162
+msgid "Export/Import"
+msgstr ""
+
+#: core/admin.php:1086
+msgid "CustomPress Fields"
+msgstr ""
+
+#: core/content-types.php:739
+msgid "Upload media"
+msgstr ""
+
+#: core/content-types.php:741
+msgid "Remove media"
+msgstr ""
+
+#: core/content-types.php:808
+msgid "Invalid Taxonomy name in [tax ] shortcode"
+msgstr ""
+
+#: core/core.php:533
+msgid "Sicherheitsüberprüfung fehlgeschlagen!"
+msgstr ""
+
+#. Description of the plugin/theme
+#: loader.php:23
+msgid "CustomPress - Benutzerdefinierter Post-, Taxonomie- und Feldmanager."
+msgstr ""
+
+#: loader.php:24
+msgid "DerN3rd (WMS N@W)"
+msgstr ""
+
+#. Author URI of the plugin/theme
+#: loader.php:25
+msgid "https://n3rds.work"
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:56
+msgid "View details"
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:79
+#, php-format
+msgid "Weitere Informationen zu %s"
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:130
+msgid "Auf neuere Version prüfen"
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "Keine neuere Version von %s im PSOURCE REPO gefunden."
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:219
+#, php-format
+msgctxt "the plugin title"
+msgid "Im PSOURCE REPO ist eine <b>neuere Version von %s</b> verfügbar!."
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:221
+#, php-format
+msgctxt "the plugin title"
+msgid ""
+"Entschuldige, es konnte nicht festgestellt werden, ob Updates für %s "
+"verfügbar sind."
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:227
+#, php-format
+msgid "Unbekannter PSOURCE-UPDATTER-Status \"%s\""
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p0/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
+
+#: ui-admin/add-custom-field.php:8 ui-admin/add-custom-field.php:232
+#: ui-admin/custom-fields.php:40 ui-admin/custom-fields.php:164
+msgid "Benutzerdefiniertes Feld hinzufügen"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:13 ui-admin/add-custom-field.php:17
+#: ui-admin/edit-custom-field.php:20 ui-admin/edit-custom-field.php:24
+msgid "Feldtitel"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:17 ui-admin/add-custom-field.php:60
+#: ui-admin/add-custom-field.php:185 ui-admin/add-custom-field.php:210
+#: ui-admin/add-taxonomy.php:32 ui-admin/edit-custom-field.php:24
+#: ui-admin/edit-custom-field.php:68 ui-admin/edit-custom-field.php:191
+#: ui-admin/edit-post-type.php:27 ui-admin/edit-taxonomy.php:51
+#: ui-admin/wip-update-taxonomy.php:28 ui-admin/wip-update-taxonomy.php:43
+msgid "erforderlich"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:21 ui-admin/edit-custom-field.php:28
+msgid "Der Titel des benutzerdefinierten Felds."
+msgstr ""
+
+#: ui-admin/add-custom-field.php:26
+msgid "Benötigte Felder"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:30 ui-admin/edit-custom-field.php:38
+msgid "Mache dies zu einem Pflichtfeld."
+msgstr ""
+
+#: ui-admin/add-custom-field.php:35
+msgid "Fehlermeldung für benötigte Felder"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:39
+msgid ""
+"Benutzerdefinierte Fehlermeldung für erforderliches Feld oder leer lassen "
+"für Standard."
+msgstr ""
+
+#: ui-admin/add-custom-field.php:44 ui-admin/edit-custom-field.php:52
+msgid "Für WP/Plugins zulassen"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:45 ui-admin/edit-custom-field.php:52
+msgid "kann nicht geändert werden"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:49 ui-admin/edit-custom-field.php:57
+msgid "WP und andere Plugins können dieses benutzerdefinierte Feld verwenden."
+msgstr ""
+
+#: ui-admin/add-custom-field.php:56 ui-admin/add-custom-field.php:60
+#: ui-admin/custom-fields.php:49 ui-admin/custom-fields.php:60
+#: ui-admin/edit-custom-field.php:64 ui-admin/edit-custom-field.php:68
+msgid "Feldtyp"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:64 ui-admin/edit-custom-field.php:72
+msgid "WP Editor"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:65 ui-admin/edit-custom-field.php:73
+msgid "Textfeld"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:66 ui-admin/edit-custom-field.php:74
+msgid "Mehrzeiliges Textfeld"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:67 ui-admin/edit-custom-field.php:75
+msgid "Radio Buttons"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:68
+msgid "Checkboxen"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:69 ui-admin/edit-custom-field.php:77
+msgid "Dropdown-Auswahlfeld"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:70
+msgid "Mehrfachauswahl Box"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:71 ui-admin/edit-custom-field.php:79
+msgid "Datumsauswahl"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:72 ui-admin/edit-custom-field.php:80
+msgid "Upload"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:74 ui-admin/edit-custom-field.php:82
+msgid "Wähle den Typ des benutzerdefinierten Felds."
+msgstr ""
+
+#: ui-admin/add-custom-field.php:77 ui-admin/add-custom-field.php:110
+#: ui-admin/add-custom-field.php:122 ui-admin/edit-custom-field.php:85
+#: ui-admin/edit-custom-field.php:118 ui-admin/edit-custom-field.php:129
+msgid "Fülle die Optionen für dieses Feld aus"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:79 ui-admin/edit-custom-field.php:87
+msgid "Validierung regulärer Ausdrücke"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:83 ui-admin/edit-custom-field.php:90
+msgid "Optionen:"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:85 ui-admin/edit-custom-field.php:92
+msgid "i = Fall ignorieren, g = Global, m = mehrzeilig"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:86 ui-admin/edit-custom-field.php:93
+msgid ""
+"Gib einen regulären Ausdruck ein, um ihn zu validieren, oder lasse ihn leer. "
+"Beispiel für E-Mail:"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:87 ui-admin/edit-custom-field.php:94
+msgid "<code>^[\\w.%+-]+@[\\w.-]+\\.[a-zA-Z]{2,4}$</code> <code>i</code>"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:90 ui-admin/edit-custom-field.php:97
+msgid "Fehlermeldung Überprüfung regulärer Ausdrücke"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:92 ui-admin/edit-custom-field.php:99
+msgid ""
+"Fehlermeldung zur Überprüfung der benutzerdefinierten regulären Ausdrücke "
+"für dieses Feld oder lasse für die Standardeinstellung leer."
+msgstr ""
+
+#: ui-admin/add-custom-field.php:95 ui-admin/add-custom-field.php:139
+#: ui-admin/add-custom-field.php:149 ui-admin/edit-custom-field.php:102
+#: ui-admin/edit-custom-field.php:146 ui-admin/edit-custom-field.php:156
+msgid "Standardwert"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:113 ui-admin/edit-custom-field.php:121
+#: ui-admin/settings.php:268
+msgid "Wähle die Option Datumsformat oder gib Deine eigene ein"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:117 ui-admin/edit-custom-field.php:124
+#: ui-admin/settings.php:271
+msgid "Datumsauswahl Beispiel"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:124
+msgid "Order By"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:127 ui-admin/edit-custom-field.php:134
+msgid "Ordnen eingegeben"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:128 ui-admin/edit-custom-field.php:135
+msgid "Name - Aufsteigend"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:129 ui-admin/edit-custom-field.php:136
+msgid "Name - Absteigend"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:136 ui-admin/add-custom-field.php:146
+#: ui-admin/edit-custom-field.php:143 ui-admin/edit-custom-field.php:153
+msgid "Option"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:155 ui-admin/edit-custom-field.php:162
+msgid "Füge eine weitere Option hinzu"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:163 ui-admin/add-custom-field.php:167
+#: ui-admin/edit-custom-field.php:170 ui-admin/edit-custom-field.php:174
+msgid "Feld Beschreibung"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:171 ui-admin/edit-custom-field.php:178
+msgid "Beschreibung für das benutzerdefinierte Feld."
+msgstr ""
+
+#: ui-admin/add-custom-field.php:181 ui-admin/add-custom-field.php:185
+#: ui-admin/add-custom-field.php:210 ui-admin/add-post-type.php:8
+#: ui-admin/add-post-type.php:12 ui-admin/add-taxonomy.php:28
+#: ui-admin/add-taxonomy.php:32 ui-admin/edit-custom-field.php:187
+#: ui-admin/edit-custom-field.php:191 ui-admin/edit-custom-field.php:216
+#: ui-admin/edit-post-type.php:23 ui-admin/edit-post-type.php:27
+#: ui-admin/edit-taxonomy.php:47 ui-admin/edit-taxonomy.php:51
+#: ui-admin/post-types.php:38 ui-admin/post-types.php:51
+#: ui-admin/wip-update-taxonomy.php:39 ui-admin/wip-update-taxonomy.php:43
+msgid "Beitragstyp"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:196 ui-admin/edit-custom-field.php:202
+msgid ""
+"Wähle einen oder mehrere Beitragstypen aus, denen dieses benutzerdefinierte "
+"Feld hinzugefügt werden soll."
+msgstr ""
+
+#: ui-admin/add-custom-field.php:206 ui-admin/edit-custom-field.php:212
+msgid "Eingabe für diesen Beitragstyp ausblenden"
+msgstr ""
+
+#: ui-admin/add-custom-field.php:221 ui-admin/edit-custom-field.php:227
+msgid ""
+"Um dieses Eingabefeld auf der Admin-Bearbeitungsseite für einen Beitragstyp "
+"auszublenden, wähle einen oder mehrere auszublendende Beitragstypen aus."
+msgstr ""
+
+#: ui-admin/add-post-type.php:3 ui-admin/add-post-type.php:818
+#: ui-admin/post-types.php:32 ui-admin/post-types.php:143
+msgid "Beitragstyp hinzufügen"
+msgstr ""
+
+#: ui-admin/add-post-type.php:12 ui-admin/add-taxonomy.php:17
+msgid "required"
+msgstr ""
+
+#: ui-admin/add-post-type.php:16 ui-admin/edit-post-type.php:32
+msgid ""
+"Der neue Systemtyp des Posttyps (max. 20 Zeichen). Nur alphanumerische "
+"Kleinbuchstaben und Unterstriche. Min 2 Buchstaben. Nach dem Hinzufügen kann "
+"der Systemtyp des Post-Typs nicht mehr geändert werden."
+msgstr ""
+
+#: ui-admin/add-post-type.php:23 ui-admin/add-post-type.php:27
+#: ui-admin/edit-post-type.php:39 ui-admin/edit-post-type.php:43
+#: ui-admin/post-types.php:42 ui-admin/post-types.php:55
+msgid "Unterstützt"
+msgstr ""
+
+#: ui-admin/add-post-type.php:30 ui-admin/edit-post-type.php:46
+msgid ""
+"Registriere die Unterstützung bestimmter Funktionen für einen Beitragstyp."
+msgstr ""
+
+#: ui-admin/add-post-type.php:33 ui-admin/edit-post-type.php:49
+msgid "Titel"
+msgstr ""
+
+#: ui-admin/add-post-type.php:38 ui-admin/edit-post-type.php:54
+msgid "Editor"
+msgstr ""
+
+#: ui-admin/add-post-type.php:38 ui-admin/edit-post-type.php:54
+msgid "Content"
+msgstr ""
+
+#: ui-admin/add-post-type.php:43 ui-admin/edit-post-type.php:59
+msgid "Autor"
+msgstr ""
+
+#: ui-admin/add-post-type.php:48 ui-admin/edit-post-type.php:64
+msgid "Thumbnail"
+msgstr ""
+
+#: ui-admin/add-post-type.php:48 ui-admin/edit-post-type.php:64
+msgid ""
+"Ausgewähltes Bild - Das aktuelle Theme muss auch Post-Thumbnails "
+"unterstützen."
+msgstr ""
+
+#: ui-admin/add-post-type.php:53 ui-admin/edit-post-type.php:69
+msgid "Auszug"
+msgstr ""
+
+#: ui-admin/add-post-type.php:58 ui-admin/edit-post-type.php:74
+msgid "Trackbacks"
+msgstr ""
+
+#: ui-admin/add-post-type.php:63 ui-admin/edit-post-type.php:79
+#: ui-admin/edit-post-type.php:396 ui-admin/navigation.php:9
+msgid "Benutzerdefinierte Felder"
+msgstr ""
+
+#: ui-admin/add-post-type.php:68 ui-admin/edit-post-type.php:84
+msgid "Kommentare"
+msgstr ""
+
+#: ui-admin/add-post-type.php:68 ui-admin/edit-post-type.php:84
+msgid ""
+"Außerdem wird auf dem Bearbeitungsbildschirm eine Sprechblase für die Anzahl "
+"der Kommentare angezeigt."
+msgstr ""
+
+#: ui-admin/add-post-type.php:73 ui-admin/edit-post-type.php:89
+msgid "Revisionen"
+msgstr ""
+
+#: ui-admin/add-post-type.php:73 ui-admin/edit-post-type.php:89
+msgid "Speichert Revisionen."
+msgstr ""
+
+#: ui-admin/add-post-type.php:78 ui-admin/edit-post-type.php:94
+msgid "Seitenattribute"
+msgstr ""
+
+#: ui-admin/add-post-type.php:78 ui-admin/edit-post-type.php:94
+msgid "Vorlagen- und Menüreihenfolge - Hierarchisch muss wahr sein!"
+msgstr ""
+
+#: ui-admin/add-post-type.php:83 ui-admin/edit-post-type.php:99
+msgid "Beitrags-Formate"
+msgstr ""
+
+#: ui-admin/add-post-type.php:83 ui-admin/edit-post-type.php:99
+msgid "Beitragsformate hinzufügen."
+msgstr ""
+
+#: ui-admin/add-post-type.php:91 ui-admin/add-post-type.php:95
+#: ui-admin/edit-post-type.php:107 ui-admin/edit-post-type.php:111
+msgid "Unterstützung regulärer Taxonomien"
+msgstr ""
+
+#: ui-admin/add-post-type.php:98 ui-admin/edit-post-type.php:114
+msgid "Weise diesem Beitragstyp reguläre Taxonomien zu."
+msgstr ""
+
+#: ui-admin/add-post-type.php:102 ui-admin/edit-post-type.php:118
+msgid "Kategorien"
+msgstr ""
+
+#: ui-admin/add-post-type.php:109 ui-admin/edit-post-type.php:125
+msgid "Tags"
+msgstr ""
+
+#: ui-admin/add-post-type.php:118 ui-admin/add-post-type.php:122
+#: ui-admin/edit-post-type.php:135 ui-admin/edit-post-type.php:139
+#: ui-admin/post-types.php:43 ui-admin/post-types.php:56
+msgid "Berechtigungstyp"
+msgstr ""
+
+#: ui-admin/add-post-type.php:128 ui-admin/custom-fields.php:109
+#: ui-admin/edit-post-type.php:147 ui-admin/post-types.php:86
+#: ui-admin/taxonomies.php:74
+msgid "Bearbeiten"
+msgstr ""
+
+#: ui-admin/add-post-type.php:128
+msgid "erweitert"
+msgstr ""
+
+#: ui-admin/add-post-type.php:130 ui-admin/edit-post-type.php:148
+msgid ""
+"Der Beitragstyp, der zum Überprüfen der Lese-, Bearbeitungs- und "
+"Löschfunktionen verwendet werden soll. Voreinstellung: \"post\"."
+msgstr ""
+
+#: ui-admin/add-post-type.php:138 ui-admin/add-post-type.php:142
+#: ui-admin/edit-post-type.php:156 ui-admin/edit-post-type.php:160
+msgid "Meta-Funktionen zuordnen"
+msgstr ""
+
+#: ui-admin/add-post-type.php:145 ui-admin/edit-post-type.php:163
+msgid "Verwende die interne Standardbehandlung für Metafunktionen."
+msgstr ""
+
+#: ui-admin/add-post-type.php:148 ui-admin/add-post-type.php:338
+#: ui-admin/add-post-type.php:385 ui-admin/add-post-type.php:417
+#: ui-admin/add-post-type.php:445 ui-admin/add-post-type.php:473
+#: ui-admin/add-post-type.php:501 ui-admin/add-post-type.php:529
+#: ui-admin/add-post-type.php:564 ui-admin/add-post-type.php:730
+#: ui-admin/add-post-type.php:767 ui-admin/add-post-type.php:796
+#: ui-admin/add-taxonomy.php:198 ui-admin/add-taxonomy.php:228
+#: ui-admin/add-taxonomy.php:261 ui-admin/add-taxonomy.php:289
+#: ui-admin/add-taxonomy.php:318 ui-admin/add-taxonomy.php:346
+#: ui-admin/add-taxonomy.php:374 ui-admin/add-taxonomy.php:533
+#: ui-admin/add-taxonomy.php:568 ui-admin/edit-post-type.php:166
+#: ui-admin/edit-post-type.php:437 ui-admin/edit-post-type.php:483
+#: ui-admin/edit-post-type.php:509 ui-admin/edit-post-type.php:532
+#: ui-admin/edit-post-type.php:555 ui-admin/edit-post-type.php:578
+#: ui-admin/edit-post-type.php:601 ui-admin/edit-post-type.php:630
+#: ui-admin/edit-post-type.php:790 ui-admin/edit-post-type.php:819
+#: ui-admin/edit-post-type.php:842 ui-admin/edit-taxonomy.php:216
+#: ui-admin/edit-taxonomy.php:246 ui-admin/edit-taxonomy.php:279
+#: ui-admin/edit-taxonomy.php:307 ui-admin/edit-taxonomy.php:337
+#: ui-admin/edit-taxonomy.php:365 ui-admin/edit-taxonomy.php:393
+#: ui-admin/edit-taxonomy.php:552 ui-admin/edit-taxonomy.php:587
+#: ui-admin/wip-update-taxonomy.php:218 ui-admin/wip-update-taxonomy.php:245
+#: ui-admin/wip-update-taxonomy.php:269 ui-admin/wip-update-taxonomy.php:293
+#: ui-admin/wip-update-taxonomy.php:317 ui-admin/wip-update-taxonomy.php:341
+#: ui-admin/wip-update-taxonomy.php:387
+msgid "WAHR"
+msgstr ""
+
+#: ui-admin/add-post-type.php:153 ui-admin/add-post-type.php:349
+#: ui-admin/add-post-type.php:392 ui-admin/add-post-type.php:422
+#: ui-admin/add-post-type.php:450 ui-admin/add-post-type.php:478
+#: ui-admin/add-post-type.php:506 ui-admin/add-post-type.php:534
+#: ui-admin/add-post-type.php:571 ui-admin/add-post-type.php:735
+#: ui-admin/add-post-type.php:772 ui-admin/add-post-type.php:801
+#: ui-admin/add-taxonomy.php:203 ui-admin/add-taxonomy.php:233
+#: ui-admin/add-taxonomy.php:266 ui-admin/add-taxonomy.php:294
+#: ui-admin/add-taxonomy.php:323 ui-admin/add-taxonomy.php:351
+#: ui-admin/add-taxonomy.php:381 ui-admin/add-taxonomy.php:538
+#: ui-admin/add-taxonomy.php:573 ui-admin/edit-post-type.php:171
+#: ui-admin/edit-post-type.php:450 ui-admin/edit-post-type.php:490
+#: ui-admin/edit-post-type.php:514 ui-admin/edit-post-type.php:537
+#: ui-admin/edit-post-type.php:560 ui-admin/edit-post-type.php:583
+#: ui-admin/edit-post-type.php:606 ui-admin/edit-post-type.php:635
+#: ui-admin/edit-post-type.php:795 ui-admin/edit-post-type.php:824
+#: ui-admin/edit-post-type.php:847 ui-admin/edit-taxonomy.php:221
+#: ui-admin/edit-taxonomy.php:251 ui-admin/edit-taxonomy.php:284
+#: ui-admin/edit-taxonomy.php:312 ui-admin/edit-taxonomy.php:342
+#: ui-admin/edit-taxonomy.php:370 ui-admin/edit-taxonomy.php:400
+#: ui-admin/edit-taxonomy.php:557 ui-admin/edit-taxonomy.php:592
+#: ui-admin/wip-update-taxonomy.php:221 ui-admin/wip-update-taxonomy.php:248
+#: ui-admin/wip-update-taxonomy.php:272 ui-admin/wip-update-taxonomy.php:296
+#: ui-admin/wip-update-taxonomy.php:320 ui-admin/wip-update-taxonomy.php:346
+#: ui-admin/wip-update-taxonomy.php:390
+msgid "FALSCH"
+msgstr ""
+
+#: ui-admin/add-post-type.php:162 ui-admin/add-taxonomy.php:51
+#: ui-admin/edit-post-type.php:233 ui-admin/edit-taxonomy.php:68
+#: ui-admin/wip-update-taxonomy.php:70
+msgid "Labels"
+msgstr ""
+
+#: ui-admin/add-post-type.php:166 ui-admin/add-taxonomy.php:55
+#: ui-admin/edit-post-type.php:237 ui-admin/edit-taxonomy.php:72
+#: ui-admin/post-types.php:39 ui-admin/post-types.php:52
+#: ui-admin/taxonomies.php:32 ui-admin/taxonomies.php:42
+#: ui-admin/wip-update-taxonomy.php:74
+msgid "Name"
+msgstr ""
+
+#: ui-admin/add-post-type.php:170 ui-admin/edit-post-type.php:241
+msgid "Allgemeiner Name für den Beitragstyp, normalerweise Plural."
+msgstr ""
+
+#: ui-admin/add-post-type.php:175 ui-admin/add-taxonomy.php:64
+#: ui-admin/edit-post-type.php:246 ui-admin/edit-taxonomy.php:81
+#: ui-admin/wip-update-taxonomy.php:83
+msgid "Singular Name"
+msgstr ""
+
+#: ui-admin/add-post-type.php:179 ui-admin/edit-post-type.php:250
+msgid ""
+"Name für ein Objekt dieses Beitragstyps. Der Standardwert ist der Wert des "
+"Namens."
+msgstr ""
+
+#: ui-admin/add-post-type.php:184 ui-admin/edit-post-type.php:255
+msgid "Neu hinzufügen"
+msgstr ""
+
+#: ui-admin/add-post-type.php:188 ui-admin/edit-post-type.php:259
+msgid ""
+"Das Hinzufügen von neuem Text. Die Standardeinstellung ist Neu hinzufügen "
+"für hierarchische und nicht hierarchische Typen."
+msgstr ""
+
+#: ui-admin/add-post-type.php:193 ui-admin/add-taxonomy.php:73
+#: ui-admin/edit-post-type.php:264 ui-admin/edit-taxonomy.php:90
+#: ui-admin/wip-update-taxonomy.php:92
+msgid "Füge neues Element hinzu"
+msgstr ""
+
+#: ui-admin/add-post-type.php:197 ui-admin/edit-post-type.php:268
+msgid ""
+"Text für neues Element hinzufügen. Standard ist \"Neuen Beitrag hinzufügen/"
+"Neue Seite hinzufügen\"."
+msgstr ""
+
+#: ui-admin/add-post-type.php:202 ui-admin/add-taxonomy.php:91
+#: ui-admin/edit-post-type.php:273 ui-admin/edit-taxonomy.php:108
+#: ui-admin/wip-update-taxonomy.php:110
+msgid "Element bearbeiten"
+msgstr ""
+
+#: ui-admin/add-post-type.php:206 ui-admin/edit-post-type.php:277
+msgid ""
+"Text für Bearbeitung des Elements. Standard ist Beitrag bearbeiten/Seite "
+"bearbeiten."
+msgstr ""
+
+#: ui-admin/add-post-type.php:211 ui-admin/edit-post-type.php:282
+msgid "Neues Element"
+msgstr ""
+
+#: ui-admin/add-post-type.php:215 ui-admin/edit-post-type.php:286
+msgid "Text für neues Element. Standard ist Neuer Beitrag/Neue Seite."
+msgstr ""
+
+#: ui-admin/add-post-type.php:220 ui-admin/edit-post-type.php:291
+msgid "Element anzeigen"
+msgstr ""
+
+#: ui-admin/add-post-type.php:224 ui-admin/edit-post-type.php:295
+msgid ""
+"Text für Ansicht des Elements. Die Standardeinstellung ist Beitrag anzeigen/"
+"Seite anzeigen."
+msgstr ""
+
+#: ui-admin/add-post-type.php:229 ui-admin/edit-post-type.php:300
+msgid "Element suchen"
+msgstr ""
+
+#: ui-admin/add-post-type.php:233 ui-admin/edit-post-type.php:304
+msgid "Text für SElementsuche. Standard ist Suche Beiträge/Suche Seiten."
+msgstr ""
+
+#: ui-admin/add-post-type.php:238 ui-admin/edit-post-type.php:309
+msgid "Nicht gefunden"
+msgstr ""
+
+#: ui-admin/add-post-type.php:242 ui-admin/edit-post-type.php:313
+msgid ""
+"Text für nicht gefundene Elemente. Standard ist Keine Beiträge gefunden/"
+"Keine Seiten gefunden."
+msgstr ""
+
+#: ui-admin/add-post-type.php:247 ui-admin/edit-post-type.php:318
+msgid "Nicht im Papierkorb gefunden"
+msgstr ""
+
+#: ui-admin/add-post-type.php:251 ui-admin/edit-post-type.php:322
+msgid ""
+"Der nicht im Papierkorb gefunden Text. Standard ist Keine Beiträge im "
+"Papierkorb gefunden/Keine Seiten im Papierkorb gefunden."
+msgstr ""
+
+#: ui-admin/add-post-type.php:256 ui-admin/add-taxonomy.php:145
+#: ui-admin/edit-post-type.php:327 ui-admin/edit-taxonomy.php:162
+#: ui-admin/wip-update-taxonomy.php:164
+msgid "Übergeordnetes Element Doppelpunkt"
+msgstr ""
+
+#: ui-admin/add-post-type.php:260 ui-admin/edit-post-type.php:331
+msgid ""
+"Der übergeordnete Text. Diese Zeichenfolge wird bei nicht hierarchischen "
+"Typen nicht verwendet. In hierarchischen Fällen ist die Standardeinstellung "
+"die übergeordnete Seite"
+msgstr ""
+
+#: ui-admin/add-post-type.php:265 ui-admin/edit-post-type.php:336
+msgid "Benutzerdefinierte Block Felder"
+msgstr ""
+
+#: ui-admin/add-post-type.php:269 ui-admin/edit-post-type.php:340
+msgid "Titel des Blocks \"Benutzerdefinierte Felder\"."
+msgstr ""
+
+#: ui-admin/add-post-type.php:276 ui-admin/add-post-type.php:280
+#: ui-admin/custom-fields.php:50 ui-admin/custom-fields.php:61
+#: ui-admin/edit-post-type.php:347 ui-admin/edit-post-type.php:351
+#: ui-admin/post-types.php:40 ui-admin/post-types.php:53
+msgid "Beschreibung"
+msgstr ""
+
+#: ui-admin/add-post-type.php:284 ui-admin/edit-post-type.php:355
+msgid "Eine kurze beschreibende Zusammenfassung des Beitragstyps."
+msgstr ""
+
+#: ui-admin/add-post-type.php:291 ui-admin/add-post-type.php:295
+#: ui-admin/edit-post-type.php:362 ui-admin/edit-post-type.php:366
+msgid "Menüposition"
+msgstr ""
+
+#: ui-admin/add-post-type.php:299 ui-admin/edit-post-type.php:370
+msgid ""
+"5 - unter Beiträge; 10 - unter Medien; 20 - unter Seiten; 60 - unter dem "
+"ersten Abscheider; 100 - unter dem zweiten Separator"
+msgstr ""
+
+#: ui-admin/add-post-type.php:306 ui-admin/add-post-type.php:310
+#: ui-admin/edit-post-type.php:377 ui-admin/edit-post-type.php:381
+#: ui-admin/post-types.php:41 ui-admin/post-types.php:54
+msgid "Menü Icon"
+msgstr ""
+
+#: ui-admin/add-post-type.php:314 ui-admin/edit-post-type.php:385
+msgid "Die URL zu dem Symbol, das für dieses Menü verwendet werden soll."
+msgstr ""
+
+#: ui-admin/add-post-type.php:323 ui-admin/add-post-type.php:327
+#: ui-admin/add-taxonomy.php:213 ui-admin/add-taxonomy.php:217
+#: ui-admin/edit-post-type.php:427 ui-admin/edit-post-type.php:431
+#: ui-admin/edit-taxonomy.php:231 ui-admin/edit-taxonomy.php:235
+#: ui-admin/post-types.php:44 ui-admin/post-types.php:57
+#: ui-admin/taxonomies.php:34 ui-admin/taxonomies.php:44
+#: ui-admin/wip-update-taxonomy.php:204 ui-admin/wip-update-taxonomy.php:208
+msgid "Öffentlich"
+msgstr ""
+
+#: ui-admin/add-post-type.php:330 ui-admin/edit-post-type.php:434
+msgid ""
+"Meta-Argument zum Definieren von Standardwerten für public_queriable, "
+"show_ui, show_in_nav_menus und exclude_from_search."
+msgstr ""
+
+#: ui-admin/add-post-type.php:340
+msgid "Zeige eine Benutzeroberfläche für diesen \"post_type\" an"
+msgstr ""
+
+#: ui-admin/add-post-type.php:341 ui-admin/edit-post-type.php:442
+msgid "Zeige \"post_type\" zur Auswahl in den Navigationsmenüs an"
+msgstr ""
+
+#: ui-admin/add-post-type.php:342 ui-admin/edit-post-type.php:443
+msgid "\"post_type\" -Abfragen können vom Frontend aus ausgeführt werden"
+msgstr ""
+
+#: ui-admin/add-post-type.php:343 ui-admin/add-post-type.php:354
+#: ui-admin/edit-post-type.php:444 ui-admin/edit-post-type.php:457
+msgid "Schließe Beiträge mit diesem Beitragstyp aus den Suchergebnissen aus"
+msgstr ""
+
+#: ui-admin/add-post-type.php:351
+msgid "Zeige für diesen \"post_type\" keine Benutzeroberfläche an"
+msgstr ""
+
+#: ui-admin/add-post-type.php:352
+msgid "Blende \"post_type\" zur Auswahl in den Navigationsmenüs au"
+msgstr ""
+
+#: ui-admin/add-post-type.php:353 ui-admin/edit-post-type.php:456
+msgid ""
+"\"post_type\" -Abfragen können nicht über das Front-End ausgeführt werden"
+msgstr ""
+
+#: ui-admin/add-post-type.php:360 ui-admin/edit-post-type.php:463
+#: ui-admin/post-types.php:113 ui-admin/taxonomies.php:107
+msgid "Erweitert"
+msgstr ""
+
+#: ui-admin/add-post-type.php:362 ui-admin/edit-post-type.php:465
+msgid "Du kannst jede Komponente manuell einstellen."
+msgstr ""
+
+#: ui-admin/add-post-type.php:370 ui-admin/add-post-type.php:374
+#: ui-admin/add-taxonomy.php:246 ui-admin/add-taxonomy.php:250
+#: ui-admin/edit-post-type.php:473 ui-admin/edit-post-type.php:477
+#: ui-admin/edit-taxonomy.php:264 ui-admin/edit-taxonomy.php:268
+#: ui-admin/wip-update-taxonomy.php:235
+msgid "Zeige UI"
+msgstr ""
+
+#: ui-admin/add-post-type.php:377 ui-admin/edit-post-type.php:480
+msgid ""
+"Gibt an, ob eine Standardbenutzeroberfläche zum Verwalten dieses "
+"Beitragstyps generiert werden soll. Beachte, dass integrierte Beitragstypen "
+"wie Beitrag und Seite absichtlich auf falsch gesetzt sind."
+msgstr ""
+
+#: ui-admin/add-post-type.php:387 ui-admin/edit-post-type.php:485
+msgid ""
+"Zeige eine Benutzeroberfläche (Admin-Bereich) für diesen Beitragstyp an."
+msgstr ""
+
+#: ui-admin/add-post-type.php:394 ui-admin/edit-post-type.php:492
+msgid "Zeige für diesen Beitragstyp keine Benutzeroberfläche an."
+msgstr ""
+
+#: ui-admin/add-post-type.php:402 ui-admin/add-taxonomy.php:303
+#: ui-admin/edit-post-type.php:499 ui-admin/edit-taxonomy.php:322
+#: ui-admin/wip-update-taxonomy.php:279
+msgid "In Navigationsmenüs anzeigen "
+msgstr ""
+
+#: ui-admin/add-post-type.php:406 ui-admin/add-taxonomy.php:307
+#: ui-admin/edit-post-type.php:503 ui-admin/edit-taxonomy.php:326
+#: ui-admin/wip-update-taxonomy.php:283
+msgid "In Navigationsmenüs anzeigen"
+msgstr ""
+
+#: ui-admin/add-post-type.php:409 ui-admin/edit-post-type.php:506
+msgid "Gibt an, ob post_type in Navigationsmenüs zur Auswahl steht."
+msgstr ""
+
+#: ui-admin/add-post-type.php:430 ui-admin/add-post-type.php:434
+#: ui-admin/edit-post-type.php:522 ui-admin/edit-post-type.php:526
+msgid "Öffentlich abfragbar"
+msgstr ""
+
+#: ui-admin/add-post-type.php:437 ui-admin/edit-post-type.php:529
+msgid "Ob post_type-Abfragen vom Frontend aus ausgeführt werden können."
+msgstr ""
+
+#: ui-admin/add-post-type.php:458 ui-admin/add-post-type.php:462
+#: ui-admin/edit-post-type.php:545 ui-admin/edit-post-type.php:549
+msgid "Von der Suche ausschließen"
+msgstr ""
+
+#: ui-admin/add-post-type.php:465 ui-admin/edit-post-type.php:552
+msgid ""
+"Gibt an, ob Beiträge mit diesem Beitragstyp aus den Suchergebnissen "
+"ausgeschlossen werden sollen."
+msgstr ""
+
+#: ui-admin/add-post-type.php:486 ui-admin/add-post-type.php:490
+#: ui-admin/add-taxonomy.php:331 ui-admin/add-taxonomy.php:335
+#: ui-admin/edit-post-type.php:568 ui-admin/edit-post-type.php:572
+#: ui-admin/edit-taxonomy.php:350 ui-admin/edit-taxonomy.php:354
+#: ui-admin/post-types.php:45 ui-admin/post-types.php:58
+#: ui-admin/taxonomies.php:35 ui-admin/taxonomies.php:45
+#: ui-admin/wip-update-taxonomy.php:303 ui-admin/wip-update-taxonomy.php:307
+msgid "Hierarchisch"
+msgstr ""
+
+#: ui-admin/add-post-type.php:493 ui-admin/add-taxonomy.php:338
+#: ui-admin/edit-post-type.php:575 ui-admin/edit-taxonomy.php:357
+#: ui-admin/wip-update-taxonomy.php:310
+msgid ""
+"Gibt an, ob der Beitragstyp hierarchisch ist. Ermöglicht die Angabe von "
+"Eltern."
+msgstr ""
+
+#: ui-admin/add-post-type.php:514 ui-admin/add-post-type.php:518
+#: ui-admin/edit-post-type.php:591 ui-admin/edit-post-type.php:595
+msgid "Hat Archiv"
+msgstr ""
+
+#: ui-admin/add-post-type.php:521 ui-admin/edit-post-type.php:598
+msgid ""
+"Aktiviert Post-Typ-Archive. Verwendet String als Archiv-Slug. Generiert die "
+"richtigen Umschreiberegeln, wenn das Umschreiben aktiviert ist."
+msgstr ""
+
+#: ui-admin/add-post-type.php:537 ui-admin/add-post-type.php:577
+#: ui-admin/add-taxonomy.php:387 ui-admin/edit-post-type.php:609
+#: ui-admin/edit-post-type.php:638 ui-admin/edit-taxonomy.php:406
+msgid "Benutzerdefinierter Slug"
+msgstr ""
+
+#: ui-admin/add-post-type.php:542 ui-admin/edit-post-type.php:613
+msgid "Benutzerdefinierter Slug für das Post-Type-Archiv."
+msgstr ""
+
+#: ui-admin/add-post-type.php:549 ui-admin/add-post-type.php:553
+#: ui-admin/add-taxonomy.php:359 ui-admin/add-taxonomy.php:363
+#: ui-admin/edit-post-type.php:620 ui-admin/edit-post-type.php:624
+#: ui-admin/edit-taxonomy.php:378 ui-admin/edit-taxonomy.php:382
+#: ui-admin/post-types.php:46 ui-admin/post-types.php:59
+#: ui-admin/taxonomies.php:36 ui-admin/taxonomies.php:46
+#: ui-admin/wip-update-taxonomy.php:327 ui-admin/wip-update-taxonomy.php:331
+msgid "Umschreiben"
+msgstr ""
+
+#: ui-admin/add-post-type.php:556 ui-admin/edit-post-type.php:627
+msgid "Schreibe Permalinks mit diesem Format neu."
+msgstr ""
+
+#: ui-admin/add-post-type.php:567
+msgid "Standardmäßig wird der Beitragstyp verwendet."
+msgstr ""
+
+#: ui-admin/add-post-type.php:574 ui-admin/add-taxonomy.php:384
+#: ui-admin/edit-taxonomy.php:403 ui-admin/wip-update-taxonomy.php:348
+msgid "Umschreiben verhindern."
+msgstr ""
+
+#: ui-admin/add-post-type.php:581 ui-admin/edit-post-type.php:642
+msgid ""
+"Stelle Beiträge diesen Slug voran. Wenn leer, wird die Standardeinstellung "
+"verwendet."
+msgstr ""
+
+#: ui-admin/add-post-type.php:585 ui-admin/add-taxonomy.php:396
+#: ui-admin/edit-post-type.php:646 ui-admin/edit-taxonomy.php:414
+msgid "Front Base zulassen"
+msgstr ""
+
+#: ui-admin/add-post-type.php:588 ui-admin/add-taxonomy.php:399
+#: ui-admin/edit-post-type.php:649 ui-admin/edit-taxonomy.php:417
+msgid "Ermöglichen dass Permalinks mit der Front Base vorangestellt werden."
+msgstr ""
+
+#: ui-admin/add-post-type.php:592 ui-admin/edit-post-type.php:653
+msgid "Feeds"
+msgstr ""
+
+#: ui-admin/add-post-type.php:595 ui-admin/edit-post-type.php:656
+msgid "Standardmäßig wird has_archive verwendet."
+msgstr ""
+
+#: ui-admin/add-post-type.php:599 ui-admin/edit-post-type.php:660
+msgid "Seiten"
+msgstr ""
+
+#: ui-admin/add-post-type.php:602 ui-admin/edit-post-type.php:663
+msgid "Der Standardwert ist wahr."
+msgstr ""
+
+#: ui-admin/add-post-type.php:611 ui-admin/add-post-type.php:615
+#: ui-admin/add-taxonomy.php:414 ui-admin/add-taxonomy.php:418
+#: ui-admin/edit-post-type.php:671 ui-admin/edit-post-type.php:675
+#: ui-admin/edit-taxonomy.php:432 ui-admin/edit-taxonomy.php:436
+msgid "EP Maske"
+msgstr ""
+
+#: ui-admin/add-post-type.php:618 ui-admin/add-taxonomy.php:421
+#: ui-admin/edit-post-type.php:678 ui-admin/edit-taxonomy.php:439
+msgid ""
+"Endpunktmaske, die die Orte beschreibt, an denen der Endpunkt hinzugefügt "
+"werden soll."
+msgstr ""
+
+#: ui-admin/add-post-type.php:627 ui-admin/add-taxonomy.php:430
+#: ui-admin/edit-post-type.php:687 ui-admin/edit-taxonomy.php:449
+msgid "EP_NONE: Standardmäßig nichts."
+msgstr ""
+
+#: ui-admin/add-post-type.php:633 ui-admin/add-taxonomy.php:436
+#: ui-admin/edit-post-type.php:693 ui-admin/edit-taxonomy.php:455
+msgid "EP_PERMALINK: für Permalink."
+msgstr ""
+
+#: ui-admin/add-post-type.php:639 ui-admin/edit-post-type.php:699
+msgid "EP_ATTACHMENT: für Anhang."
+msgstr ""
+
+#: ui-admin/add-post-type.php:645 ui-admin/add-taxonomy.php:448
+#: ui-admin/edit-post-type.php:705 ui-admin/edit-taxonomy.php:467
+msgid "EP_DATE: für Datum."
+msgstr ""
+
+#: ui-admin/add-post-type.php:651 ui-admin/edit-post-type.php:711
+#: ui-admin/edit-taxonomy.php:473
+msgid "EP_YEAR: für Jahr."
+msgstr ""
+
+#: ui-admin/add-post-type.php:657 ui-admin/add-taxonomy.php:460
+#: ui-admin/edit-post-type.php:717 ui-admin/edit-taxonomy.php:479
+msgid "EP_MONTH: für Monat."
+msgstr ""
+
+#: ui-admin/add-post-type.php:663 ui-admin/add-taxonomy.php:466
+#: ui-admin/edit-post-type.php:723 ui-admin/edit-taxonomy.php:485
+msgid "EP_DAY: für Tag."
+msgstr ""
+
+#: ui-admin/add-post-type.php:669 ui-admin/add-taxonomy.php:472
+#: ui-admin/edit-post-type.php:729 ui-admin/edit-taxonomy.php:491
+msgid "EP_ROOT: für Root."
+msgstr ""
+
+#: ui-admin/add-post-type.php:675 ui-admin/edit-post-type.php:735
+#: ui-admin/edit-taxonomy.php:497
+msgid "EP_COMMENTS: für Kommentare."
+msgstr ""
+
+#: ui-admin/add-post-type.php:681 ui-admin/add-taxonomy.php:484
+#: ui-admin/edit-post-type.php:741 ui-admin/edit-taxonomy.php:503
+msgid "EP_SEARCH: für Suche."
+msgstr ""
+
+#: ui-admin/add-post-type.php:687 ui-admin/add-taxonomy.php:490
+#: ui-admin/edit-post-type.php:747 ui-admin/edit-taxonomy.php:509
+msgid "EP_CATEGORIES: für Kategorien."
+msgstr ""
+
+#: ui-admin/add-post-type.php:693 ui-admin/add-taxonomy.php:496
+#: ui-admin/edit-post-type.php:753 ui-admin/edit-taxonomy.php:515
+msgid "EP_TAGS: für Tags."
+msgstr ""
+
+#: ui-admin/add-post-type.php:699 ui-admin/add-taxonomy.php:502
+#: ui-admin/edit-post-type.php:759 ui-admin/edit-taxonomy.php:521
+msgid "EP_AUTHORS: für Autoren."
+msgstr ""
+
+#: ui-admin/add-post-type.php:705 ui-admin/add-taxonomy.php:508
+#: ui-admin/edit-post-type.php:765 ui-admin/edit-taxonomy.php:527
+msgid "EP_PAGES: für Seiten."
+msgstr ""
+
+#: ui-admin/add-post-type.php:711 ui-admin/add-taxonomy.php:514
+#: ui-admin/edit-post-type.php:771 ui-admin/edit-taxonomy.php:533
+msgid "EP_ALL: für alles."
+msgstr ""
+
+#: ui-admin/add-post-type.php:720 ui-admin/add-post-type.php:724
+#: ui-admin/add-taxonomy.php:523 ui-admin/add-taxonomy.php:527
+#: ui-admin/edit-post-type.php:780 ui-admin/edit-post-type.php:784
+#: ui-admin/edit-taxonomy.php:542 ui-admin/edit-taxonomy.php:546
+#: ui-admin/wip-update-taxonomy.php:373 ui-admin/wip-update-taxonomy.php:377
+msgid "Abfrage var"
+msgstr ""
+
+#: ui-admin/add-post-type.php:727 ui-admin/edit-post-type.php:787
+msgid ""
+"Name der Abfragevariablen, die für diesen Beitragstyp verwendet werden soll. "
+"Der Standardwert ist der Name des Beitragstyps."
+msgstr ""
+
+#: ui-admin/add-post-type.php:738 ui-admin/add-taxonomy.php:541
+#: ui-admin/edit-post-type.php:798 ui-admin/edit-taxonomy.php:560
+msgid "Benutzerdefinierter Abfrageschlüssel"
+msgstr ""
+
+#: ui-admin/add-post-type.php:742 ui-admin/add-post-type.php:808
+#: ui-admin/add-taxonomy.php:545 ui-admin/add-taxonomy.php:580
+#: ui-admin/edit-post-type.php:802 ui-admin/edit-post-type.php:854
+#: ui-admin/edit-taxonomy.php:564 ui-admin/edit-taxonomy.php:599
+msgid "Benutzerdefinierter Abfrage-Var-Schlüssel."
+msgstr ""
+
+#: ui-admin/add-post-type.php:752 ui-admin/add-post-type.php:756
+#: ui-admin/edit-post-type.php:809 ui-admin/edit-post-type.php:813
+msgid "Kann exportieren"
+msgstr ""
+
+#: ui-admin/add-post-type.php:759 ui-admin/edit-post-type.php:816
+msgid "Kann dieser post_type exportiert werden?."
+msgstr ""
+
+#: ui-admin/add-post-type.php:781 ui-admin/add-post-type.php:785
+#: ui-admin/add-taxonomy.php:553 ui-admin/add-taxonomy.php:557
+#: ui-admin/edit-post-type.php:832 ui-admin/edit-post-type.php:836
+#: ui-admin/edit-taxonomy.php:572 ui-admin/edit-taxonomy.php:576
+msgid "REST API"
+msgstr ""
+
+#: ui-admin/add-post-type.php:788 ui-admin/edit-post-type.php:839
+msgid "Aktiviere die REST-API-Unterstützung für diesen Beitragstyp."
+msgstr ""
+
+#: ui-admin/add-post-type.php:804 ui-admin/add-taxonomy.php:576
+#: ui-admin/edit-post-type.php:850 ui-admin/edit-taxonomy.php:595
+msgid "REST API Base"
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:7 ui-admin/taxonomies.php:26
+#: ui-admin/taxonomies.php:147
+msgid "Taxonomie hinzufügen"
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:12 ui-admin/add-taxonomy.php:16
+#: ui-admin/edit-taxonomy.php:31 ui-admin/edit-taxonomy.php:35
+#: ui-admin/taxonomies.php:31 ui-admin/taxonomies.php:41
+#: ui-admin/wip-update-taxonomy.php:24 ui-admin/wip-update-taxonomy.php:28
+msgid "Taxonomie"
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:21 ui-admin/edit-taxonomy.php:40
+msgid ""
+"Der Systemname der Taxonomie. Nur alphanumerische Kleinbuchstaben und "
+"Unterstriche. Min 2 Buchstaben. Nach dem Hinzufügen kann der Name des "
+"Taxonomiesystems nicht mehr geändert werden."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:44
+msgid ""
+"Wähle einen oder mehrere Beitragstypen aus, denen diese Taxonomie "
+"hinzugefügt werden soll."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:59 ui-admin/edit-taxonomy.php:76
+#: ui-admin/wip-update-taxonomy.php:78
+msgid "Allgemeiner Name für die Taxonomie, normalerweise Plural."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:68 ui-admin/edit-taxonomy.php:85
+#: ui-admin/wip-update-taxonomy.php:87
+msgid ""
+"Name für ein Objekt dieser Taxonomie. Der Standardwert ist der Wert des "
+"Namens."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:77 ui-admin/edit-taxonomy.php:94
+#: ui-admin/wip-update-taxonomy.php:96
+msgid ""
+"Text für \"Neues Element hinzufügen\". Die Standardeinstellung ist \"Neues "
+"Tag hinzufügen\" oder \"Neue Kategorie hinzufügen\"."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:82 ui-admin/edit-taxonomy.php:99
+#: ui-admin/wip-update-taxonomy.php:101
+msgid "Neues Element Name"
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:86 ui-admin/edit-taxonomy.php:103
+#: ui-admin/wip-update-taxonomy.php:105
+msgid ""
+"Text für neues Element. Die Standardeinstellung ist \"Neuer Tag-Name\" oder "
+"\"Neuer Kategoriename\"."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:95 ui-admin/edit-taxonomy.php:112
+#: ui-admin/wip-update-taxonomy.php:114
+msgid ""
+"Text für Elementbearbeitung. Die Standardeinstellung ist \"Tag bearbeiten\" "
+"oder \"Kategorie bearbeiten\"."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:100 ui-admin/edit-taxonomy.php:117
+#: ui-admin/wip-update-taxonomy.php:119
+msgid "Element aktualisieren"
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:104 ui-admin/edit-taxonomy.php:121
+#: ui-admin/wip-update-taxonomy.php:123
+msgid ""
+"Text für Elementaktualisierung. Die Standardeinstellung ist \"Tag "
+"aktualisieren\" oder \"Kategorie aktualisieren\"."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:109 ui-admin/edit-taxonomy.php:126
+#: ui-admin/wip-update-taxonomy.php:128
+msgid "Suche Elemente"
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:113 ui-admin/edit-taxonomy.php:130
+#: ui-admin/wip-update-taxonomy.php:132
+msgid ""
+"Text für Elementsuche. Die Standardeinstellung ist \"Such-Tags\" oder "
+"\"Suchkategorien\"."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:118 ui-admin/edit-taxonomy.php:135
+#: ui-admin/wip-update-taxonomy.php:137
+msgid "Beliebte Elemente"
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:122 ui-admin/edit-taxonomy.php:139
+#: ui-admin/wip-update-taxonomy.php:141
+msgid ""
+"Der beliebte Elemente Text. Die Standardeinstellung ist \"Beliebte Tags\" "
+"oder null."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:127 ui-admin/edit-taxonomy.php:144
+#: ui-admin/wip-update-taxonomy.php:146
+msgid "Alle Elemente"
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:131 ui-admin/edit-taxonomy.php:148
+#: ui-admin/wip-update-taxonomy.php:150
+msgid ""
+"Text für alle Elemente. Die Standardeinstellung ist \"Alle Tags\" oder "
+"\"Alle Kategorien\"."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:136 ui-admin/edit-taxonomy.php:153
+msgid "Übergeordnetes Element"
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:140 ui-admin/edit-taxonomy.php:157
+#: ui-admin/wip-update-taxonomy.php:159
+msgid ""
+"Der übergeordnete Elementtext. Diese Zeichenfolge wird nicht für nicht "
+"hierarchische Taxonomien wie Post-Tags verwendet. Die Standardeinstellung "
+"ist null oder \"Übergeordnete Kategorie\"."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:149
+msgid ""
+"Das gleiche wie parent_item, jedoch mit Doppelpunkt: am Ende null "
+"\"Elternkategorie:."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:154 ui-admin/edit-taxonomy.php:171
+#: ui-admin/wip-update-taxonomy.php:173
+msgid "Elemente hinzufügen oder entfernen"
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:158 ui-admin/edit-taxonomy.php:175
+#: ui-admin/wip-update-taxonomy.php:177
+msgid ""
+"Text zum Hinzufügen oder Entfernen von Elementen wird im Meta-Feld "
+"verwendet, wenn JavaScript deaktiviert ist. Diese Zeichenfolge wird in "
+"hierarchischen Taxonomien nicht verwendet. Die Standardeinstellung ist "
+"\"Tags hinzufügen oder entfernen\" oder null."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:163 ui-admin/edit-taxonomy.php:180
+#: ui-admin/wip-update-taxonomy.php:182
+msgid "Trenne Elemente mit Kommas"
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:167 ui-admin/edit-taxonomy.php:184
+#: ui-admin/wip-update-taxonomy.php:186
+msgid ""
+"Text für separates Element mit Komma, das im Metafeld Taxonomie verwendet "
+"wird. Diese Zeichenfolge wird in hierarchischen Taxonomien nicht verwendet. "
+"Die Standardeinstellung ist \"Tags durch Kommas trennen\" oder null."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:172 ui-admin/edit-taxonomy.php:189
+#: ui-admin/wip-update-taxonomy.php:191
+msgid "Wähle aus den am häufigsten verwendeten"
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:176 ui-admin/edit-taxonomy.php:193
+#: ui-admin/wip-update-taxonomy.php:195
+msgid ""
+"Wähle aus dem am häufigsten verwendeten Text, der im Metafeld Taxonomie "
+"verwendet wird. Diese Zeichenfolge wird in hierarchischen Taxonomien nicht "
+"verwendet. Die Standardeinstellung ist \"Aus den am häufigsten verwendeten "
+"Tags auswählen\" oder null."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:183 ui-admin/add-taxonomy.php:187
+#: ui-admin/edit-taxonomy.php:201 ui-admin/edit-taxonomy.php:205
+msgid "Admin-Spalte anzeigen"
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:190 ui-admin/edit-taxonomy.php:208
+msgid ""
+"Gibt an, ob die automatische Erstellung von Taxonomiespalten für zugeordnete "
+"Posttypen zulässig ist."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:220 ui-admin/edit-taxonomy.php:238
+#: ui-admin/wip-update-taxonomy.php:211
+msgid ""
+"Soll diese Taxonomie in der Admin-Benutzeroberfläche verfügbar gemacht "
+"werden?"
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:238 ui-admin/edit-taxonomy.php:256
+#: ui-admin/wip-update-taxonomy.php:224
+msgid "ERWEITERT"
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:253 ui-admin/edit-taxonomy.php:271
+#: ui-admin/wip-update-taxonomy.php:238
+msgid ""
+"Gibt an, ob eine Standardbenutzeroberfläche zum Verwalten dieser Taxonomie "
+"generiert werden soll."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:274 ui-admin/add-taxonomy.php:278
+#: ui-admin/edit-taxonomy.php:292 ui-admin/edit-taxonomy.php:296
+#: ui-admin/wip-update-taxonomy.php:255 ui-admin/wip-update-taxonomy.php:259
+msgid "Zeige Tagcloud"
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:281 ui-admin/edit-taxonomy.php:299
+#: ui-admin/wip-update-taxonomy.php:262
+msgid ""
+"Gibt an, ob in der Administrator-Benutzeroberfläche eine Tag-Cloud für diese "
+"Taxonomie angezeigt werden soll."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:310 ui-admin/edit-taxonomy.php:329
+#: ui-admin/wip-update-taxonomy.php:286
+msgid ""
+"Gibt an, ob diese Taxonomie in Navigationsmenüs zur Auswahl gestellt werden "
+"soll."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:366 ui-admin/edit-taxonomy.php:385
+#: ui-admin/wip-update-taxonomy.php:334
+msgid ""
+"Setze diesen Wert auf Falsch, um ein erneutes Schreiben zu verhindern, oder "
+"auf Wahr, um ihn anzupassen."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:377 ui-admin/edit-taxonomy.php:396
+#: ui-admin/wip-update-taxonomy.php:343
+msgid "Standardmäßig wird die Abfrage var verwendet."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:392 ui-admin/edit-taxonomy.php:410
+msgid ""
+"Stelle Beiträgen diesen Slug voran. Wenn leer, wird die Standardeinstellung "
+"verwendet."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:403 ui-admin/edit-taxonomy.php:421
+#: ui-admin/wip-update-taxonomy.php:364
+msgid "Hierarchische URLs"
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:406 ui-admin/edit-taxonomy.php:424
+#: ui-admin/wip-update-taxonomy.php:366
+msgid "Hierarchische URLs zulassen. Anwendbar für hierarchische Taxonomien."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:442 ui-admin/edit-taxonomy.php:461
+msgid "EP_ATTACHMENT: für Anhänge."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:454
+msgid "EP_YEAR: für YJahr."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:478
+msgid "EP_COMMENTS: für Kommentar."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:530 ui-admin/edit-taxonomy.php:549
+msgid ""
+"Name der Abfragevariablen, die für diesen Beitragstyp verwendet werden soll. "
+"Falsch, um Abfragen zu verhindern. Standardmäßig wird der Name des "
+"Taxonomiesystems als Abfragevariable verwendet."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:560 ui-admin/edit-taxonomy.php:579
+msgid ""
+"Aktiviere die REST-API-Unterstützung für diese Taxonomie. Dies ist "
+"erforderlich, um im Gutenberg-Editor angezeigt zu werden."
+msgstr ""
+
+#: ui-admin/add-taxonomy.php:590
+msgid "Taxonomietyp hinzufügen"
+msgstr ""
+
+#: ui-admin/custom-fields.php:29
+msgid "Benutzerdefinierte Felder einbetten"
+msgstr ""
+
+#: ui-admin/custom-fields.php:30
+msgid ""
+"<b>Einbettungscodes</b> werden in Vorlagen verwendet, um den Wert der "
+"benutzerdefinierten Felder des aktuellen Beitrags zurückzugeben. Codes "
+"können für einzelne Felder verwendet werden, indem Du die unten stehenden "
+"Links zum Einbetten von Code für jedes Feld verwendest.<br />Du kannst auch "
+"den gesamten Block benutzerdefinierter Felder für eine Liste mithilfe des "
+"Einbettungscodes anzeigen:"
+msgstr ""
+
+#: ui-admin/custom-fields.php:34
+msgid ""
+"<b>Shortcodes</b> werden in Beiträgen, Seiten und Widgets verwendet, um den "
+"Wert der benutzerdefinierten Felder des aktuellen Posts zurückzugeben. "
+"Verwende sie innerhalb der Schleife in Posts und Widgets"
+msgstr ""
+
+#: ui-admin/custom-fields.php:45 ui-admin/custom-fields.php:56
+msgid "Sortierung"
+msgstr ""
+
+#: ui-admin/custom-fields.php:46 ui-admin/custom-fields.php:57
+msgid "Feldname"
+msgstr ""
+
+#: ui-admin/custom-fields.php:47 ui-admin/custom-fields.php:58
+msgid "Feld ID"
+msgstr ""
+
+#: ui-admin/custom-fields.php:48 ui-admin/custom-fields.php:59
+msgid "WP/Plugins"
+msgstr ""
+
+#: ui-admin/custom-fields.php:51 ui-admin/custom-fields.php:62
+#: ui-admin/navigation.php:7 ui-admin/settings.php:68
+#: ui-admin/taxonomies.php:33 ui-admin/taxonomies.php:43
+msgid "Beitragstypen"
+msgstr ""
+
+#: ui-admin/custom-fields.php:86
+msgid "network"
+msgstr ""
+
+#: ui-admin/custom-fields.php:109
+msgid "Bearbeite dieses benutzerdefinierte Feld"
+msgstr ""
+
+#: ui-admin/custom-fields.php:113 ui-admin/taxonomies.php:79
+msgid "Einbettungscode anzeigen"
+msgstr ""
+
+#: ui-admin/custom-fields.php:113 ui-admin/taxonomies.php:79
+msgid "Einbettungscode"
+msgstr ""
+
+#: ui-admin/custom-fields.php:117 ui-admin/post-types.php:83
+#: ui-admin/taxonomies.php:83
+msgid "In Netzwerkadministration bearbeiten."
+msgstr ""
+
+#: ui-admin/custom-fields.php:122 ui-admin/post-types.php:89
+#: ui-admin/taxonomies.php:88
+msgid "Löschen"
+msgstr ""
+
+#: ui-admin/custom-fields.php:130
+msgid "Feld und Werte"
+msgstr ""
+
+#: ui-admin/custom-fields.php:131 ui-admin/post-types.php:97
+#: ui-admin/taxonomies.php:96
+msgid "Abbrechen"
+msgstr ""
+
+#: ui-admin/custom-fields.php:132
+msgid "Nur Feld"
+msgstr ""
+
+#: ui-admin/custom-fields.php:136
+msgid "Erlauben"
+msgstr ""
+
+#: ui-admin/custom-fields.php:136
+msgid "Verweigern"
+msgstr ""
+
+#: ui-admin/custom-fields.php:148
+msgid ""
+"Der eingebettete Code gibt die Werte des benutzerdefinierten Felds mit dem "
+"angegebenen Schlüssel aus dem angegebenen Beitrag zurück. Die Eigenschaft "
+"kann \"title\", \"description\", \"value\", \"link\" oder \"image\" sein. "
+"Die Eigenschaften \"link\" und \"image\" können nur für Upload-Feldtypen "
+"verwendet werden. Wenn die Eigenschaft nicht verwendet wird, wird \"value\" "
+"zurückgegeben. Verwendung innerhalb der Schleife in Vorlagen und PHP-Code "
+msgstr ""
+
+#: ui-admin/custom-fields.php:152
+msgid ""
+"Der Shortcode gibt die Werte des benutzerdefinierten Felds mit dem "
+"angegebenen Schlüssel aus dem angegebenen Beitrag zurück. Die Eigenschaft "
+"kann \"title\", \"description\", \"value\", \"link\" oder \"image\" sein. "
+"Die Eigenschaften \"Link\" und \"Bild\" können nur für Upload-Feldtypen "
+"verwendet werden. Wenn die Eigenschaft nicht verwendet wird, wird \"value\" "
+"zurückgegeben. Verwende sie innerhalb der Schleife in Posts und Widgets"
+msgstr ""
+
+#: ui-admin/edit-custom-field.php:14
+msgid "Benutzerdefiniertes Feld bearbeiten"
+msgstr ""
+
+#: ui-admin/edit-custom-field.php:33
+msgid "Pflichtfeld"
+msgstr ""
+
+#: ui-admin/edit-custom-field.php:43
+msgid "Erforderliche Eingabeaufforderung für Feldfehler"
+msgstr ""
+
+#: ui-admin/edit-custom-field.php:47
+msgid ""
+"Benutzerdefiniertes erforderliches Feld Fehleraufforderung für dieses Feld "
+"oder leer lassen für Standard."
+msgstr ""
+
+#: ui-admin/edit-custom-field.php:76
+msgid "Checkboxes"
+msgstr ""
+
+#: ui-admin/edit-custom-field.php:78
+msgid "Multi Select Box"
+msgstr ""
+
+#: ui-admin/edit-custom-field.php:131
+msgid "Ordnen nach"
+msgstr ""
+
+#: ui-admin/edit-custom-field.php:237
+msgid "Benutzerdefiniertes Feld aktualisieren"
+msgstr ""
+
+#: ui-admin/edit-post-type.php:17
+msgid "Beitragstyp bearbeiten"
+msgstr ""
+
+#: ui-admin/edit-post-type.php:147
+msgid "fortgeschritten"
+msgstr ""
+
+#: ui-admin/edit-post-type.php:180
+msgid "Einstellungen für Rollenfunktionen"
+msgstr ""
+
+#: ui-admin/edit-post-type.php:184
+msgid "Funktionen zuweisen"
+msgstr ""
+
+#: ui-admin/edit-post-type.php:197
+#, php-format
+msgid "Wähle eine Rolle aus, der Du %s Funktionen zuweisen möchtest."
+msgstr ""
+
+#: ui-admin/edit-post-type.php:392
+msgid "Spalten für benutzerdefinierte Felder anzeigen"
+msgstr ""
+
+#: ui-admin/edit-post-type.php:399
+msgid ""
+"Diese benutzerdefinierten Felder werden als Spalten auf dem Bildschirm für "
+"benutzerdefinierte Beitragstypen angezeigt."
+msgstr ""
+
+#: ui-admin/edit-post-type.php:416
+msgid ""
+"Dieser benutzerdefinierte Beitragstyp verwendet keine benutzerdefinierten "
+"Felder"
+msgstr ""
+
+#: ui-admin/edit-post-type.php:441
+msgid "Zeige eine Benutzeroberfläche für diesen \"post_type\" an."
+msgstr ""
+
+#: ui-admin/edit-post-type.php:454
+msgid "Zeige für diesen \"post_type\" keine Benutzeroberfläche an."
+msgstr ""
+
+#: ui-admin/edit-post-type.php:455
+msgid "Blende \"post_type\" zur Auswahl in den Navigationsmenüs aus"
+msgstr ""
+
+#: ui-admin/edit-taxonomy.php:25
+msgid "Taxonomie bearbeiten"
+msgstr ""
+
+#: ui-admin/edit-taxonomy.php:61
+msgid ""
+"Wähle einen oder mehrere Beitragstypen aus, denen diese Taxonomie "
+"hinzugefügt werden soll"
+msgstr ""
+
+#: ui-admin/edit-taxonomy.php:166 ui-admin/wip-update-taxonomy.php:168
+msgid ""
+"Das gleiche wie parent_item, jedoch mit Doppelpunkt: am Ende null "
+"\"Elternkategorie:\"."
+msgstr ""
+
+#: ui-admin/export.php:30
+msgid "CustomPress Benutzerdefinierte Typen exportieren"
+msgstr ""
+
+#: ui-admin/export.php:35
+msgid "Beitragstypen exportieren"
+msgstr ""
+
+#: ui-admin/export.php:40
+msgid "Wähle die Beitragstypen, die Du exportieren möchtest."
+msgstr ""
+
+#: ui-admin/export.php:59
+msgid "Beitragstyp Export erstellen"
+msgstr ""
+
+#: ui-admin/export.php:68
+msgid "Export von Taxonomien"
+msgstr ""
+
+#: ui-admin/export.php:73
+msgid "Wähle die Taxonomien, die Du exportieren möchtest."
+msgstr ""
+
+#: ui-admin/export.php:92
+msgid "Export von Taxonomien erstellen"
+msgstr ""
+
+#: ui-admin/export.php:101
+msgid "Export von benutzerdefinierten Feldern"
+msgstr ""
+
+#: ui-admin/export.php:106
+msgid "Wähle die benutzerdefinierten Felder, die Du exportieren möchten."
+msgstr ""
+
+#: ui-admin/export.php:126
+msgid "Export von benutzerdefinierten Feldern erstellen"
+msgstr ""
+
+#: ui-admin/export.php:139
+msgid "Benutzerdefinierte Typen importieren"
+msgstr ""
+
+#: ui-admin/export.php:144
+msgid ""
+"Füge hier Deinen Exportcode ein und klicke auf Importieren, um den "
+"benutzerdefinierten Typ zu CustomPress hinzuzufügen"
+msgstr ""
+
+#: ui-admin/export.php:151
+msgid ""
+"Der Import ist derzeit auf dieser Seite deaktiviert. Zum Aktivieren füge die "
+"Zeile<br /><code>define('CT_ALLOW_IMPORT', true);</code><br />der wp-config."
+"php file hinzu."
+msgstr ""
+
+#: ui-admin/export.php:152
+msgid ""
+"Entferne die Zeile, wenn sie nicht mehr benötigt wird, um mögliche "
+"Sicherheitsprobleme zu vermeiden."
+msgstr ""
+
+#: ui-admin/export.php:161
+msgid "Importieren"
+msgstr ""
+
+#: ui-admin/message.php:3
+msgid "Einstellungen gespeichert."
+msgstr ""
+
+#: ui-admin/navigation.php:8
+msgid "Taxonomien"
+msgstr ""
+
+#: ui-admin/navigation.php:10
+msgid "Shortcodes"
+msgstr ""
+
+#: ui-admin/post-types.php:86
+msgid "Bearbeiten Sie den Beitragstyp"
+msgstr ""
+
+#: ui-admin/post-types.php:96 ui-admin/taxonomies.php:95
+msgid "Bestätigen"
+msgstr ""
+
+#: ui-admin/post-types.php:115 ui-admin/post-types.php:122
+#: ui-admin/post-types.php:129 ui-admin/taxonomies.php:109
+#: ui-admin/taxonomies.php:116 ui-admin/taxonomies.php:123
+msgid "Wahr"
+msgstr ""
+
+#: ui-admin/post-types.php:117 ui-admin/post-types.php:124
+#: ui-admin/post-types.php:131 ui-admin/taxonomies.php:111
+#: ui-admin/taxonomies.php:118 ui-admin/taxonomies.php:125
+msgid "Falsch"
+msgstr ""
+
+#: ui-admin/settings.php:33
+#, php-format
+msgid "CustomPress-Einstellungen %s"
+msgstr ""
+
+#: ui-admin/settings.php:40
+msgid "Allgemein"
+msgstr ""
+
+#: ui-admin/settings.php:44
+msgid "Aktiviere Inhaltstypen für Unterwebseiten."
+msgstr ""
+
+#: ui-admin/settings.php:48
+msgid ""
+"Wenn Du diese Option aktivierst, können Unterseiten in Deinem Netzwerk ihre "
+"eigenen Inhaltstypen definieren. Wenn diese Option nicht aktiviert ist "
+"(Standard), müssen alle Webseiten in Deinem Netzwerk die von Dir, dem "
+"Superadministrator, definierten netzwerkweiten Inhaltstypen verwenden."
+msgstr ""
+
+#: ui-admin/settings.php:51
+msgid ""
+"Wenn Du diese Option aktivierst, verwenden alle Unterwebsites die auf "
+"Netzwerkebene definierten Inhaltstypen und zeigen sie an. "
+msgstr ""
+
+#: ui-admin/settings.php:56
+msgid "Zeige die netzwerkweiten Inhaltstypen auf Unterseiten an."
+msgstr ""
+
+#: ui-admin/settings.php:59
+msgid "Zeige die netzwerkweiten Inhaltstypen nicht auf Unterseiten an."
+msgstr ""
+
+#: ui-admin/settings.php:72
+msgid "Zeige auf der Seite \"Blog/Home\" die folgenden Beitragstypen an: "
+msgstr ""
+
+#: ui-admin/settings.php:101
+msgid ""
+"Wähle die benutzerdefinierten Beitragstypen, die auf der Seite \"Blog/Home\" "
+"angezeigt werden sollen."
+msgstr ""
+
+#: ui-admin/settings.php:105 ui-admin/settings.php:146
+#: ui-admin/settings.php:187 ui-admin/settings.php:228
+msgid ""
+"Wenn \"default\" aktiviert ist, wird die obige Liste deaktiviert und nur die "
+"Standard-Post_Typen angezeigt."
+msgstr ""
+
+#: ui-admin/settings.php:113
+msgid "Zeige auf der \"Startseite\" die folgenden Beitragstypen an: "
+msgstr ""
+
+#: ui-admin/settings.php:142
+msgid ""
+"Überprüfe die benutzerdefinierten Beitragstypen, die auf der statischen "
+"Seite \"Vorderseite\" angezeigt werden sollen."
+msgstr ""
+
+#: ui-admin/settings.php:154
+msgid "Zeige in \"Archiven\" die folgenden Beitragstypen an:  "
+msgstr ""
+
+#: ui-admin/settings.php:183
+msgid ""
+"Überprüfe die benutzerdefinierten Beitragstypen, die in \"Archiven\" "
+"angezeigt werden sollen."
+msgstr ""
+
+#: ui-admin/settings.php:195
+msgid "Zeige in \"Suchen\" die folgenden Beitragstypen an:  "
+msgstr ""
+
+#: ui-admin/settings.php:224
+msgid ""
+"Überprüfe die benutzerdefinierten Beitragstypen, die in \"Suchen\" angezeigt "
+"werden sollen."
+msgstr ""
+
+#: ui-admin/settings.php:236
+msgid "Datumsauswahleinstellungen"
+msgstr ""
+
+#: ui-admin/settings.php:262
+msgid "Wähle Datumsauswahl Design."
+msgstr ""
+
+#: ui-admin/settings.php:278
+msgid "Templatedateien"
+msgstr ""
+
+#: ui-admin/settings.php:282
+msgid "Erstelle ein Template für: "
+msgstr ""
+
+#: ui-admin/settings.php:292
+msgid "Keine benutzerdefinierten Beitragstypen verfügbar"
+msgstr ""
+
+#: ui-admin/settings.php:295
+msgid ""
+"Dadurch wird die Datei \"single- [post_type] .php\" in Deinem aktiven "
+"Themenverzeichnis erstellt, indem Du Deine aktuelle single.php-Vorlage "
+"kopierst. Diese Datei ist die benutzerdefinierte Vorlage für Deinen "
+"benutzerdefinierten Beitragstyp. Du kannst es dann bearbeiten und anpassen"
+msgstr ""
+
+#: ui-admin/settings.php:296
+msgid ""
+"In einigen Fällen möchtest Du dies möglicherweise nicht tun. Wenn Du "
+"beispielsweise keine Vorlage für Deinen benutzerdefinierten Beitragstyp "
+"hast, wird die Standardeinstellung \"single.php\" verwendet."
+msgstr ""
+
+#: ui-admin/settings.php:297
+msgid ""
+"Deine aktiven Themenordnerberechtigungen müssen auf 777 festgelegt sein, "
+"damit diese Option funktioniert. Nachdem die Datei erstellt wurde, kannst Du "
+"Deine Aktive Theme-Verzeichnisberechtigungen auf 755 zurücksetzen."
+msgstr ""
+
+#: ui-admin/shortcodes.php:7 ui-admin/shortcodes.php:11
+msgid "CustomPress Shortcodes"
+msgstr ""
+
+#: ui-admin/shortcodes.php:16
+msgid "Benutzerdefinierter Felder Eingabe"
+msgstr ""
+
+#: ui-admin/shortcodes.php:19
+msgid ""
+"Wird verwendet, um die Eingabefelder einer Reihe von benutzerdefinierten "
+"Feldern für den angegebenen Beitrag \"ID\" einzubetten. Muss innerhalb von "
+"&lt;form&gt; verwendet werden und nach dem Absenden muss der empfangende "
+"Formularcode das globale aufrufen:"
+msgstr ""
+
+#: ui-admin/shortcodes.php:21
+msgid "um die Eingabe zurück in den Beitrag zu speichern."
+msgstr ""
+
+#: ui-admin/shortcodes.php:24 ui-admin/shortcodes.php:71
+msgid "Basis Shortcode"
+msgstr ""
+
+#: ui-admin/shortcodes.php:26 ui-admin/shortcodes.php:73
+msgid ""
+"Gibt einen vollständigen Satz von Eingabefeldern basierend auf dem "
+"Beitragstyp der angegebenen Beitrags-ID zurück."
+msgstr ""
+
+#: ui-admin/shortcodes.php:27
+msgid ""
+"Wenn die post_id weggelassen wird, wird der aktuelle globale $ post als der "
+"Post angenommen, an dem gearbeitet wird."
+msgstr ""
+
+#: ui-admin/shortcodes.php:29 ui-admin/shortcodes.php:75
+msgid "oder mit Feldliste"
+msgstr ""
+
+#: ui-admin/shortcodes.php:31 ui-admin/shortcodes.php:77
+msgid ""
+"Gibt eine Reihe von Eingabefeldern zurück, die von der Feld-ID-Liste im "
+"Shortcode bereitgestellt werden. Alle IDs, die nicht mit dem Beitragstyp "
+"verknüpft sind, werden ignoriert."
+msgstr ""
+
+#: ui-admin/shortcodes.php:33 ui-admin/shortcodes.php:79
+msgid "oder mit nach Kategorien gefilterter Feldliste"
+msgstr ""
+
+#: ui-admin/shortcodes.php:35 ui-admin/shortcodes.php:81
+msgid "In einem Eingabeblock können mehrere Filter verwendet werden."
+msgstr ""
+
+#: ui-admin/shortcodes.php:37
+msgid ""
+"oder verwende [ct_in] für einzelne Eingabefelder, um eine bessere "
+"Positionierung und Gestaltung zu ermöglichen."
+msgstr ""
+
+#: ui-admin/shortcodes.php:39
+msgid ""
+"Wenn Du das Eigenschaftsattribut weglässt, wird standardmäßig das "
+"Eingabefeld HTML verwendet."
+msgstr ""
+
+#: ui-admin/shortcodes.php:40
+msgid ""
+"Wenn Du das erforderliche Attribut weglässt, werden standardmäßig "
+"Einstellungen für benutzerdefinierte Felder vorgenommen. Andernfalls "
+"überschreibe es."
+msgstr ""
+
+#: ui-admin/shortcodes.php:41
+msgid ""
+"Nimmt den aktuellen globalen $post als den Post an, an dem gearbeitet wird."
+msgstr ""
+
+#: ui-admin/shortcodes.php:42
+msgid ""
+"Die Nomenklatur \"title | description | input\" bedeutet, eine der "
+"Auswahlmöglichkeiten zu verwenden. \"title\" oder \"description oder \"input"
+"\"."
+msgstr ""
+
+#: ui-admin/shortcodes.php:48
+msgid "Benutzerdefinierte Felder validieren"
+msgstr ""
+
+#: ui-admin/shortcodes.php:52
+msgid ""
+"Bei Verwendung der einzelnen benutzerdefinierten Felder [ct_in] sammelt "
+"dieser Shortcode das erforderliche Skript und fügt es hinzu, um die "
+"Validierung für die Felder auszuführen. "
+msgstr ""
+
+#: ui-admin/shortcodes.php:53
+msgid ""
+"Der Shortcode [custom_fields_input] enthält dieses Tag automatisch in der "
+"Feldgruppe. Es ist nur für [ct_in] -Felder erforderlich."
+msgstr ""
+
+#: ui-admin/shortcodes.php:57
+msgid ""
+"Sollte direkt vor dem schließenden &lt;/form&gt; Tag des Formulars platziert "
+"werden, das die zu validierenden Felder enthält."
+msgstr ""
+
+#: ui-admin/shortcodes.php:64
+msgid "Benutzerdefinierte Felder blockieren"
+msgstr ""
+
+#: ui-admin/shortcodes.php:68
+msgid ""
+"Wird verwendet, um die Ausgabe einer Reihe von benutzerdefinierten Feldern "
+"für den aktuellen Beitrag einzubetten. Muss innerhalb der Schleife verwendet "
+"werden."
+msgstr ""
+
+#: ui-admin/shortcodes.php:84
+msgid "Attribute für [custom_fields_block]"
+msgstr ""
+
+#: ui-admin/shortcodes.php:85
+msgid ""
+"property = So formatieren Sie die Ausgabe des Upload-Felds. Akzeptierte "
+"Werte sind \"value\" (Standard), \"link\" oder \"image\". Dies wird nur für "
+"Upload-Feldwerte berücksichtigt."
+msgstr ""
+
+#: ui-admin/shortcodes.php:86
+msgid ""
+"wrap = Wickel die Felder entweder in eine \"table\", eine \"ul\" oder eine "
+"\"div\" -Struktur."
+msgstr ""
+
+#: ui-admin/shortcodes.php:87
+msgid ""
+"Die Standard-Wrap-Attribute können mithilfe der folgenden Einzelattribute "
+"überschrieben werden:"
+msgstr ""
+
+#: ui-admin/shortcodes.php:88
+msgid "open = HTML, mit dem der Block beginnt"
+msgstr ""
+
+#: ui-admin/shortcodes.php:89
+msgid "close = HTML zum Beenden des Blocks"
+msgstr ""
+
+#: ui-admin/shortcodes.php:90
+msgid "open_line = HTML, mit dem eine Zeile beginnen soll"
+msgstr ""
+
+#: ui-admin/shortcodes.php:91
+msgid "close_line = HTML zum Beenden einer Zeile"
+msgstr ""
+
+#: ui-admin/shortcodes.php:92
+msgid "open_title = HTML, mit dem der Titel beginnt"
+msgstr ""
+
+#: ui-admin/shortcodes.php:93
+msgid "close_title = HTML, mit dem der Titel beendet werden soll"
+msgstr ""
+
+#: ui-admin/shortcodes.php:94
+msgid "open_value = HTML, mit dem der Wert beginnt"
+msgstr ""
+
+#: ui-admin/shortcodes.php:95
+msgid "close_value = HTML, mit dem der Wert beendet werden soll"
+msgstr ""
+
+#: ui-admin/shortcodes.php:102
+msgid "Benutzerdefinierter Feldfilter"
+msgstr ""
+
+#: ui-admin/shortcodes.php:105
+msgid ""
+"Wird verwendet, um die Liste der zurückgegebenen Felder abhängig von den "
+"Kategorien des Beitrags einzuschränken. Einem [custom_field_input] oder "
+"[custom_field_block] Shortcode können mehrere [ct_filter] Shortcodes "
+"hinzugefügt werden."
+msgstr ""
+
+#: ui-admin/shortcodes.php:107
+msgid "Attribute für [custom_field_filter]"
+msgstr ""
+
+#: ui-admin/shortcodes.php:108
+msgid ""
+"terms= Durch Kommas getrennte Kategorieliste zum Filtern. Kategorien, die "
+"nicht dem Beitragstyp des aktuellen Beitrags zugeordnet sind, werden "
+"ignoriert."
+msgstr ""
+
+#: ui-admin/shortcodes.php:109
+msgid ""
+"not= Wenn true, wird der Filter invertiert und alle nicht ausgewählten "
+"Felder zurückgegeben. Der Standardwert ist false."
+msgstr ""
+
+#: ui-admin/shortcodes.php:110
+msgid ""
+"Die durch Kommas getrennte Liste der Felder zwischen dem öffnenden und dem "
+"schließenden Tag wird zurückgegeben, wenn die Kategorien übereinstimmen. "
+"Felder, die nicht dem Beitragstyp des aktuellen Beitrags zugeordnet sind, "
+"werden ignoriert."
+msgstr ""
+
+#: ui-admin/taxonomies.php:74
+msgid "Bearbeite diese Taxonomie"
+msgstr ""
+
+#: ui-admin/taxonomies.php:132
+msgid ""
+"Einbettungscode gibt eine HTML-Zeichenfolge mit Taxonomiebegriffen zurück, "
+"die einem Beitrag und einer bestimmten Taxonomie zugeordnet sind.<br /"
+">Begriffe sind mit den jeweiligen Seiten der Begriffsliste verknüpft. "
+"Verwende es in Vorlagen innerhalb der Schleife."
+msgstr ""
+
+#: ui-admin/taxonomies.php:136
+msgid ""
+"Der Shortcode gibt eine HTML-Zeichenfolge mit Taxonomiebegriffen zurück, die "
+"einem Beitrag und einer bestimmten Taxonomie zugeordnet sind.<br />Begriffe "
+"sind mit den jeweiligen Seiten der Begriffsliste verknüpft. Verwende es in "
+"der Schleife."
+msgstr ""
+
+#: ui-admin/update-message.php:5
+msgid "Inhaltstyp aktualisiert"
+msgstr ""
+
+#: ui-admin/wip-update-taxonomy.php:19
+msgid "Add Taxonomy"
+msgstr ""
+
+#: ui-admin/wip-update-taxonomy.php:32
+msgid ""
+"Der Systemname der Taxonomie. Nur alphanumerische Zeichen und Unterstriche. "
+"Min. 2 Buchstaben. Nach dem Hinzufügen kann der Name des Taxonomiesystems "
+"nicht mehr geändert werden."
+msgstr ""
+
+#: ui-admin/wip-update-taxonomy.php:63
+msgid ""
+"Wähle einen oder mehrere Beitragstypen aus, zu denen diese Taxonomie "
+"hinzugefügt werden soll."
+msgstr ""
+
+#: ui-admin/wip-update-taxonomy.php:155
+msgid "Eltern Element"
+msgstr ""
+
+#: ui-admin/wip-update-taxonomy.php:231
+msgid "Zeige Benutzerinterface"
+msgstr ""
+
+#: ui-admin/wip-update-taxonomy.php:352
+msgid "Benutzerdefiniertr Slug"
+msgstr ""
+
+#: ui-admin/wip-update-taxonomy.php:356
+msgid "Stelle Beiträgen diesen Slug voran."
+msgstr ""
+
+#: ui-admin/wip-update-taxonomy.php:359
+msgid "Front Base nicht zulassen"
+msgstr ""
+
+#: ui-admin/wip-update-taxonomy.php:361
+msgid "Permalinks dürfen nicht mit der Front Base vorangestellt werden."
+msgstr ""
+
+#: ui-admin/wip-update-taxonomy.php:380
+msgid ""
+"Falsch, um Abfragen zu verhindern. Standardmäßig wird der Name des "
+"Taxonomiesystems als Abfragevariable verwendet."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://n3rds.work/piestingtal_source/psource-custompress-plugin/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WMS N@W"
+msgstr ""

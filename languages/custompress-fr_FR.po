@@ -1,0 +1,2651 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CustomPress\n"
+"POT-Creation-Date: 2024-01-06 15:31+0100\n"
+"PO-Revision-Date: 2024-01-06 15:34+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: loader.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: psource/psource-plugin-update/vendor\n"
+
+#. Plugin Name of the plugin/theme
+#: core/admin.php:134 core/admin.php:157 loader.php:26
+#, fuzzy
+msgid "CustomPress"
+msgstr "CustomPress"
+
+#: core/admin.php:137 core/admin.php:159
+#, fuzzy
+msgid "Inhaltstypen"
+msgstr "Types de contenu"
+
+#: core/admin.php:142 core/admin.php:160
+msgid "Einstellungen"
+msgstr "Réglages"
+
+#: core/admin.php:143 core/admin.php:162
+#, fuzzy
+msgid "Export/Import"
+msgstr "Exportation/Importation"
+
+#: core/admin.php:1086
+#, fuzzy
+msgid "CustomPress Fields"
+msgstr "Champs CustomPress"
+
+#: core/content-types.php:739
+#, fuzzy
+msgid "Upload media"
+msgstr "Télécharger des médias"
+
+#: core/content-types.php:741
+#, fuzzy
+msgid "Remove media"
+msgstr "Remove media"
+
+#: core/content-types.php:808
+#, fuzzy
+msgid "Invalid Taxonomy name in [tax ] shortcode"
+msgstr "Nom de taxonomie invalide dans [tax ] shortcode"
+
+#: core/core.php:533
+#, fuzzy
+msgid "Sicherheitsüberprüfung fehlgeschlagen!"
+msgstr "Échec du contrôle de sécurité !"
+
+#. Description of the plugin/theme
+#: loader.php:23
+#, fuzzy
+msgid "CustomPress - Benutzerdefinierter Post-, Taxonomie- und Feldmanager."
+msgstr ""
+"CustomPress - Gestionnaire de courrier, taxinomie et champs personnalisés."
+
+#: loader.php:24
+#, fuzzy
+msgid "DerN3rd (WMS N@W)"
+msgstr "LeN3rd (WMS N@W)"
+
+#. Author URI of the plugin/theme
+#: loader.php:25
+msgid "https://n3rds.work"
+msgstr "https://n3rds.work"
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:56
+#, fuzzy
+msgid "View details"
+msgstr "Voir les détails"
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:79
+#, fuzzy, php-format
+msgid "Weitere Informationen zu %s"
+msgstr "Plus d'informations sur %s"
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:130
+#, fuzzy
+msgid "Auf neuere Version prüfen"
+msgstr "Vérifier la disponibilité d'une version plus récente"
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:217
+#, fuzzy, php-format
+msgctxt "the plugin title"
+msgid "Keine neuere Version von %s im PSOURCE REPO gefunden."
+msgstr "Aucune version plus récente de %s n'a été trouvée dans PSOURCE REPO."
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:219
+#, fuzzy, php-format
+msgctxt "the plugin title"
+msgid "Im PSOURCE REPO ist eine <b>neuere Version von %s</b> verfügbar!."
+msgstr ""
+"Une <b>version plus récente de %s</b> est disponible dans PSOURCE REPO !"
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:221
+#, fuzzy, php-format
+msgctxt "the plugin title"
+msgid ""
+"Entschuldige, es konnte nicht festgestellt werden, ob Updates für %s "
+"verfügbar sind."
+msgstr ""
+"Désolé, il n'a pas été possible de déterminer si des mises à jour étaient "
+"disponibles pour %s."
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:227
+#, fuzzy, php-format
+msgid "Unbekannter PSOURCE-UPDATTER-Status \"%s\""
+msgstr "Statut inconnu de PSOURCE-UPDATTER \"%s\""
+
+#: psource/psource-plugin-update/Puc/v5p0/Vcs/PluginUpdateChecker.php:98
+#, fuzzy
+msgid "There is no changelog available."
+msgstr "Il n'y a pas de journal des changements disponible."
+
+#: ui-admin/add-custom-field.php:8 ui-admin/add-custom-field.php:232
+#: ui-admin/custom-fields.php:40 ui-admin/custom-fields.php:164
+#, fuzzy
+msgid "Benutzerdefiniertes Feld hinzufügen"
+msgstr "Ajouter un champ personnalisé"
+
+#: ui-admin/add-custom-field.php:13 ui-admin/add-custom-field.php:17
+#: ui-admin/edit-custom-field.php:20 ui-admin/edit-custom-field.php:24
+#, fuzzy
+msgid "Feldtitel"
+msgstr "Titre du champ"
+
+#: ui-admin/add-custom-field.php:17 ui-admin/add-custom-field.php:60
+#: ui-admin/add-custom-field.php:185 ui-admin/add-custom-field.php:210
+#: ui-admin/add-taxonomy.php:32 ui-admin/edit-custom-field.php:24
+#: ui-admin/edit-custom-field.php:68 ui-admin/edit-custom-field.php:191
+#: ui-admin/edit-post-type.php:27 ui-admin/edit-taxonomy.php:51
+#: ui-admin/wip-update-taxonomy.php:28 ui-admin/wip-update-taxonomy.php:43
+#, fuzzy
+msgid "erforderlich"
+msgstr "nécessaire"
+
+#: ui-admin/add-custom-field.php:21 ui-admin/edit-custom-field.php:28
+#, fuzzy
+msgid "Der Titel des benutzerdefinierten Felds."
+msgstr "Le titre du champ défini par l'utilisateur."
+
+#: ui-admin/add-custom-field.php:26
+#, fuzzy
+msgid "Benötigte Felder"
+msgstr "Champs requis"
+
+#: ui-admin/add-custom-field.php:30 ui-admin/edit-custom-field.php:38
+#, fuzzy
+msgid "Mache dies zu einem Pflichtfeld."
+msgstr "Rendre ce champ obligatoire."
+
+#: ui-admin/add-custom-field.php:35
+#, fuzzy
+msgid "Fehlermeldung für benötigte Felder"
+msgstr "Message d'erreur pour les champs requis"
+
+#: ui-admin/add-custom-field.php:39
+#, fuzzy
+msgid ""
+"Benutzerdefinierte Fehlermeldung für erforderliches Feld oder leer lassen "
+"für Standard."
+msgstr ""
+"Message d'erreur défini par l'utilisateur pour le champ requis ou laisser "
+"vide pour le champ standard."
+
+#: ui-admin/add-custom-field.php:44 ui-admin/edit-custom-field.php:52
+#, fuzzy
+msgid "Für WP/Plugins zulassen"
+msgstr "Autoriser pour WP/plugins"
+
+#: ui-admin/add-custom-field.php:45 ui-admin/edit-custom-field.php:52
+#, fuzzy
+msgid "kann nicht geändert werden"
+msgstr "ne peut pas être modifié"
+
+#: ui-admin/add-custom-field.php:49 ui-admin/edit-custom-field.php:57
+#, fuzzy
+msgid "WP und andere Plugins können dieses benutzerdefinierte Feld verwenden."
+msgstr "WP et d'autres plugins peuvent utiliser ce champ personnalisé."
+
+#: ui-admin/add-custom-field.php:56 ui-admin/add-custom-field.php:60
+#: ui-admin/custom-fields.php:49 ui-admin/custom-fields.php:60
+#: ui-admin/edit-custom-field.php:64 ui-admin/edit-custom-field.php:68
+msgid "Feldtyp"
+msgstr "champ"
+
+#: ui-admin/add-custom-field.php:64 ui-admin/edit-custom-field.php:72
+#, fuzzy
+msgid "WP Editor"
+msgstr "Éditeur WP"
+
+#: ui-admin/add-custom-field.php:65 ui-admin/edit-custom-field.php:73
+#, fuzzy
+msgid "Textfeld"
+msgstr "Zone de texte"
+
+#: ui-admin/add-custom-field.php:66 ui-admin/edit-custom-field.php:74
+#, fuzzy
+msgid "Mehrzeiliges Textfeld"
+msgstr "Zone de texte de plusieurs lignes"
+
+#: ui-admin/add-custom-field.php:67 ui-admin/edit-custom-field.php:75
+#, fuzzy
+msgid "Radio Buttons"
+msgstr "Boutons radio"
+
+#: ui-admin/add-custom-field.php:68
+#, fuzzy
+msgid "Checkboxen"
+msgstr "Cases à cocher"
+
+#: ui-admin/add-custom-field.php:69 ui-admin/edit-custom-field.php:77
+#, fuzzy
+msgid "Dropdown-Auswahlfeld"
+msgstr "Champ de sélection déroulant"
+
+#: ui-admin/add-custom-field.php:70
+#, fuzzy
+msgid "Mehrfachauswahl Box"
+msgstr "Boîte à choix multiples"
+
+#: ui-admin/add-custom-field.php:71 ui-admin/edit-custom-field.php:79
+#, fuzzy
+msgid "Datumsauswahl"
+msgstr "Sélection de la date"
+
+#: ui-admin/add-custom-field.php:72 ui-admin/edit-custom-field.php:80
+#, fuzzy
+msgid "Upload"
+msgstr "Téléchargement"
+
+#: ui-admin/add-custom-field.php:74 ui-admin/edit-custom-field.php:82
+#, fuzzy
+msgid "Wähle den Typ des benutzerdefinierten Felds."
+msgstr "Choisis le type de champ personnalisé."
+
+#: ui-admin/add-custom-field.php:77 ui-admin/add-custom-field.php:110
+#: ui-admin/add-custom-field.php:122 ui-admin/edit-custom-field.php:85
+#: ui-admin/edit-custom-field.php:118 ui-admin/edit-custom-field.php:129
+#, fuzzy
+msgid "Fülle die Optionen für dieses Feld aus"
+msgstr "Complète les options de ce champ"
+
+#: ui-admin/add-custom-field.php:79 ui-admin/edit-custom-field.php:87
+#, fuzzy
+msgid "Validierung regulärer Ausdrücke"
+msgstr "Validation des expressions régulières"
+
+#: ui-admin/add-custom-field.php:83 ui-admin/edit-custom-field.php:90
+#, fuzzy
+msgid "Optionen:"
+msgstr "Options :"
+
+#: ui-admin/add-custom-field.php:85 ui-admin/edit-custom-field.php:92
+#, fuzzy
+msgid "i = Fall ignorieren, g = Global, m = mehrzeilig"
+msgstr "i = ignorer le cas, g = global, m = multiligne"
+
+#: ui-admin/add-custom-field.php:86 ui-admin/edit-custom-field.php:93
+#, fuzzy
+msgid ""
+"Gib einen regulären Ausdruck ein, um ihn zu validieren, oder lasse ihn leer. "
+"Beispiel für E-Mail:"
+msgstr ""
+"Saisis une expression régulière pour la valider ou laisse-la vide. Exemple "
+"pour le courrier électronique :"
+
+#: ui-admin/add-custom-field.php:87 ui-admin/edit-custom-field.php:94
+#, fuzzy
+msgid "<code>^[\\w.%+-]+@[\\w.-]+\\.[a-zA-Z]{2,4}$</code> <code>i</code>"
+msgstr "<code>^[\\w.%+-]+@[\\w.-]+\\.[a-zA-Z]{2,4}$</code> <code>i</code>"
+
+#: ui-admin/add-custom-field.php:90 ui-admin/edit-custom-field.php:97
+#, fuzzy
+msgid "Fehlermeldung Überprüfung regulärer Ausdrücke"
+msgstr "Message d'erreur Vérification des expressions régulières"
+
+#: ui-admin/add-custom-field.php:92 ui-admin/edit-custom-field.php:99
+#, fuzzy
+msgid ""
+"Fehlermeldung zur Überprüfung der benutzerdefinierten regulären Ausdrücke "
+"für dieses Feld oder lasse für die Standardeinstellung leer."
+msgstr ""
+"Message d'erreur pour vérifier les expressions régulières personnalisées "
+"pour ce champ ou laisser vide pour le paramètre par défaut."
+
+#: ui-admin/add-custom-field.php:95 ui-admin/add-custom-field.php:139
+#: ui-admin/add-custom-field.php:149 ui-admin/edit-custom-field.php:102
+#: ui-admin/edit-custom-field.php:146 ui-admin/edit-custom-field.php:156
+#, fuzzy
+msgid "Standardwert"
+msgstr "Valeur par défaut"
+
+#: ui-admin/add-custom-field.php:113 ui-admin/edit-custom-field.php:121
+#: ui-admin/settings.php:268
+#, fuzzy
+msgid "Wähle die Option Datumsformat oder gib Deine eigene ein"
+msgstr "Choisis l'option Format de date ou entre ta propre date"
+
+#: ui-admin/add-custom-field.php:117 ui-admin/edit-custom-field.php:124
+#: ui-admin/settings.php:271
+#, fuzzy
+msgid "Datumsauswahl Beispiel"
+msgstr "Exemple de sélection de date"
+
+#: ui-admin/add-custom-field.php:124
+#, fuzzy
+msgid "Order By"
+msgstr "Order By"
+
+#: ui-admin/add-custom-field.php:127 ui-admin/edit-custom-field.php:134
+#, fuzzy
+msgid "Ordnen eingegeben"
+msgstr "Classement saisi"
+
+#: ui-admin/add-custom-field.php:128 ui-admin/edit-custom-field.php:135
+#, fuzzy
+msgid "Name - Aufsteigend"
+msgstr "Nom - Croissant"
+
+#: ui-admin/add-custom-field.php:129 ui-admin/edit-custom-field.php:136
+#, fuzzy
+msgid "Name - Absteigend"
+msgstr "Nom - Décroissant"
+
+#: ui-admin/add-custom-field.php:136 ui-admin/add-custom-field.php:146
+#: ui-admin/edit-custom-field.php:143 ui-admin/edit-custom-field.php:153
+#, fuzzy
+msgid "Option"
+msgstr "Option"
+
+#: ui-admin/add-custom-field.php:155 ui-admin/edit-custom-field.php:162
+#, fuzzy
+msgid "Füge eine weitere Option hinzu"
+msgstr "Ajoute une option supplémentaire"
+
+#: ui-admin/add-custom-field.php:163 ui-admin/add-custom-field.php:167
+#: ui-admin/edit-custom-field.php:170 ui-admin/edit-custom-field.php:174
+#, fuzzy
+msgid "Feld Beschreibung"
+msgstr "Champ Description"
+
+#: ui-admin/add-custom-field.php:171 ui-admin/edit-custom-field.php:178
+#, fuzzy
+msgid "Beschreibung für das benutzerdefinierte Feld."
+msgstr "Description pour le champ défini par l'utilisateur."
+
+#: ui-admin/add-custom-field.php:181 ui-admin/add-custom-field.php:185
+#: ui-admin/add-custom-field.php:210 ui-admin/add-post-type.php:8
+#: ui-admin/add-post-type.php:12 ui-admin/add-taxonomy.php:28
+#: ui-admin/add-taxonomy.php:32 ui-admin/edit-custom-field.php:187
+#: ui-admin/edit-custom-field.php:191 ui-admin/edit-custom-field.php:216
+#: ui-admin/edit-post-type.php:23 ui-admin/edit-post-type.php:27
+#: ui-admin/edit-taxonomy.php:47 ui-admin/edit-taxonomy.php:51
+#: ui-admin/post-types.php:38 ui-admin/post-types.php:51
+#: ui-admin/wip-update-taxonomy.php:39 ui-admin/wip-update-taxonomy.php:43
+#, fuzzy
+msgid "Beitragstyp"
+msgstr "Type de contribution"
+
+#: ui-admin/add-custom-field.php:196 ui-admin/edit-custom-field.php:202
+#, fuzzy
+msgid ""
+"Wähle einen oder mehrere Beitragstypen aus, denen dieses benutzerdefinierte "
+"Feld hinzugefügt werden soll."
+msgstr ""
+"Sélectionne un ou plusieurs types de publications auxquelles ce champ "
+"personnalisé doit être ajouté."
+
+#: ui-admin/add-custom-field.php:206 ui-admin/edit-custom-field.php:212
+#, fuzzy
+msgid "Eingabe für diesen Beitragstyp ausblenden"
+msgstr "Masquer l'entrée pour ce type de message"
+
+#: ui-admin/add-custom-field.php:221 ui-admin/edit-custom-field.php:227
+#, fuzzy
+msgid ""
+"Um dieses Eingabefeld auf der Admin-Bearbeitungsseite für einen Beitragstyp "
+"auszublenden, wähle einen oder mehrere auszublendende Beitragstypen aus."
+msgstr ""
+"Pour masquer ce champ de saisie sur la page de modification de "
+"l'administrateur pour un type de publications, sélectionnez un ou plusieurs "
+"types de publications à masquer."
+
+#: ui-admin/add-post-type.php:3 ui-admin/add-post-type.php:818
+#: ui-admin/post-types.php:32 ui-admin/post-types.php:143
+#, fuzzy
+msgid "Beitragstyp hinzufügen"
+msgstr "Ajouter un type de contribution"
+
+#: ui-admin/add-post-type.php:12 ui-admin/add-taxonomy.php:17
+#, fuzzy
+msgid "required"
+msgstr "required"
+
+#: ui-admin/add-post-type.php:16 ui-admin/edit-post-type.php:32
+#, fuzzy
+msgid ""
+"Der neue Systemtyp des Posttyps (max. 20 Zeichen). Nur alphanumerische "
+"Kleinbuchstaben und Unterstriche. Min 2 Buchstaben. Nach dem Hinzufügen kann "
+"der Systemtyp des Post-Typs nicht mehr geändert werden."
+msgstr ""
+"Le nouveau type de système du type de courrier (20 caractères max.). "
+"Uniquement des lettres minuscules alphanumériques et des traits de "
+"soulignement. Min 2 lettres. Après l'ajout, le type de système du type de "
+"courrier ne peut plus être modifié."
+
+#: ui-admin/add-post-type.php:23 ui-admin/add-post-type.php:27
+#: ui-admin/edit-post-type.php:39 ui-admin/edit-post-type.php:43
+#: ui-admin/post-types.php:42 ui-admin/post-types.php:55
+#, fuzzy
+msgid "Unterstützt"
+msgstr "Soutient"
+
+#: ui-admin/add-post-type.php:30 ui-admin/edit-post-type.php:46
+#, fuzzy
+msgid ""
+"Registriere die Unterstützung bestimmter Funktionen für einen Beitragstyp."
+msgstr ""
+"Enregistrer la prise en charge de certaines fonctionnalités pour un type de "
+"publications."
+
+#: ui-admin/add-post-type.php:33 ui-admin/edit-post-type.php:49
+msgid "Titel"
+msgstr "Titre"
+
+#: ui-admin/add-post-type.php:38 ui-admin/edit-post-type.php:54
+#, fuzzy
+msgid "Editor"
+msgstr "Éditeur"
+
+#: ui-admin/add-post-type.php:38 ui-admin/edit-post-type.php:54
+#, fuzzy
+msgid "Content"
+msgstr "Contenu"
+
+#: ui-admin/add-post-type.php:43 ui-admin/edit-post-type.php:59
+msgid "Autor"
+msgstr "Auteur"
+
+#: ui-admin/add-post-type.php:48 ui-admin/edit-post-type.php:64
+#, fuzzy
+msgid "Thumbnail"
+msgstr "Vignette"
+
+#: ui-admin/add-post-type.php:48 ui-admin/edit-post-type.php:64
+#, fuzzy
+msgid ""
+"Ausgewähltes Bild - Das aktuelle Theme muss auch Post-Thumbnails "
+"unterstützen."
+msgstr ""
+"Image sélectionnée - Le thème actuel doit également prendre en charge les "
+"vignettes de post."
+
+#: ui-admin/add-post-type.php:53 ui-admin/edit-post-type.php:69
+#, fuzzy
+msgid "Auszug"
+msgstr "Extrait"
+
+#: ui-admin/add-post-type.php:58 ui-admin/edit-post-type.php:74
+#, fuzzy
+msgid "Trackbacks"
+msgstr "Trackbacks"
+
+#: ui-admin/add-post-type.php:63 ui-admin/edit-post-type.php:79
+#: ui-admin/edit-post-type.php:396 ui-admin/navigation.php:9
+#, fuzzy
+msgid "Benutzerdefinierte Felder"
+msgstr "Champs personnalisés"
+
+#: ui-admin/add-post-type.php:68 ui-admin/edit-post-type.php:84
+msgid "Kommentare"
+msgstr "Commentaires"
+
+#: ui-admin/add-post-type.php:68 ui-admin/edit-post-type.php:84
+#, fuzzy
+msgid ""
+"Außerdem wird auf dem Bearbeitungsbildschirm eine Sprechblase für die Anzahl "
+"der Kommentare angezeigt."
+msgstr ""
+"De plus, une bulle d'information indiquant le nombre de commentaires "
+"s'affiche sur l'écran d'édition."
+
+#: ui-admin/add-post-type.php:73 ui-admin/edit-post-type.php:89
+#, fuzzy
+msgid "Revisionen"
+msgstr "Révisions"
+
+#: ui-admin/add-post-type.php:73 ui-admin/edit-post-type.php:89
+#, fuzzy
+msgid "Speichert Revisionen."
+msgstr "Enregistre les révisions."
+
+#: ui-admin/add-post-type.php:78 ui-admin/edit-post-type.php:94
+#, fuzzy
+msgid "Seitenattribute"
+msgstr "Attributs de page"
+
+#: ui-admin/add-post-type.php:78 ui-admin/edit-post-type.php:94
+#, fuzzy
+msgid "Vorlagen- und Menüreihenfolge - Hierarchisch muss wahr sein!"
+msgstr "Ordre des modèles et des menus - Hiérarchique doit être vrai !"
+
+#: ui-admin/add-post-type.php:83 ui-admin/edit-post-type.php:99
+#, fuzzy
+msgid "Beitrags-Formate"
+msgstr "Formats des articles"
+
+#: ui-admin/add-post-type.php:83 ui-admin/edit-post-type.php:99
+#, fuzzy
+msgid "Beitragsformate hinzufügen."
+msgstr "Ajouter des formats de contribution."
+
+#: ui-admin/add-post-type.php:91 ui-admin/add-post-type.php:95
+#: ui-admin/edit-post-type.php:107 ui-admin/edit-post-type.php:111
+#, fuzzy
+msgid "Unterstützung regulärer Taxonomien"
+msgstr "Prise en charge des taxonomies régulières"
+
+#: ui-admin/add-post-type.php:98 ui-admin/edit-post-type.php:114
+#, fuzzy
+msgid "Weise diesem Beitragstyp reguläre Taxonomien zu."
+msgstr "Attribue des taxinomies régulières à ce type de contribution."
+
+#: ui-admin/add-post-type.php:102 ui-admin/edit-post-type.php:118
+msgid "Kategorien"
+msgstr "Catégories"
+
+#: ui-admin/add-post-type.php:109 ui-admin/edit-post-type.php:125
+msgid "Tags"
+msgstr "tags"
+
+#: ui-admin/add-post-type.php:118 ui-admin/add-post-type.php:122
+#: ui-admin/edit-post-type.php:135 ui-admin/edit-post-type.php:139
+#: ui-admin/post-types.php:43 ui-admin/post-types.php:56
+#, fuzzy
+msgid "Berechtigungstyp"
+msgstr "Type d'autorisation"
+
+#: ui-admin/add-post-type.php:128 ui-admin/custom-fields.php:109
+#: ui-admin/edit-post-type.php:147 ui-admin/post-types.php:86
+#: ui-admin/taxonomies.php:74
+msgid "Bearbeiten"
+msgstr "Modifier"
+
+#: ui-admin/add-post-type.php:128
+#, fuzzy
+msgid "erweitert"
+msgstr "élargit"
+
+#: ui-admin/add-post-type.php:130 ui-admin/edit-post-type.php:148
+#, fuzzy
+msgid ""
+"Der Beitragstyp, der zum Überprüfen der Lese-, Bearbeitungs- und "
+"Löschfunktionen verwendet werden soll. Voreinstellung: \"post\"."
+msgstr ""
+"Le type de publication à utiliser pour vérifier les fonctions de lecture, "
+"d'édition et de suppression. Par défaut : \"post\"."
+
+#: ui-admin/add-post-type.php:138 ui-admin/add-post-type.php:142
+#: ui-admin/edit-post-type.php:156 ui-admin/edit-post-type.php:160
+#, fuzzy
+msgid "Meta-Funktionen zuordnen"
+msgstr "Attribuer des méta-fonctions"
+
+#: ui-admin/add-post-type.php:145 ui-admin/edit-post-type.php:163
+#, fuzzy
+msgid "Verwende die interne Standardbehandlung für Metafunktionen."
+msgstr "Utilise le traitement interne standard pour les métafonctions."
+
+#: ui-admin/add-post-type.php:148 ui-admin/add-post-type.php:338
+#: ui-admin/add-post-type.php:385 ui-admin/add-post-type.php:417
+#: ui-admin/add-post-type.php:445 ui-admin/add-post-type.php:473
+#: ui-admin/add-post-type.php:501 ui-admin/add-post-type.php:529
+#: ui-admin/add-post-type.php:564 ui-admin/add-post-type.php:730
+#: ui-admin/add-post-type.php:767 ui-admin/add-post-type.php:796
+#: ui-admin/add-taxonomy.php:198 ui-admin/add-taxonomy.php:228
+#: ui-admin/add-taxonomy.php:261 ui-admin/add-taxonomy.php:289
+#: ui-admin/add-taxonomy.php:318 ui-admin/add-taxonomy.php:346
+#: ui-admin/add-taxonomy.php:374 ui-admin/add-taxonomy.php:533
+#: ui-admin/add-taxonomy.php:568 ui-admin/edit-post-type.php:166
+#: ui-admin/edit-post-type.php:437 ui-admin/edit-post-type.php:483
+#: ui-admin/edit-post-type.php:509 ui-admin/edit-post-type.php:532
+#: ui-admin/edit-post-type.php:555 ui-admin/edit-post-type.php:578
+#: ui-admin/edit-post-type.php:601 ui-admin/edit-post-type.php:630
+#: ui-admin/edit-post-type.php:790 ui-admin/edit-post-type.php:819
+#: ui-admin/edit-post-type.php:842 ui-admin/edit-taxonomy.php:216
+#: ui-admin/edit-taxonomy.php:246 ui-admin/edit-taxonomy.php:279
+#: ui-admin/edit-taxonomy.php:307 ui-admin/edit-taxonomy.php:337
+#: ui-admin/edit-taxonomy.php:365 ui-admin/edit-taxonomy.php:393
+#: ui-admin/edit-taxonomy.php:552 ui-admin/edit-taxonomy.php:587
+#: ui-admin/wip-update-taxonomy.php:218 ui-admin/wip-update-taxonomy.php:245
+#: ui-admin/wip-update-taxonomy.php:269 ui-admin/wip-update-taxonomy.php:293
+#: ui-admin/wip-update-taxonomy.php:317 ui-admin/wip-update-taxonomy.php:341
+#: ui-admin/wip-update-taxonomy.php:387
+#, fuzzy
+msgid "WAHR"
+msgstr "VRAI"
+
+#: ui-admin/add-post-type.php:153 ui-admin/add-post-type.php:349
+#: ui-admin/add-post-type.php:392 ui-admin/add-post-type.php:422
+#: ui-admin/add-post-type.php:450 ui-admin/add-post-type.php:478
+#: ui-admin/add-post-type.php:506 ui-admin/add-post-type.php:534
+#: ui-admin/add-post-type.php:571 ui-admin/add-post-type.php:735
+#: ui-admin/add-post-type.php:772 ui-admin/add-post-type.php:801
+#: ui-admin/add-taxonomy.php:203 ui-admin/add-taxonomy.php:233
+#: ui-admin/add-taxonomy.php:266 ui-admin/add-taxonomy.php:294
+#: ui-admin/add-taxonomy.php:323 ui-admin/add-taxonomy.php:351
+#: ui-admin/add-taxonomy.php:381 ui-admin/add-taxonomy.php:538
+#: ui-admin/add-taxonomy.php:573 ui-admin/edit-post-type.php:171
+#: ui-admin/edit-post-type.php:450 ui-admin/edit-post-type.php:490
+#: ui-admin/edit-post-type.php:514 ui-admin/edit-post-type.php:537
+#: ui-admin/edit-post-type.php:560 ui-admin/edit-post-type.php:583
+#: ui-admin/edit-post-type.php:606 ui-admin/edit-post-type.php:635
+#: ui-admin/edit-post-type.php:795 ui-admin/edit-post-type.php:824
+#: ui-admin/edit-post-type.php:847 ui-admin/edit-taxonomy.php:221
+#: ui-admin/edit-taxonomy.php:251 ui-admin/edit-taxonomy.php:284
+#: ui-admin/edit-taxonomy.php:312 ui-admin/edit-taxonomy.php:342
+#: ui-admin/edit-taxonomy.php:370 ui-admin/edit-taxonomy.php:400
+#: ui-admin/edit-taxonomy.php:557 ui-admin/edit-taxonomy.php:592
+#: ui-admin/wip-update-taxonomy.php:221 ui-admin/wip-update-taxonomy.php:248
+#: ui-admin/wip-update-taxonomy.php:272 ui-admin/wip-update-taxonomy.php:296
+#: ui-admin/wip-update-taxonomy.php:320 ui-admin/wip-update-taxonomy.php:346
+#: ui-admin/wip-update-taxonomy.php:390
+#, fuzzy
+msgid "FALSCH"
+msgstr "FAUX"
+
+#: ui-admin/add-post-type.php:162 ui-admin/add-taxonomy.php:51
+#: ui-admin/edit-post-type.php:233 ui-admin/edit-taxonomy.php:68
+#: ui-admin/wip-update-taxonomy.php:70
+msgid "Labels"
+msgstr "Labels"
+
+#: ui-admin/add-post-type.php:166 ui-admin/add-taxonomy.php:55
+#: ui-admin/edit-post-type.php:237 ui-admin/edit-taxonomy.php:72
+#: ui-admin/post-types.php:39 ui-admin/post-types.php:52
+#: ui-admin/taxonomies.php:32 ui-admin/taxonomies.php:42
+#: ui-admin/wip-update-taxonomy.php:74
+msgid "Name"
+msgstr "Nom"
+
+#: ui-admin/add-post-type.php:170 ui-admin/edit-post-type.php:241
+#, fuzzy
+msgid "Allgemeiner Name für den Beitragstyp, normalerweise Plural."
+msgstr "Nom général du type de contribution, généralement au pluriel."
+
+#: ui-admin/add-post-type.php:175 ui-admin/add-taxonomy.php:64
+#: ui-admin/edit-post-type.php:246 ui-admin/edit-taxonomy.php:81
+#: ui-admin/wip-update-taxonomy.php:83
+#, fuzzy
+msgid "Singular Name"
+msgstr "Nom singulier"
+
+#: ui-admin/add-post-type.php:179 ui-admin/edit-post-type.php:250
+#, fuzzy
+msgid ""
+"Name für ein Objekt dieses Beitragstyps. Der Standardwert ist der Wert des "
+"Namens."
+msgstr ""
+"Nom d'un objet de ce type de contribution. La valeur par défaut est celle du "
+"nom."
+
+#: ui-admin/add-post-type.php:184 ui-admin/edit-post-type.php:255
+#, fuzzy
+msgid "Neu hinzufügen"
+msgstr "Ajouter un nouveau"
+
+#: ui-admin/add-post-type.php:188 ui-admin/edit-post-type.php:259
+#, fuzzy
+msgid ""
+"Das Hinzufügen von neuem Text. Die Standardeinstellung ist Neu hinzufügen "
+"für hierarchische und nicht hierarchische Typen."
+msgstr ""
+"L'ajout d'un nouveau texte. Le paramètre par défaut est Ajouter nouveau pour "
+"les types hiérarchiques et non hiérarchiques."
+
+#: ui-admin/add-post-type.php:193 ui-admin/add-taxonomy.php:73
+#: ui-admin/edit-post-type.php:264 ui-admin/edit-taxonomy.php:90
+#: ui-admin/wip-update-taxonomy.php:92
+#, fuzzy
+msgid "Füge neues Element hinzu"
+msgstr "Ajoute un nouvel élément"
+
+#: ui-admin/add-post-type.php:197 ui-admin/edit-post-type.php:268
+#, fuzzy
+msgid ""
+"Text für neues Element hinzufügen. Standard ist \"Neuen Beitrag hinzufügen/"
+"Neue Seite hinzufügen\"."
+msgstr ""
+"Ajouter un texte pour le nouvel élément. Le texte par défaut est \"Ajouter "
+"un nouveau message/une nouvelle page\"."
+
+#: ui-admin/add-post-type.php:202 ui-admin/add-taxonomy.php:91
+#: ui-admin/edit-post-type.php:273 ui-admin/edit-taxonomy.php:108
+#: ui-admin/wip-update-taxonomy.php:110
+#, fuzzy
+msgid "Element bearbeiten"
+msgstr "Modifier un élément"
+
+#: ui-admin/add-post-type.php:206 ui-admin/edit-post-type.php:277
+#, fuzzy
+msgid ""
+"Text für Bearbeitung des Elements. Standard ist Beitrag bearbeiten/Seite "
+"bearbeiten."
+msgstr ""
+"Texte pour l'édition de l'élément. Le texte par défaut est Éditer le message/"
+"Éditer la page."
+
+#: ui-admin/add-post-type.php:211 ui-admin/edit-post-type.php:282
+#, fuzzy
+msgid "Neues Element"
+msgstr "Nouvel élément"
+
+#: ui-admin/add-post-type.php:215 ui-admin/edit-post-type.php:286
+#, fuzzy
+msgid "Text für neues Element. Standard ist Neuer Beitrag/Neue Seite."
+msgstr ""
+"Texte pour le nouvel élément. Le texte par défaut est Nouveau message/"
+"Nouvelle page."
+
+#: ui-admin/add-post-type.php:220 ui-admin/edit-post-type.php:291
+#, fuzzy
+msgid "Element anzeigen"
+msgstr "Afficher l'élément"
+
+#: ui-admin/add-post-type.php:224 ui-admin/edit-post-type.php:295
+#, fuzzy
+msgid ""
+"Text für Ansicht des Elements. Die Standardeinstellung ist Beitrag anzeigen/"
+"Seite anzeigen."
+msgstr ""
+"Texte pour l'affichage de l'élément. Le paramètre par défaut est Afficher le "
+"message/Afficher la page."
+
+#: ui-admin/add-post-type.php:229 ui-admin/edit-post-type.php:300
+#, fuzzy
+msgid "Element suchen"
+msgstr "Rechercher un élément"
+
+#: ui-admin/add-post-type.php:233 ui-admin/edit-post-type.php:304
+#, fuzzy
+msgid "Text für SElementsuche. Standard ist Suche Beiträge/Suche Seiten."
+msgstr ""
+"Texte pour la recherche d'éléments. Le texte par défaut est Recherche de "
+"messages/Recherche de pages."
+
+#: ui-admin/add-post-type.php:238 ui-admin/edit-post-type.php:309
+msgid "Nicht gefunden"
+msgstr "Pas trouvé"
+
+#: ui-admin/add-post-type.php:242 ui-admin/edit-post-type.php:313
+#, fuzzy
+msgid ""
+"Text für nicht gefundene Elemente. Standard ist Keine Beiträge gefunden/"
+"Keine Seiten gefunden."
+msgstr ""
+"Texte pour les éléments non trouvés. Le texte par défaut est Aucun message "
+"trouvé/aucune page trouvée."
+
+#: ui-admin/add-post-type.php:247 ui-admin/edit-post-type.php:318
+#, fuzzy
+msgid "Nicht im Papierkorb gefunden"
+msgstr "Non trouvé dans la corbeille"
+
+#: ui-admin/add-post-type.php:251 ui-admin/edit-post-type.php:322
+#, fuzzy
+msgid ""
+"Der nicht im Papierkorb gefunden Text. Standard ist Keine Beiträge im "
+"Papierkorb gefunden/Keine Seiten im Papierkorb gefunden."
+msgstr ""
+"Le texte non trouvé dans la corbeille. La valeur par défaut est Aucun "
+"message trouvé dans la corbeille/Pas de pages trouvées dans la corbeille."
+
+#: ui-admin/add-post-type.php:256 ui-admin/add-taxonomy.php:145
+#: ui-admin/edit-post-type.php:327 ui-admin/edit-taxonomy.php:162
+#: ui-admin/wip-update-taxonomy.php:164
+#, fuzzy
+msgid "Übergeordnetes Element Doppelpunkt"
+msgstr "Élément parent Deux points"
+
+#: ui-admin/add-post-type.php:260 ui-admin/edit-post-type.php:331
+#, fuzzy
+msgid ""
+"Der übergeordnete Text. Diese Zeichenfolge wird bei nicht hierarchischen "
+"Typen nicht verwendet. In hierarchischen Fällen ist die Standardeinstellung "
+"die übergeordnete Seite"
+msgstr ""
+"Le texte supérieur. Cette chaîne de caractères n'est pas utilisée pour les "
+"types non hiérarchiques. Dans les cas hiérarchiques, la valeur par défaut "
+"est la page parente"
+
+#: ui-admin/add-post-type.php:265 ui-admin/edit-post-type.php:336
+#, fuzzy
+msgid "Benutzerdefinierte Block Felder"
+msgstr "Champs de bloc personnalisés"
+
+#: ui-admin/add-post-type.php:269 ui-admin/edit-post-type.php:340
+#, fuzzy
+msgid "Titel des Blocks \"Benutzerdefinierte Felder\"."
+msgstr "Titre du bloc \"Champs personnalisés\"."
+
+#: ui-admin/add-post-type.php:276 ui-admin/add-post-type.php:280
+#: ui-admin/custom-fields.php:50 ui-admin/custom-fields.php:61
+#: ui-admin/edit-post-type.php:347 ui-admin/edit-post-type.php:351
+#: ui-admin/post-types.php:40 ui-admin/post-types.php:53
+msgid "Beschreibung"
+msgstr "Description"
+
+#: ui-admin/add-post-type.php:284 ui-admin/edit-post-type.php:355
+#, fuzzy
+msgid "Eine kurze beschreibende Zusammenfassung des Beitragstyps."
+msgstr "Un bref résumé descriptif du type de contribution."
+
+#: ui-admin/add-post-type.php:291 ui-admin/add-post-type.php:295
+#: ui-admin/edit-post-type.php:362 ui-admin/edit-post-type.php:366
+#, fuzzy
+msgid "Menüposition"
+msgstr "Position du menu"
+
+#: ui-admin/add-post-type.php:299 ui-admin/edit-post-type.php:370
+#, fuzzy
+msgid ""
+"5 - unter Beiträge; 10 - unter Medien; 20 - unter Seiten; 60 - unter dem "
+"ersten Abscheider; 100 - unter dem zweiten Separator"
+msgstr ""
+"5 - sous les contributions ; 10 - sous les supports ; 20 - sous les côtés ; "
+"60 - sous le premier séparateur ; 100 - sous le deuxième séparateur"
+
+#: ui-admin/add-post-type.php:306 ui-admin/add-post-type.php:310
+#: ui-admin/edit-post-type.php:377 ui-admin/edit-post-type.php:381
+#: ui-admin/post-types.php:41 ui-admin/post-types.php:54
+#, fuzzy
+msgid "Menü Icon"
+msgstr "Icône de menu"
+
+#: ui-admin/add-post-type.php:314 ui-admin/edit-post-type.php:385
+#, fuzzy
+msgid "Die URL zu dem Symbol, das für dieses Menü verwendet werden soll."
+msgstr "L'URL de l'icône à utiliser pour ce menu."
+
+#: ui-admin/add-post-type.php:323 ui-admin/add-post-type.php:327
+#: ui-admin/add-taxonomy.php:213 ui-admin/add-taxonomy.php:217
+#: ui-admin/edit-post-type.php:427 ui-admin/edit-post-type.php:431
+#: ui-admin/edit-taxonomy.php:231 ui-admin/edit-taxonomy.php:235
+#: ui-admin/post-types.php:44 ui-admin/post-types.php:57
+#: ui-admin/taxonomies.php:34 ui-admin/taxonomies.php:44
+#: ui-admin/wip-update-taxonomy.php:204 ui-admin/wip-update-taxonomy.php:208
+#, fuzzy
+msgid "Öffentlich"
+msgstr "Public"
+
+#: ui-admin/add-post-type.php:330 ui-admin/edit-post-type.php:434
+#, fuzzy
+msgid ""
+"Meta-Argument zum Definieren von Standardwerten für public_queriable, "
+"show_ui, show_in_nav_menus und exclude_from_search."
+msgstr ""
+"Méta-argument permettant de définir des valeurs par défaut pour "
+"public_queriable, show_ui, show_in_nav_menus et exclude_from_search."
+
+#: ui-admin/add-post-type.php:340
+#, fuzzy
+msgid "Zeige eine Benutzeroberfläche für diesen \"post_type\" an"
+msgstr "Affiche une interface utilisateur pour ce \"post_type"
+
+#: ui-admin/add-post-type.php:341 ui-admin/edit-post-type.php:442
+#, fuzzy
+msgid "Zeige \"post_type\" zur Auswahl in den Navigationsmenüs an"
+msgstr "Affiche \"post_type\" à sélectionner dans les menus de navigation"
+
+#: ui-admin/add-post-type.php:342 ui-admin/edit-post-type.php:443
+#, fuzzy
+msgid "\"post_type\" -Abfragen können vom Frontend aus ausgeführt werden"
+msgstr "les requêtes \"post_type\" peuvent être exécutées depuis le frontend"
+
+#: ui-admin/add-post-type.php:343 ui-admin/add-post-type.php:354
+#: ui-admin/edit-post-type.php:444 ui-admin/edit-post-type.php:457
+#, fuzzy
+msgid "Schließe Beiträge mit diesem Beitragstyp aus den Suchergebnissen aus"
+msgstr ""
+"Exclure les messages avec ce type de message des résultats de recherche"
+
+#: ui-admin/add-post-type.php:351
+#, fuzzy
+msgid "Zeige für diesen \"post_type\" keine Benutzeroberfläche an"
+msgstr "N'affiche pas d'interface utilisateur pour ce \"post_type"
+
+#: ui-admin/add-post-type.php:352
+#, fuzzy
+msgid "Blende \"post_type\" zur Auswahl in den Navigationsmenüs au"
+msgstr "Cache \"post_type\" à sélectionner dans les menus de navigation au"
+
+#: ui-admin/add-post-type.php:353 ui-admin/edit-post-type.php:456
+#, fuzzy
+msgid ""
+"\"post_type\" -Abfragen können nicht über das Front-End ausgeführt werden"
+msgstr ""
+"les requêtes \"post_type\" ne peuvent pas être exécutées via le front-end"
+
+#: ui-admin/add-post-type.php:360 ui-admin/edit-post-type.php:463
+#: ui-admin/post-types.php:113 ui-admin/taxonomies.php:107
+msgid "Erweitert"
+msgstr "Avancé"
+
+#: ui-admin/add-post-type.php:362 ui-admin/edit-post-type.php:465
+#, fuzzy
+msgid "Du kannst jede Komponente manuell einstellen."
+msgstr "Tu peux régler chaque composant manuellement."
+
+#: ui-admin/add-post-type.php:370 ui-admin/add-post-type.php:374
+#: ui-admin/add-taxonomy.php:246 ui-admin/add-taxonomy.php:250
+#: ui-admin/edit-post-type.php:473 ui-admin/edit-post-type.php:477
+#: ui-admin/edit-taxonomy.php:264 ui-admin/edit-taxonomy.php:268
+#: ui-admin/wip-update-taxonomy.php:235
+#, fuzzy
+msgid "Zeige UI"
+msgstr "Afficher UI"
+
+#: ui-admin/add-post-type.php:377 ui-admin/edit-post-type.php:480
+#, fuzzy
+msgid ""
+"Gibt an, ob eine Standardbenutzeroberfläche zum Verwalten dieses "
+"Beitragstyps generiert werden soll. Beachte, dass integrierte Beitragstypen "
+"wie Beitrag und Seite absichtlich auf falsch gesetzt sind."
+msgstr ""
+"Indique si une interface utilisateur standard doit être générée pour gérer "
+"ce type de publications. Notez que les types de publications intégrées "
+"telles que les publications et les pages sont intentionnellement définies "
+"sur faux."
+
+#: ui-admin/add-post-type.php:387 ui-admin/edit-post-type.php:485
+#, fuzzy
+msgid ""
+"Zeige eine Benutzeroberfläche (Admin-Bereich) für diesen Beitragstyp an."
+msgstr ""
+"Affiche une interface utilisateur (zone d'administration) pour ce type de "
+"message."
+
+#: ui-admin/add-post-type.php:394 ui-admin/edit-post-type.php:492
+#, fuzzy
+msgid "Zeige für diesen Beitragstyp keine Benutzeroberfläche an."
+msgstr "N'affiche pas d'interface utilisateur pour ce type de message."
+
+#: ui-admin/add-post-type.php:402 ui-admin/add-taxonomy.php:303
+#: ui-admin/edit-post-type.php:499 ui-admin/edit-taxonomy.php:322
+#: ui-admin/wip-update-taxonomy.php:279
+#, fuzzy
+msgid "In Navigationsmenüs anzeigen "
+msgstr "Afficher dans les menus de navigation"
+
+#: ui-admin/add-post-type.php:406 ui-admin/add-taxonomy.php:307
+#: ui-admin/edit-post-type.php:503 ui-admin/edit-taxonomy.php:326
+#: ui-admin/wip-update-taxonomy.php:283
+#, fuzzy
+msgid "In Navigationsmenüs anzeigen"
+msgstr "Afficher dans les menus de navigation"
+
+#: ui-admin/add-post-type.php:409 ui-admin/edit-post-type.php:506
+#, fuzzy
+msgid "Gibt an, ob post_type in Navigationsmenüs zur Auswahl steht."
+msgstr "Indique si post_type est disponible dans les menus de navigation."
+
+#: ui-admin/add-post-type.php:430 ui-admin/add-post-type.php:434
+#: ui-admin/edit-post-type.php:522 ui-admin/edit-post-type.php:526
+#, fuzzy
+msgid "Öffentlich abfragbar"
+msgstr "Consultable par le public"
+
+#: ui-admin/add-post-type.php:437 ui-admin/edit-post-type.php:529
+#, fuzzy
+msgid "Ob post_type-Abfragen vom Frontend aus ausgeführt werden können."
+msgstr "Si les requêtes post_type peuvent être exécutées depuis le frontend."
+
+#: ui-admin/add-post-type.php:458 ui-admin/add-post-type.php:462
+#: ui-admin/edit-post-type.php:545 ui-admin/edit-post-type.php:549
+#, fuzzy
+msgid "Von der Suche ausschließen"
+msgstr "Exclure de la recherche"
+
+#: ui-admin/add-post-type.php:465 ui-admin/edit-post-type.php:552
+#, fuzzy
+msgid ""
+"Gibt an, ob Beiträge mit diesem Beitragstyp aus den Suchergebnissen "
+"ausgeschlossen werden sollen."
+msgstr ""
+"Indique si les publications avec ce type de publications doivent être "
+"exclues des résultats de recherche."
+
+#: ui-admin/add-post-type.php:486 ui-admin/add-post-type.php:490
+#: ui-admin/add-taxonomy.php:331 ui-admin/add-taxonomy.php:335
+#: ui-admin/edit-post-type.php:568 ui-admin/edit-post-type.php:572
+#: ui-admin/edit-taxonomy.php:350 ui-admin/edit-taxonomy.php:354
+#: ui-admin/post-types.php:45 ui-admin/post-types.php:58
+#: ui-admin/taxonomies.php:35 ui-admin/taxonomies.php:45
+#: ui-admin/wip-update-taxonomy.php:303 ui-admin/wip-update-taxonomy.php:307
+#, fuzzy
+msgid "Hierarchisch"
+msgstr "Hiérarchique"
+
+#: ui-admin/add-post-type.php:493 ui-admin/add-taxonomy.php:338
+#: ui-admin/edit-post-type.php:575 ui-admin/edit-taxonomy.php:357
+#: ui-admin/wip-update-taxonomy.php:310
+#, fuzzy
+msgid ""
+"Gibt an, ob der Beitragstyp hierarchisch ist. Ermöglicht die Angabe von "
+"Eltern."
+msgstr ""
+"Indique si le type de contribution est hiérarchique. Permet d'indiquer les "
+"parents."
+
+#: ui-admin/add-post-type.php:514 ui-admin/add-post-type.php:518
+#: ui-admin/edit-post-type.php:591 ui-admin/edit-post-type.php:595
+#, fuzzy
+msgid "Hat Archiv"
+msgstr "A archivé"
+
+#: ui-admin/add-post-type.php:521 ui-admin/edit-post-type.php:598
+#, fuzzy
+msgid ""
+"Aktiviert Post-Typ-Archive. Verwendet String als Archiv-Slug. Generiert die "
+"richtigen Umschreiberegeln, wenn das Umschreiben aktiviert ist."
+msgstr ""
+"Active les archives de type courrier. Utilise la chaîne de caractères comme "
+"slug d'archive. Génère les règles de réécriture correctes si la réécriture "
+"est activée."
+
+#: ui-admin/add-post-type.php:537 ui-admin/add-post-type.php:577
+#: ui-admin/add-taxonomy.php:387 ui-admin/edit-post-type.php:609
+#: ui-admin/edit-post-type.php:638 ui-admin/edit-taxonomy.php:406
+#, fuzzy
+msgid "Benutzerdefinierter Slug"
+msgstr "Slug personnalisé"
+
+#: ui-admin/add-post-type.php:542 ui-admin/edit-post-type.php:613
+#, fuzzy
+msgid "Benutzerdefinierter Slug für das Post-Type-Archiv."
+msgstr "Slug personnalisé pour l'archive post-type."
+
+#: ui-admin/add-post-type.php:549 ui-admin/add-post-type.php:553
+#: ui-admin/add-taxonomy.php:359 ui-admin/add-taxonomy.php:363
+#: ui-admin/edit-post-type.php:620 ui-admin/edit-post-type.php:624
+#: ui-admin/edit-taxonomy.php:378 ui-admin/edit-taxonomy.php:382
+#: ui-admin/post-types.php:46 ui-admin/post-types.php:59
+#: ui-admin/taxonomies.php:36 ui-admin/taxonomies.php:46
+#: ui-admin/wip-update-taxonomy.php:327 ui-admin/wip-update-taxonomy.php:331
+#, fuzzy
+msgid "Umschreiben"
+msgstr "Réécrire"
+
+#: ui-admin/add-post-type.php:556 ui-admin/edit-post-type.php:627
+#, fuzzy
+msgid "Schreibe Permalinks mit diesem Format neu."
+msgstr "Réécris les permaliens avec ce format."
+
+#: ui-admin/add-post-type.php:567
+#, fuzzy
+msgid "Standardmäßig wird der Beitragstyp verwendet."
+msgstr "Le type de contribution est utilisé par défaut."
+
+#: ui-admin/add-post-type.php:574 ui-admin/add-taxonomy.php:384
+#: ui-admin/edit-taxonomy.php:403 ui-admin/wip-update-taxonomy.php:348
+#, fuzzy
+msgid "Umschreiben verhindern."
+msgstr "Empêcher la réécriture."
+
+#: ui-admin/add-post-type.php:581 ui-admin/edit-post-type.php:642
+#, fuzzy
+msgid ""
+"Stelle Beiträge diesen Slug voran. Wenn leer, wird die Standardeinstellung "
+"verwendet."
+msgstr ""
+"Place les messages avant ce slug. Si vide, le réglage par défaut est utilisé."
+
+#: ui-admin/add-post-type.php:585 ui-admin/add-taxonomy.php:396
+#: ui-admin/edit-post-type.php:646 ui-admin/edit-taxonomy.php:414
+#, fuzzy
+msgid "Front Base zulassen"
+msgstr "Autoriser la base avant"
+
+#: ui-admin/add-post-type.php:588 ui-admin/add-taxonomy.php:399
+#: ui-admin/edit-post-type.php:649 ui-admin/edit-taxonomy.php:417
+#, fuzzy
+msgid "Ermöglichen dass Permalinks mit der Front Base vorangestellt werden."
+msgstr "Permettre aux permaliens d'être préfixés par la Front Base."
+
+#: ui-admin/add-post-type.php:592 ui-admin/edit-post-type.php:653
+#, fuzzy
+msgid "Feeds"
+msgstr "Feeds"
+
+#: ui-admin/add-post-type.php:595 ui-admin/edit-post-type.php:656
+#, fuzzy
+msgid "Standardmäßig wird has_archive verwendet."
+msgstr "Par défaut, has_archive est utilisé."
+
+#: ui-admin/add-post-type.php:599 ui-admin/edit-post-type.php:660
+#, fuzzy
+msgid "Seiten"
+msgstr "Pages"
+
+#: ui-admin/add-post-type.php:602 ui-admin/edit-post-type.php:663
+#, fuzzy
+msgid "Der Standardwert ist wahr."
+msgstr "La valeur par défaut est vraie."
+
+#: ui-admin/add-post-type.php:611 ui-admin/add-post-type.php:615
+#: ui-admin/add-taxonomy.php:414 ui-admin/add-taxonomy.php:418
+#: ui-admin/edit-post-type.php:671 ui-admin/edit-post-type.php:675
+#: ui-admin/edit-taxonomy.php:432 ui-admin/edit-taxonomy.php:436
+#, fuzzy
+msgid "EP Maske"
+msgstr "Masque EP"
+
+#: ui-admin/add-post-type.php:618 ui-admin/add-taxonomy.php:421
+#: ui-admin/edit-post-type.php:678 ui-admin/edit-taxonomy.php:439
+#, fuzzy
+msgid ""
+"Endpunktmaske, die die Orte beschreibt, an denen der Endpunkt hinzugefügt "
+"werden soll."
+msgstr ""
+"Masque de point final décrivant les lieux où le point final doit être ajouté."
+
+#: ui-admin/add-post-type.php:627 ui-admin/add-taxonomy.php:430
+#: ui-admin/edit-post-type.php:687 ui-admin/edit-taxonomy.php:449
+#, fuzzy
+msgid "EP_NONE: Standardmäßig nichts."
+msgstr "EP_NONE : Rien par défaut."
+
+#: ui-admin/add-post-type.php:633 ui-admin/add-taxonomy.php:436
+#: ui-admin/edit-post-type.php:693 ui-admin/edit-taxonomy.php:455
+#, fuzzy
+msgid "EP_PERMALINK: für Permalink."
+msgstr "EP_PERMALINK : pour Permalink."
+
+#: ui-admin/add-post-type.php:639 ui-admin/edit-post-type.php:699
+#, fuzzy
+msgid "EP_ATTACHMENT: für Anhang."
+msgstr "EP_ATTACHMENT : pour l'annexe."
+
+#: ui-admin/add-post-type.php:645 ui-admin/add-taxonomy.php:448
+#: ui-admin/edit-post-type.php:705 ui-admin/edit-taxonomy.php:467
+#, fuzzy
+msgid "EP_DATE: für Datum."
+msgstr "EP_DATE : pour la date."
+
+#: ui-admin/add-post-type.php:651 ui-admin/edit-post-type.php:711
+#: ui-admin/edit-taxonomy.php:473
+#, fuzzy
+msgid "EP_YEAR: für Jahr."
+msgstr "EP_YEAR : pour l'année."
+
+#: ui-admin/add-post-type.php:657 ui-admin/add-taxonomy.php:460
+#: ui-admin/edit-post-type.php:717 ui-admin/edit-taxonomy.php:479
+#, fuzzy
+msgid "EP_MONTH: für Monat."
+msgstr "EP_MONTH : pour le mois."
+
+#: ui-admin/add-post-type.php:663 ui-admin/add-taxonomy.php:466
+#: ui-admin/edit-post-type.php:723 ui-admin/edit-taxonomy.php:485
+#, fuzzy
+msgid "EP_DAY: für Tag."
+msgstr "EP_DAY : pour jour."
+
+#: ui-admin/add-post-type.php:669 ui-admin/add-taxonomy.php:472
+#: ui-admin/edit-post-type.php:729 ui-admin/edit-taxonomy.php:491
+#, fuzzy
+msgid "EP_ROOT: für Root."
+msgstr "EP_ROOT : pour racine."
+
+#: ui-admin/add-post-type.php:675 ui-admin/edit-post-type.php:735
+#: ui-admin/edit-taxonomy.php:497
+#, fuzzy
+msgid "EP_COMMENTS: für Kommentare."
+msgstr "EP_COMMENTS : pour les commentaires."
+
+#: ui-admin/add-post-type.php:681 ui-admin/add-taxonomy.php:484
+#: ui-admin/edit-post-type.php:741 ui-admin/edit-taxonomy.php:503
+#, fuzzy
+msgid "EP_SEARCH: für Suche."
+msgstr "EP_SEARCH : pour la recherche."
+
+#: ui-admin/add-post-type.php:687 ui-admin/add-taxonomy.php:490
+#: ui-admin/edit-post-type.php:747 ui-admin/edit-taxonomy.php:509
+#, fuzzy
+msgid "EP_CATEGORIES: für Kategorien."
+msgstr "EP_CATEGORIES : pour les catégories."
+
+#: ui-admin/add-post-type.php:693 ui-admin/add-taxonomy.php:496
+#: ui-admin/edit-post-type.php:753 ui-admin/edit-taxonomy.php:515
+#, fuzzy
+msgid "EP_TAGS: für Tags."
+msgstr "EP_TAGS : pour les tags."
+
+#: ui-admin/add-post-type.php:699 ui-admin/add-taxonomy.php:502
+#: ui-admin/edit-post-type.php:759 ui-admin/edit-taxonomy.php:521
+#, fuzzy
+msgid "EP_AUTHORS: für Autoren."
+msgstr "EP_AUTHORS : pour les auteurs."
+
+#: ui-admin/add-post-type.php:705 ui-admin/add-taxonomy.php:508
+#: ui-admin/edit-post-type.php:765 ui-admin/edit-taxonomy.php:527
+#, fuzzy
+msgid "EP_PAGES: für Seiten."
+msgstr "EP_PAGES : pour les pages."
+
+#: ui-admin/add-post-type.php:711 ui-admin/add-taxonomy.php:514
+#: ui-admin/edit-post-type.php:771 ui-admin/edit-taxonomy.php:533
+#, fuzzy
+msgid "EP_ALL: für alles."
+msgstr "EP_ALL : pour tout."
+
+#: ui-admin/add-post-type.php:720 ui-admin/add-post-type.php:724
+#: ui-admin/add-taxonomy.php:523 ui-admin/add-taxonomy.php:527
+#: ui-admin/edit-post-type.php:780 ui-admin/edit-post-type.php:784
+#: ui-admin/edit-taxonomy.php:542 ui-admin/edit-taxonomy.php:546
+#: ui-admin/wip-update-taxonomy.php:373 ui-admin/wip-update-taxonomy.php:377
+#, fuzzy
+msgid "Abfrage var"
+msgstr "Requête var"
+
+#: ui-admin/add-post-type.php:727 ui-admin/edit-post-type.php:787
+#, fuzzy
+msgid ""
+"Name der Abfragevariablen, die für diesen Beitragstyp verwendet werden soll. "
+"Der Standardwert ist der Name des Beitragstyps."
+msgstr ""
+"Nom de la variable de requête qui doit être utilisée pour ce type de "
+"publications. La valeur par défaut est le nom du type de publications."
+
+#: ui-admin/add-post-type.php:738 ui-admin/add-taxonomy.php:541
+#: ui-admin/edit-post-type.php:798 ui-admin/edit-taxonomy.php:560
+#, fuzzy
+msgid "Benutzerdefinierter Abfrageschlüssel"
+msgstr "Clé d'interrogation définie par l'utilisateur"
+
+#: ui-admin/add-post-type.php:742 ui-admin/add-post-type.php:808
+#: ui-admin/add-taxonomy.php:545 ui-admin/add-taxonomy.php:580
+#: ui-admin/edit-post-type.php:802 ui-admin/edit-post-type.php:854
+#: ui-admin/edit-taxonomy.php:564 ui-admin/edit-taxonomy.php:599
+#, fuzzy
+msgid "Benutzerdefinierter Abfrage-Var-Schlüssel."
+msgstr "Clé var de requête définie par l'utilisateur."
+
+#: ui-admin/add-post-type.php:752 ui-admin/add-post-type.php:756
+#: ui-admin/edit-post-type.php:809 ui-admin/edit-post-type.php:813
+#, fuzzy
+msgid "Kann exportieren"
+msgstr "Peut exporter"
+
+#: ui-admin/add-post-type.php:759 ui-admin/edit-post-type.php:816
+#, fuzzy
+msgid "Kann dieser post_type exportiert werden?."
+msgstr "Ce post_type peut-il être exporté ?"
+
+#: ui-admin/add-post-type.php:781 ui-admin/add-post-type.php:785
+#: ui-admin/add-taxonomy.php:553 ui-admin/add-taxonomy.php:557
+#: ui-admin/edit-post-type.php:832 ui-admin/edit-post-type.php:836
+#: ui-admin/edit-taxonomy.php:572 ui-admin/edit-taxonomy.php:576
+#, fuzzy
+msgid "REST API"
+msgstr "API REST"
+
+#: ui-admin/add-post-type.php:788 ui-admin/edit-post-type.php:839
+#, fuzzy
+msgid "Aktiviere die REST-API-Unterstützung für diesen Beitragstyp."
+msgstr "Active la prise en charge de l'API REST pour ce type de publication."
+
+#: ui-admin/add-post-type.php:804 ui-admin/add-taxonomy.php:576
+#: ui-admin/edit-post-type.php:850 ui-admin/edit-taxonomy.php:595
+#, fuzzy
+msgid "REST API Base"
+msgstr "Base API REST"
+
+#: ui-admin/add-taxonomy.php:7 ui-admin/taxonomies.php:26
+#: ui-admin/taxonomies.php:147
+#, fuzzy
+msgid "Taxonomie hinzufügen"
+msgstr "Ajouter une taxinomie"
+
+#: ui-admin/add-taxonomy.php:12 ui-admin/add-taxonomy.php:16
+#: ui-admin/edit-taxonomy.php:31 ui-admin/edit-taxonomy.php:35
+#: ui-admin/taxonomies.php:31 ui-admin/taxonomies.php:41
+#: ui-admin/wip-update-taxonomy.php:24 ui-admin/wip-update-taxonomy.php:28
+#, fuzzy
+msgid "Taxonomie"
+msgstr "Taxonomie"
+
+#: ui-admin/add-taxonomy.php:21 ui-admin/edit-taxonomy.php:40
+#, fuzzy
+msgid ""
+"Der Systemname der Taxonomie. Nur alphanumerische Kleinbuchstaben und "
+"Unterstriche. Min 2 Buchstaben. Nach dem Hinzufügen kann der Name des "
+"Taxonomiesystems nicht mehr geändert werden."
+msgstr ""
+"Le nom du système de la taxinomie. Uniquement des lettres minuscules "
+"alphanumériques et des traits de soulignement. Min. 2 lettres. Après "
+"l'ajout, le nom du système de taxonomie ne peut plus être modifié."
+
+#: ui-admin/add-taxonomy.php:44
+#, fuzzy
+msgid ""
+"Wähle einen oder mehrere Beitragstypen aus, denen diese Taxonomie "
+"hinzugefügt werden soll."
+msgstr ""
+"Sélectionne un ou plusieurs types de publications auxquelles cette taxinomie "
+"doit être ajoutée."
+
+#: ui-admin/add-taxonomy.php:59 ui-admin/edit-taxonomy.php:76
+#: ui-admin/wip-update-taxonomy.php:78
+#, fuzzy
+msgid "Allgemeiner Name für die Taxonomie, normalerweise Plural."
+msgstr "Nom général de la taxinomie, généralement au pluriel."
+
+#: ui-admin/add-taxonomy.php:68 ui-admin/edit-taxonomy.php:85
+#: ui-admin/wip-update-taxonomy.php:87
+#, fuzzy
+msgid ""
+"Name für ein Objekt dieser Taxonomie. Der Standardwert ist der Wert des "
+"Namens."
+msgstr ""
+"Nom d'un objet de cette taxinomie. La valeur par défaut est celle du nom."
+
+#: ui-admin/add-taxonomy.php:77 ui-admin/edit-taxonomy.php:94
+#: ui-admin/wip-update-taxonomy.php:96
+#, fuzzy
+msgid ""
+"Text für \"Neues Element hinzufügen\". Die Standardeinstellung ist \"Neues "
+"Tag hinzufügen\" oder \"Neue Kategorie hinzufügen\"."
+msgstr ""
+"Texte pour \"Ajouter un nouvel élément\". Le paramètre par défaut est "
+"\"Ajouter un nouveau tag\" ou \"Ajouter une nouvelle catégorie\"."
+
+#: ui-admin/add-taxonomy.php:82 ui-admin/edit-taxonomy.php:99
+#: ui-admin/wip-update-taxonomy.php:101
+#, fuzzy
+msgid "Neues Element Name"
+msgstr "Nouvel élément Nom"
+
+#: ui-admin/add-taxonomy.php:86 ui-admin/edit-taxonomy.php:103
+#: ui-admin/wip-update-taxonomy.php:105
+#, fuzzy
+msgid ""
+"Text für neues Element. Die Standardeinstellung ist \"Neuer Tag-Name\" oder "
+"\"Neuer Kategoriename\"."
+msgstr ""
+"Texte pour le nouvel élément. Le paramètre par défaut est \"Nouveau nom de "
+"tag\" ou \"Nouveau nom de catégorie\"."
+
+#: ui-admin/add-taxonomy.php:95 ui-admin/edit-taxonomy.php:112
+#: ui-admin/wip-update-taxonomy.php:114
+#, fuzzy
+msgid ""
+"Text für Elementbearbeitung. Die Standardeinstellung ist \"Tag bearbeiten\" "
+"oder \"Kategorie bearbeiten\"."
+msgstr ""
+"Texte pour l'édition d'éléments. Le paramètre par défaut est \"Modifier le "
+"tag\" ou \"Modifier la catégorie\"."
+
+#: ui-admin/add-taxonomy.php:100 ui-admin/edit-taxonomy.php:117
+#: ui-admin/wip-update-taxonomy.php:119
+#, fuzzy
+msgid "Element aktualisieren"
+msgstr "Mettre à jour l'élément"
+
+#: ui-admin/add-taxonomy.php:104 ui-admin/edit-taxonomy.php:121
+#: ui-admin/wip-update-taxonomy.php:123
+#, fuzzy
+msgid ""
+"Text für Elementaktualisierung. Die Standardeinstellung ist \"Tag "
+"aktualisieren\" oder \"Kategorie aktualisieren\"."
+msgstr ""
+"Texte pour la mise à jour des éléments. Le paramètre par défaut est \"Mettre "
+"à jour le tag\" ou \"Mettre à jour la catégorie\"."
+
+#: ui-admin/add-taxonomy.php:109 ui-admin/edit-taxonomy.php:126
+#: ui-admin/wip-update-taxonomy.php:128
+#, fuzzy
+msgid "Suche Elemente"
+msgstr "Recherche d'éléments"
+
+#: ui-admin/add-taxonomy.php:113 ui-admin/edit-taxonomy.php:130
+#: ui-admin/wip-update-taxonomy.php:132
+#, fuzzy
+msgid ""
+"Text für Elementsuche. Die Standardeinstellung ist \"Such-Tags\" oder "
+"\"Suchkategorien\"."
+msgstr ""
+"Texte pour la recherche d'éléments. Le paramètre par défaut est \"Balises de "
+"recherche\" ou \"Catégories de recherche\"."
+
+#: ui-admin/add-taxonomy.php:118 ui-admin/edit-taxonomy.php:135
+#: ui-admin/wip-update-taxonomy.php:137
+#, fuzzy
+msgid "Beliebte Elemente"
+msgstr "Éléments populaires"
+
+#: ui-admin/add-taxonomy.php:122 ui-admin/edit-taxonomy.php:139
+#: ui-admin/wip-update-taxonomy.php:141
+#, fuzzy
+msgid ""
+"Der beliebte Elemente Text. Die Standardeinstellung ist \"Beliebte Tags\" "
+"oder null."
+msgstr ""
+"Le texte des éléments populaires. Le paramètre par défaut est \"Tags "
+"populaires\" ou zéro."
+
+#: ui-admin/add-taxonomy.php:127 ui-admin/edit-taxonomy.php:144
+#: ui-admin/wip-update-taxonomy.php:146
+#, fuzzy
+msgid "Alle Elemente"
+msgstr "Tous les éléments"
+
+#: ui-admin/add-taxonomy.php:131 ui-admin/edit-taxonomy.php:148
+#: ui-admin/wip-update-taxonomy.php:150
+#, fuzzy
+msgid ""
+"Text für alle Elemente. Die Standardeinstellung ist \"Alle Tags\" oder "
+"\"Alle Kategorien\"."
+msgstr ""
+"Texte pour tous les éléments. Le paramètre par défaut est \"Tous les tags\" "
+"ou \"Toutes les catégories\"."
+
+#: ui-admin/add-taxonomy.php:136 ui-admin/edit-taxonomy.php:153
+#, fuzzy
+msgid "Übergeordnetes Element"
+msgstr "Élément parent"
+
+#: ui-admin/add-taxonomy.php:140 ui-admin/edit-taxonomy.php:157
+#: ui-admin/wip-update-taxonomy.php:159
+#, fuzzy
+msgid ""
+"Der übergeordnete Elementtext. Diese Zeichenfolge wird nicht für nicht "
+"hierarchische Taxonomien wie Post-Tags verwendet. Die Standardeinstellung "
+"ist null oder \"Übergeordnete Kategorie\"."
+msgstr ""
+"Le texte de l'élément parent. Cette chaîne n'est pas utilisée pour les "
+"taxinomies non hiérarchiques comme les post-tags. La valeur par défaut est "
+"zéro ou \"catégorie parente\"."
+
+#: ui-admin/add-taxonomy.php:149
+#, fuzzy
+msgid ""
+"Das gleiche wie parent_item, jedoch mit Doppelpunkt: am Ende null "
+"\"Elternkategorie:."
+msgstr ""
+"La même chose que parent_item, mais avec deux points : à la fin, zéro "
+"\"Catégorie de parents :."
+
+#: ui-admin/add-taxonomy.php:154 ui-admin/edit-taxonomy.php:171
+#: ui-admin/wip-update-taxonomy.php:173
+#, fuzzy
+msgid "Elemente hinzufügen oder entfernen"
+msgstr "Ajouter ou supprimer des éléments"
+
+#: ui-admin/add-taxonomy.php:158 ui-admin/edit-taxonomy.php:175
+#: ui-admin/wip-update-taxonomy.php:177
+#, fuzzy
+msgid ""
+"Text zum Hinzufügen oder Entfernen von Elementen wird im Meta-Feld "
+"verwendet, wenn JavaScript deaktiviert ist. Diese Zeichenfolge wird in "
+"hierarchischen Taxonomien nicht verwendet. Die Standardeinstellung ist "
+"\"Tags hinzufügen oder entfernen\" oder null."
+msgstr ""
+"Le texte permettant d'ajouter ou de supprimer des éléments est utilisé dans "
+"le champ méta lorsque JavaScript est désactivé. Cette chaîne de caractères "
+"n'est pas utilisée dans les taxinomies hiérarchiques. Le paramètre par "
+"défaut est \"Ajouter ou supprimer des balises\" ou zéro."
+
+#: ui-admin/add-taxonomy.php:163 ui-admin/edit-taxonomy.php:180
+#: ui-admin/wip-update-taxonomy.php:182
+#, fuzzy
+msgid "Trenne Elemente mit Kommas"
+msgstr "Sépare les éléments par des virgules"
+
+#: ui-admin/add-taxonomy.php:167 ui-admin/edit-taxonomy.php:184
+#: ui-admin/wip-update-taxonomy.php:186
+#, fuzzy
+msgid ""
+"Text für separates Element mit Komma, das im Metafeld Taxonomie verwendet "
+"wird. Diese Zeichenfolge wird in hierarchischen Taxonomien nicht verwendet. "
+"Die Standardeinstellung ist \"Tags durch Kommas trennen\" oder null."
+msgstr ""
+"Texte pour élément séparé avec virgule, utilisé dans le méta-champ "
+"taxinomie. Cette chaîne de caractères n'est pas utilisée dans les taxinomies "
+"hiérarchiques. Le paramètre par défaut est \"Séparer les balises par des "
+"virgules\" ou zéro."
+
+#: ui-admin/add-taxonomy.php:172 ui-admin/edit-taxonomy.php:189
+#: ui-admin/wip-update-taxonomy.php:191
+#, fuzzy
+msgid "Wähle aus den am häufigsten verwendeten"
+msgstr "Choisis parmi les plus utilisés"
+
+#: ui-admin/add-taxonomy.php:176 ui-admin/edit-taxonomy.php:193
+#: ui-admin/wip-update-taxonomy.php:195
+#, fuzzy
+msgid ""
+"Wähle aus dem am häufigsten verwendeten Text, der im Metafeld Taxonomie "
+"verwendet wird. Diese Zeichenfolge wird in hierarchischen Taxonomien nicht "
+"verwendet. Die Standardeinstellung ist \"Aus den am häufigsten verwendeten "
+"Tags auswählen\" oder null."
+msgstr ""
+"Choisir parmi le texte le plus fréquemment utilisé dans le méta-champ "
+"Taxinomie. Cette chaîne de caractères n'est pas utilisée dans les taxinomies "
+"hiérarchiques. Le paramètre par défaut est \"Choisir parmi les balises les "
+"plus fréquemment utilisées\" ou zéro."
+
+#: ui-admin/add-taxonomy.php:183 ui-admin/add-taxonomy.php:187
+#: ui-admin/edit-taxonomy.php:201 ui-admin/edit-taxonomy.php:205
+#, fuzzy
+msgid "Admin-Spalte anzeigen"
+msgstr "Afficher la colonne Admin"
+
+#: ui-admin/add-taxonomy.php:190 ui-admin/edit-taxonomy.php:208
+#, fuzzy
+msgid ""
+"Gibt an, ob die automatische Erstellung von Taxonomiespalten für zugeordnete "
+"Posttypen zulässig ist."
+msgstr ""
+"Indique si la création automatique de colonnes de taxonomie est autorisée "
+"pour les types de courrier attribués."
+
+#: ui-admin/add-taxonomy.php:220 ui-admin/edit-taxonomy.php:238
+#: ui-admin/wip-update-taxonomy.php:211
+#, fuzzy
+msgid ""
+"Soll diese Taxonomie in der Admin-Benutzeroberfläche verfügbar gemacht "
+"werden?"
+msgstr ""
+"Cette taxinomie doit-elle être rendue disponible dans l'interface "
+"utilisateur Admin ?"
+
+#: ui-admin/add-taxonomy.php:238 ui-admin/edit-taxonomy.php:256
+#: ui-admin/wip-update-taxonomy.php:224
+#, fuzzy
+msgid "ERWEITERT"
+msgstr "ÉLARGIT"
+
+#: ui-admin/add-taxonomy.php:253 ui-admin/edit-taxonomy.php:271
+#: ui-admin/wip-update-taxonomy.php:238
+#, fuzzy
+msgid ""
+"Gibt an, ob eine Standardbenutzeroberfläche zum Verwalten dieser Taxonomie "
+"generiert werden soll."
+msgstr ""
+"Indique si une interface utilisateur standard doit être générée pour gérer "
+"cette taxinomie."
+
+#: ui-admin/add-taxonomy.php:274 ui-admin/add-taxonomy.php:278
+#: ui-admin/edit-taxonomy.php:292 ui-admin/edit-taxonomy.php:296
+#: ui-admin/wip-update-taxonomy.php:255 ui-admin/wip-update-taxonomy.php:259
+#, fuzzy
+msgid "Zeige Tagcloud"
+msgstr "Afficher le nuage de tags"
+
+#: ui-admin/add-taxonomy.php:281 ui-admin/edit-taxonomy.php:299
+#: ui-admin/wip-update-taxonomy.php:262
+#, fuzzy
+msgid ""
+"Gibt an, ob in der Administrator-Benutzeroberfläche eine Tag-Cloud für diese "
+"Taxonomie angezeigt werden soll."
+msgstr ""
+"Indique si un nuage de tags doit être affiché pour cette taxinomie dans "
+"l'interface utilisateur de l'administrateur."
+
+#: ui-admin/add-taxonomy.php:310 ui-admin/edit-taxonomy.php:329
+#: ui-admin/wip-update-taxonomy.php:286
+#, fuzzy
+msgid ""
+"Gibt an, ob diese Taxonomie in Navigationsmenüs zur Auswahl gestellt werden "
+"soll."
+msgstr ""
+"Indique si cette taxinomie doit être proposée à la sélection dans les menus "
+"de navigation."
+
+#: ui-admin/add-taxonomy.php:366 ui-admin/edit-taxonomy.php:385
+#: ui-admin/wip-update-taxonomy.php:334
+#, fuzzy
+msgid ""
+"Setze diesen Wert auf Falsch, um ein erneutes Schreiben zu verhindern, oder "
+"auf Wahr, um ihn anzupassen."
+msgstr ""
+"Définissez cette valeur sur Faux pour empêcher la réécriture ou sur Vrai "
+"pour l'ajuster."
+
+#: ui-admin/add-taxonomy.php:377 ui-admin/edit-taxonomy.php:396
+#: ui-admin/wip-update-taxonomy.php:343
+#, fuzzy
+msgid "Standardmäßig wird die Abfrage var verwendet."
+msgstr "Par défaut, la requête var est utilisée."
+
+#: ui-admin/add-taxonomy.php:392 ui-admin/edit-taxonomy.php:410
+#, fuzzy
+msgid ""
+"Stelle Beiträgen diesen Slug voran. Wenn leer, wird die Standardeinstellung "
+"verwendet."
+msgstr ""
+"Préfixe les messages avec ce slug. Si vide, le paramètre par défaut est "
+"utilisé."
+
+#: ui-admin/add-taxonomy.php:403 ui-admin/edit-taxonomy.php:421
+#: ui-admin/wip-update-taxonomy.php:364
+#, fuzzy
+msgid "Hierarchische URLs"
+msgstr "URL hiérarchiques"
+
+#: ui-admin/add-taxonomy.php:406 ui-admin/edit-taxonomy.php:424
+#: ui-admin/wip-update-taxonomy.php:366
+#, fuzzy
+msgid "Hierarchische URLs zulassen. Anwendbar für hierarchische Taxonomien."
+msgstr ""
+"Autoriser les URL hiérarchiques. Applicable aux taxonomies hiérarchiques."
+
+#: ui-admin/add-taxonomy.php:442 ui-admin/edit-taxonomy.php:461
+#, fuzzy
+msgid "EP_ATTACHMENT: für Anhänge."
+msgstr "EP_ATTACHMENT : pour les pièces jointes."
+
+#: ui-admin/add-taxonomy.php:454
+#, fuzzy
+msgid "EP_YEAR: für YJahr."
+msgstr "EP_YEAR : pour Yannée."
+
+#: ui-admin/add-taxonomy.php:478
+#, fuzzy
+msgid "EP_COMMENTS: für Kommentar."
+msgstr "EP_COMMENTS : pour commentaire."
+
+#: ui-admin/add-taxonomy.php:530 ui-admin/edit-taxonomy.php:549
+#, fuzzy
+msgid ""
+"Name der Abfragevariablen, die für diesen Beitragstyp verwendet werden soll. "
+"Falsch, um Abfragen zu verhindern. Standardmäßig wird der Name des "
+"Taxonomiesystems als Abfragevariable verwendet."
+msgstr ""
+"Nom de la variable de requête qui doit être utilisée pour ce type de "
+"contribution. Faux, pour empêcher les requêtes. Par défaut, le nom de la "
+"taxinomie est utilisé comme variable de requête."
+
+#: ui-admin/add-taxonomy.php:560 ui-admin/edit-taxonomy.php:579
+#, fuzzy
+msgid ""
+"Aktiviere die REST-API-Unterstützung für diese Taxonomie. Dies ist "
+"erforderlich, um im Gutenberg-Editor angezeigt zu werden."
+msgstr ""
+"Active la prise en charge de l'API REST pour cette taxinomie. Ceci est "
+"nécessaire pour qu'elle soit affichée dans l'éditeur Gutenberg."
+
+#: ui-admin/add-taxonomy.php:590
+#, fuzzy
+msgid "Taxonomietyp hinzufügen"
+msgstr "Ajouter un type de taxinomie"
+
+#: ui-admin/custom-fields.php:29
+#, fuzzy
+msgid "Benutzerdefinierte Felder einbetten"
+msgstr "Intégrer des champs personnalisés"
+
+#: ui-admin/custom-fields.php:30
+#, fuzzy
+msgid ""
+"<b>Einbettungscodes</b> werden in Vorlagen verwendet, um den Wert der "
+"benutzerdefinierten Felder des aktuellen Beitrags zurückzugeben. Codes "
+"können für einzelne Felder verwendet werden, indem Du die unten stehenden "
+"Links zum Einbetten von Code für jedes Feld verwendest.<br />Du kannst auch "
+"den gesamten Block benutzerdefinierter Felder für eine Liste mithilfe des "
+"Einbettungscodes anzeigen:"
+msgstr ""
+"<b>Les codes d'intégration</b> sont utilisés dans les modèles pour renvoyer "
+"la valeur des champs personnalisés du message en cours. Les codes peuvent "
+"être utilisés pour des champs individuels en utilisant les liens ci-dessous "
+"pour intégrer un code pour chaque champ.<br />Tu peux également afficher le "
+"bloc entier de champs personnalisés pour une liste en utilisant le code "
+"d'intégration :"
+
+#: ui-admin/custom-fields.php:34
+#, fuzzy
+msgid ""
+"<b>Shortcodes</b> werden in Beiträgen, Seiten und Widgets verwendet, um den "
+"Wert der benutzerdefinierten Felder des aktuellen Posts zurückzugeben. "
+"Verwende sie innerhalb der Schleife in Posts und Widgets"
+msgstr ""
+"<b>Les codes courts</b> sont utilisés dans les messages, les pages et les "
+"widgets pour renvoyer la valeur des champs personnalisés du message actuel. "
+"Utilise-les dans la boucle des messages et des widgets"
+
+#: ui-admin/custom-fields.php:45 ui-admin/custom-fields.php:56
+msgid "Sortierung"
+msgstr "Tri"
+
+#: ui-admin/custom-fields.php:46 ui-admin/custom-fields.php:57
+msgid "Feldname"
+msgstr "champ"
+
+#: ui-admin/custom-fields.php:47 ui-admin/custom-fields.php:58
+msgid "Feld ID"
+msgstr "ID de champ"
+
+#: ui-admin/custom-fields.php:48 ui-admin/custom-fields.php:59
+#, fuzzy
+msgid "WP/Plugins"
+msgstr "WP/plugins"
+
+#: ui-admin/custom-fields.php:51 ui-admin/custom-fields.php:62
+#: ui-admin/navigation.php:7 ui-admin/settings.php:68
+#: ui-admin/taxonomies.php:33 ui-admin/taxonomies.php:43
+#, fuzzy
+msgid "Beitragstypen"
+msgstr "Types de contributions"
+
+#: ui-admin/custom-fields.php:86
+#, fuzzy
+msgid "network"
+msgstr "réseau"
+
+#: ui-admin/custom-fields.php:109
+#, fuzzy
+msgid "Bearbeite dieses benutzerdefinierte Feld"
+msgstr "Modifie ce champ personnalisé"
+
+#: ui-admin/custom-fields.php:113 ui-admin/taxonomies.php:79
+#, fuzzy
+msgid "Einbettungscode anzeigen"
+msgstr "Afficher le code d'intégration"
+
+#: ui-admin/custom-fields.php:113 ui-admin/taxonomies.php:79
+#, fuzzy
+msgid "Einbettungscode"
+msgstr "Code d'intégration"
+
+#: ui-admin/custom-fields.php:117 ui-admin/post-types.php:83
+#: ui-admin/taxonomies.php:83
+#, fuzzy
+msgid "In Netzwerkadministration bearbeiten."
+msgstr "Modifier dans Administration réseau."
+
+#: ui-admin/custom-fields.php:122 ui-admin/post-types.php:89
+#: ui-admin/taxonomies.php:88
+msgid "Löschen"
+msgstr "Supprimer"
+
+#: ui-admin/custom-fields.php:130
+#, fuzzy
+msgid "Feld und Werte"
+msgstr "Champ et valeurs"
+
+#: ui-admin/custom-fields.php:131 ui-admin/post-types.php:97
+#: ui-admin/taxonomies.php:96
+msgid "Abbrechen"
+msgstr "Annuler"
+
+#: ui-admin/custom-fields.php:132
+#, fuzzy
+msgid "Nur Feld"
+msgstr "Champ uniquement"
+
+#: ui-admin/custom-fields.php:136
+#, fuzzy
+msgid "Erlauben"
+msgstr "Autoriser"
+
+#: ui-admin/custom-fields.php:136
+#, fuzzy
+msgid "Verweigern"
+msgstr "Refuser"
+
+#: ui-admin/custom-fields.php:148
+#, fuzzy
+msgid ""
+"Der eingebettete Code gibt die Werte des benutzerdefinierten Felds mit dem "
+"angegebenen Schlüssel aus dem angegebenen Beitrag zurück. Die Eigenschaft "
+"kann \"title\", \"description\", \"value\", \"link\" oder \"image\" sein. "
+"Die Eigenschaften \"link\" und \"image\" können nur für Upload-Feldtypen "
+"verwendet werden. Wenn die Eigenschaft nicht verwendet wird, wird \"value\" "
+"zurückgegeben. Verwendung innerhalb der Schleife in Vorlagen und PHP-Code "
+msgstr ""
+"Le code intégré renvoie les valeurs du champ défini par l'utilisateur avec "
+"la clé spécifiée à partir de la publication indiquée. La propriété peut être "
+"\"title\", \"description\", \"value\", \"link\" ou \"image\". Les propriétés "
+"\"link\" et \"image\" ne peuvent être utilisées que pour les types de champs "
+"d'upload. Si la propriété n'est pas utilisée, \"value\" est renvoyée. "
+"Utilisation au sein de la boucle dans les modèles et le code PHP"
+
+#: ui-admin/custom-fields.php:152
+#, fuzzy
+msgid ""
+"Der Shortcode gibt die Werte des benutzerdefinierten Felds mit dem "
+"angegebenen Schlüssel aus dem angegebenen Beitrag zurück. Die Eigenschaft "
+"kann \"title\", \"description\", \"value\", \"link\" oder \"image\" sein. "
+"Die Eigenschaften \"Link\" und \"Bild\" können nur für Upload-Feldtypen "
+"verwendet werden. Wenn die Eigenschaft nicht verwendet wird, wird \"value\" "
+"zurückgegeben. Verwende sie innerhalb der Schleife in Posts und Widgets"
+msgstr ""
+"Le shortcode renvoie les valeurs du champ personnalisé avec la clé indiquée "
+"dans la publication spécifiée. La propriété peut être \"title\", "
+"\"description\", \"value\", \"link\" ou \"image\". Les propriétés \"lien\" "
+"et \"image\" ne peuvent être utilisées que pour les types de champs "
+"d'upload. Si la propriété n'est pas utilisée, \"value\" est renvoyée. "
+"Utilise-les dans la boucle dans les posts et les widgets"
+
+#: ui-admin/edit-custom-field.php:14
+#, fuzzy
+msgid "Benutzerdefiniertes Feld bearbeiten"
+msgstr "Modifier un champ défini par l'utilisateur"
+
+#: ui-admin/edit-custom-field.php:33
+msgid "Pflichtfeld"
+msgstr "Champ obligatoire"
+
+#: ui-admin/edit-custom-field.php:43
+#, fuzzy
+msgid "Erforderliche Eingabeaufforderung für Feldfehler"
+msgstr "Invitation requise pour les erreurs de champ"
+
+#: ui-admin/edit-custom-field.php:47
+#, fuzzy
+msgid ""
+"Benutzerdefiniertes erforderliches Feld Fehleraufforderung für dieses Feld "
+"oder leer lassen für Standard."
+msgstr ""
+"Champ requis défini par l'utilisateur Demande d'erreur pour ce champ ou "
+"laisser vide pour le champ standard."
+
+#: ui-admin/edit-custom-field.php:76
+#, fuzzy
+msgid "Checkboxes"
+msgstr "Cases à cocher"
+
+#: ui-admin/edit-custom-field.php:78
+#, fuzzy
+msgid "Multi Select Box"
+msgstr "Boîte Multi Select"
+
+#: ui-admin/edit-custom-field.php:131
+#, fuzzy
+msgid "Ordnen nach"
+msgstr "Classer par"
+
+#: ui-admin/edit-custom-field.php:237
+#, fuzzy
+msgid "Benutzerdefiniertes Feld aktualisieren"
+msgstr "Actualiser un champ défini par l'utilisateur"
+
+#: ui-admin/edit-post-type.php:17
+#, fuzzy
+msgid "Beitragstyp bearbeiten"
+msgstr "Modifier le type de message"
+
+#: ui-admin/edit-post-type.php:147
+msgid "fortgeschritten"
+msgstr "intermédiaire"
+
+#: ui-admin/edit-post-type.php:180
+#, fuzzy
+msgid "Einstellungen für Rollenfunktionen"
+msgstr "Paramètres pour les fonctions de rôle"
+
+#: ui-admin/edit-post-type.php:184
+#, fuzzy
+msgid "Funktionen zuweisen"
+msgstr "Attribuer des fonctions"
+
+#: ui-admin/edit-post-type.php:197
+#, fuzzy, php-format
+msgid "Wähle eine Rolle aus, der Du %s Funktionen zuweisen möchtest."
+msgstr "Choisis un rôle auquel tu veux attribuer %s fonctions."
+
+#: ui-admin/edit-post-type.php:392
+#, fuzzy
+msgid "Spalten für benutzerdefinierte Felder anzeigen"
+msgstr "Afficher les colonnes pour les champs personnalisés"
+
+#: ui-admin/edit-post-type.php:399
+#, fuzzy
+msgid ""
+"Diese benutzerdefinierten Felder werden als Spalten auf dem Bildschirm für "
+"benutzerdefinierte Beitragstypen angezeigt."
+msgstr ""
+"Ces champs personnalisés s'affichent sous forme de colonnes sur l'écran des "
+"types de publications personnalisées."
+
+#: ui-admin/edit-post-type.php:416
+#, fuzzy
+msgid ""
+"Dieser benutzerdefinierte Beitragstyp verwendet keine benutzerdefinierten "
+"Felder"
+msgstr ""
+"Ce type de publications personnalisées n'utilise pas de champs personnalisés"
+
+#: ui-admin/edit-post-type.php:441
+#, fuzzy
+msgid "Zeige eine Benutzeroberfläche für diesen \"post_type\" an."
+msgstr "Affiche une interface utilisateur pour ce \"post_type\"."
+
+#: ui-admin/edit-post-type.php:454
+#, fuzzy
+msgid "Zeige für diesen \"post_type\" keine Benutzeroberfläche an."
+msgstr "N'affiche pas d'interface utilisateur pour ce \"post_type\"."
+
+#: ui-admin/edit-post-type.php:455
+#, fuzzy
+msgid "Blende \"post_type\" zur Auswahl in den Navigationsmenüs aus"
+msgstr "Masque \"post_type\" à sélectionner dans les menus de navigation"
+
+#: ui-admin/edit-taxonomy.php:25
+#, fuzzy
+msgid "Taxonomie bearbeiten"
+msgstr "Modifier la taxinomie"
+
+#: ui-admin/edit-taxonomy.php:61
+#, fuzzy
+msgid ""
+"Wähle einen oder mehrere Beitragstypen aus, denen diese Taxonomie "
+"hinzugefügt werden soll"
+msgstr ""
+"Sélectionne un ou plusieurs types de publications auxquelles cette taxinomie "
+"doit être ajoutée"
+
+#: ui-admin/edit-taxonomy.php:166 ui-admin/wip-update-taxonomy.php:168
+#, fuzzy
+msgid ""
+"Das gleiche wie parent_item, jedoch mit Doppelpunkt: am Ende null "
+"\"Elternkategorie:\"."
+msgstr ""
+"La même chose que parent_item, mais avec deux points : à la fin, zéro "
+"\"catégorie parent :\"."
+
+#: ui-admin/export.php:30
+#, fuzzy
+msgid "CustomPress Benutzerdefinierte Typen exportieren"
+msgstr "CustomPress Exporter des types personnalisés"
+
+#: ui-admin/export.php:35
+#, fuzzy
+msgid "Beitragstypen exportieren"
+msgstr "Exporter des types de contributions"
+
+#: ui-admin/export.php:40
+#, fuzzy
+msgid "Wähle die Beitragstypen, die Du exportieren möchtest."
+msgstr "Sélectionne les types de publications que tu souhaites exporter."
+
+#: ui-admin/export.php:59
+#, fuzzy
+msgid "Beitragstyp Export erstellen"
+msgstr "Créer un type de contribution Export"
+
+#: ui-admin/export.php:68
+#, fuzzy
+msgid "Export von Taxonomien"
+msgstr "Exportation de taxonomies"
+
+#: ui-admin/export.php:73
+#, fuzzy
+msgid "Wähle die Taxonomien, die Du exportieren möchtest."
+msgstr "Sélectionne les taxonomies que tu souhaites exporter."
+
+#: ui-admin/export.php:92
+#, fuzzy
+msgid "Export von Taxonomien erstellen"
+msgstr "Créer une exportation de taxonomies"
+
+#: ui-admin/export.php:101
+#, fuzzy
+msgid "Export von benutzerdefinierten Feldern"
+msgstr "Exportation de champs définis par l'utilisateur"
+
+#: ui-admin/export.php:106
+#, fuzzy
+msgid "Wähle die benutzerdefinierten Felder, die Du exportieren möchten."
+msgstr "Sélectionne les champs personnalisés que tu souhaites exporter."
+
+#: ui-admin/export.php:126
+#, fuzzy
+msgid "Export von benutzerdefinierten Feldern erstellen"
+msgstr "Créer une exportation de champs personnalisés"
+
+#: ui-admin/export.php:139
+#, fuzzy
+msgid "Benutzerdefinierte Typen importieren"
+msgstr "Importer des types définis par l'utilisateur"
+
+#: ui-admin/export.php:144
+#, fuzzy
+msgid ""
+"Füge hier Deinen Exportcode ein und klicke auf Importieren, um den "
+"benutzerdefinierten Typ zu CustomPress hinzuzufügen"
+msgstr ""
+"Insère ici ton code d'exportation et clique sur Importer pour ajouter le "
+"type personnalisé à CustomPress"
+
+#: ui-admin/export.php:151
+#, fuzzy
+msgid ""
+"Der Import ist derzeit auf dieser Seite deaktiviert. Zum Aktivieren füge die "
+"Zeile<br /><code>define('CT_ALLOW_IMPORT', true);</code><br />der wp-config."
+"php file hinzu."
+msgstr ""
+"L'importation est actuellement désactivée sur cette page. Pour l'activer, "
+"ajoutez la ligne<br /><code>define('CT_ALLOW_IMPORT', true) ;</code><br />au "
+"fichier wp-config.php."
+
+#: ui-admin/export.php:152
+#, fuzzy
+msgid ""
+"Entferne die Zeile, wenn sie nicht mehr benötigt wird, um mögliche "
+"Sicherheitsprobleme zu vermeiden."
+msgstr ""
+"Supprime la ligne lorsqu'elle n'est plus nécessaire afin d'éviter "
+"d'éventuels problèmes de sécurité."
+
+#: ui-admin/export.php:161
+#, fuzzy
+msgid "Importieren"
+msgstr "mon pere"
+
+#: ui-admin/message.php:3
+#, fuzzy
+msgid "Einstellungen gespeichert."
+msgstr "Paramètres enregistrés."
+
+#: ui-admin/navigation.php:8
+msgid "Taxonomien"
+msgstr "Taxonomies"
+
+#: ui-admin/navigation.php:10
+#, fuzzy
+msgid "Shortcodes"
+msgstr "Codes courts"
+
+#: ui-admin/post-types.php:86
+#, fuzzy
+msgid "Bearbeiten Sie den Beitragstyp"
+msgstr "Modifier le type de publication"
+
+#: ui-admin/post-types.php:96 ui-admin/taxonomies.php:95
+msgid "Bestätigen"
+msgstr "Confirmer"
+
+#: ui-admin/post-types.php:115 ui-admin/post-types.php:122
+#: ui-admin/post-types.php:129 ui-admin/taxonomies.php:109
+#: ui-admin/taxonomies.php:116 ui-admin/taxonomies.php:123
+#, fuzzy
+msgid "Wahr"
+msgstr "Vrai"
+
+#: ui-admin/post-types.php:117 ui-admin/post-types.php:124
+#: ui-admin/post-types.php:131 ui-admin/taxonomies.php:111
+#: ui-admin/taxonomies.php:118 ui-admin/taxonomies.php:125
+#, fuzzy
+msgid "Falsch"
+msgstr "Faux"
+
+#: ui-admin/settings.php:33
+#, fuzzy, php-format
+msgid "CustomPress-Einstellungen %s"
+msgstr "Paramètres CustomPress %s"
+
+#: ui-admin/settings.php:40
+msgid "Allgemein"
+msgstr "Général"
+
+#: ui-admin/settings.php:44
+#, fuzzy
+msgid "Aktiviere Inhaltstypen für Unterwebseiten."
+msgstr "Activer les types de contenu pour les sous-pages web."
+
+#: ui-admin/settings.php:48
+#, fuzzy
+msgid ""
+"Wenn Du diese Option aktivierst, können Unterseiten in Deinem Netzwerk ihre "
+"eigenen Inhaltstypen definieren. Wenn diese Option nicht aktiviert ist "
+"(Standard), müssen alle Webseiten in Deinem Netzwerk die von Dir, dem "
+"Superadministrator, definierten netzwerkweiten Inhaltstypen verwenden."
+msgstr ""
+"Si tu actives cette option, les sous-sites de ton réseau peuvent définir "
+"leurs propres types de contenu. Si cette option n'est pas activée (par "
+"défaut), toutes les pages web de ton réseau doivent utiliser les types de "
+"contenu définis par toi, le super administrateur, pour l'ensemble du réseau."
+
+#: ui-admin/settings.php:51
+#, fuzzy
+msgid ""
+"Wenn Du diese Option aktivierst, verwenden alle Unterwebsites die auf "
+"Netzwerkebene definierten Inhaltstypen und zeigen sie an. "
+msgstr ""
+"Si tu actives cette option, tous les sous-sites utiliseront et afficheront "
+"les types de contenu définis au niveau du réseau."
+
+#: ui-admin/settings.php:56
+#, fuzzy
+msgid "Zeige die netzwerkweiten Inhaltstypen auf Unterseiten an."
+msgstr "Affiche les types de contenu à l'échelle du réseau sur les sous-pages."
+
+#: ui-admin/settings.php:59
+#, fuzzy
+msgid "Zeige die netzwerkweiten Inhaltstypen nicht auf Unterseiten an."
+msgstr ""
+"N'affiche pas les types de contenu à l'échelle du réseau sur les sous-pages."
+
+#: ui-admin/settings.php:72
+#, fuzzy
+msgid "Zeige auf der Seite \"Blog/Home\" die folgenden Beitragstypen an: "
+msgstr "Affiche les types de messages suivants sur la page \"Blog/Home\" :"
+
+#: ui-admin/settings.php:101
+#, fuzzy
+msgid ""
+"Wähle die benutzerdefinierten Beitragstypen, die auf der Seite \"Blog/Home\" "
+"angezeigt werden sollen."
+msgstr ""
+"Sélectionne les types de messages personnalisés à afficher sur la page "
+"\"Blog/Home\"."
+
+#: ui-admin/settings.php:105 ui-admin/settings.php:146
+#: ui-admin/settings.php:187 ui-admin/settings.php:228
+#, fuzzy
+msgid ""
+"Wenn \"default\" aktiviert ist, wird die obige Liste deaktiviert und nur die "
+"Standard-Post_Typen angezeigt."
+msgstr ""
+"Si \"default\" est activé, la liste ci-dessus est désactivée et seuls les "
+"Post_Types par défaut sont affichés."
+
+#: ui-admin/settings.php:113
+#, fuzzy
+msgid "Zeige auf der \"Startseite\" die folgenden Beitragstypen an: "
+msgstr "Affiche les types de messages suivants sur la \"page d'accueil\" :"
+
+#: ui-admin/settings.php:142
+#, fuzzy
+msgid ""
+"Überprüfe die benutzerdefinierten Beitragstypen, die auf der statischen "
+"Seite \"Vorderseite\" angezeigt werden sollen."
+msgstr ""
+"Vérifie les types de publications personnalisées qui doivent être affichées "
+"sur la page statique \"Recto\"."
+
+#: ui-admin/settings.php:154
+#, fuzzy
+msgid "Zeige in \"Archiven\" die folgenden Beitragstypen an:  "
+msgstr "Affiche les types de messages suivants dans \"Archives\" :  "
+
+#: ui-admin/settings.php:183
+#, fuzzy
+msgid ""
+"Überprüfe die benutzerdefinierten Beitragstypen, die in \"Archiven\" "
+"angezeigt werden sollen."
+msgstr ""
+"Vérifie les types de publications personnalisées qui doivent être affichées "
+"dans les \"Archives\"."
+
+#: ui-admin/settings.php:195
+#, fuzzy
+msgid "Zeige in \"Suchen\" die folgenden Beitragstypen an:  "
+msgstr "Affiche les types de publications suivants dans \"Rechercher\" :  "
+
+#: ui-admin/settings.php:224
+#, fuzzy
+msgid ""
+"Überprüfe die benutzerdefinierten Beitragstypen, die in \"Suchen\" angezeigt "
+"werden sollen."
+msgstr ""
+"Vérifie les types de publications personnalisées qui doivent être affichées "
+"dans \"Rechercher\"."
+
+#: ui-admin/settings.php:236
+#, fuzzy
+msgid "Datumsauswahleinstellungen"
+msgstr "Paramètres de sélection de la date"
+
+#: ui-admin/settings.php:262
+#, fuzzy
+msgid "Wähle Datumsauswahl Design."
+msgstr "Choisis le design de sélection de date."
+
+#: ui-admin/settings.php:278
+#, fuzzy
+msgid "Templatedateien"
+msgstr "Fichiers de modèles"
+
+#: ui-admin/settings.php:282
+#, fuzzy
+msgid "Erstelle ein Template für: "
+msgstr "Crée un modèle pour :"
+
+#: ui-admin/settings.php:292
+#, fuzzy
+msgid "Keine benutzerdefinierten Beitragstypen verfügbar"
+msgstr "Pas de types de publications personnalisées disponibles"
+
+#: ui-admin/settings.php:295
+#, fuzzy
+msgid ""
+"Dadurch wird die Datei \"single- [post_type] .php\" in Deinem aktiven "
+"Themenverzeichnis erstellt, indem Du Deine aktuelle single.php-Vorlage "
+"kopierst. Diese Datei ist die benutzerdefinierte Vorlage für Deinen "
+"benutzerdefinierten Beitragstyp. Du kannst es dann bearbeiten und anpassen"
+msgstr ""
+"Cela créera le fichier \"single- [post_type] .php\" dans ton répertoire de "
+"sujets actif, en copiant ton modèle single.php actuel. Ce fichier est le "
+"modèle personnalisé de ton type de post personnalisé. Tu peux ensuite "
+"l'éditer et le personnaliser"
+
+#: ui-admin/settings.php:296
+#, fuzzy
+msgid ""
+"In einigen Fällen möchtest Du dies möglicherweise nicht tun. Wenn Du "
+"beispielsweise keine Vorlage für Deinen benutzerdefinierten Beitragstyp "
+"hast, wird die Standardeinstellung \"single.php\" verwendet."
+msgstr ""
+"Dans certains cas, il se peut que tu ne veuilles pas le faire. Par exemple, "
+"si tu n'as pas de modèle pour ton type de publications personnalisées, le "
+"paramètre par défaut \"single.php\" sera utilisé."
+
+#: ui-admin/settings.php:297
+#, fuzzy
+msgid ""
+"Deine aktiven Themenordnerberechtigungen müssen auf 777 festgelegt sein, "
+"damit diese Option funktioniert. Nachdem die Datei erstellt wurde, kannst Du "
+"Deine Aktive Theme-Verzeichnisberechtigungen auf 755 zurücksetzen."
+msgstr ""
+"Tes autorisations de dossier de thème actif doivent être définies sur 777 "
+"pour que cette option fonctionne. Une fois le fichier créé, tu peux "
+"réinitialiser tes permissions de répertoire de thème actif à 755."
+
+#: ui-admin/shortcodes.php:7 ui-admin/shortcodes.php:11
+#, fuzzy
+msgid "CustomPress Shortcodes"
+msgstr "Codes courts CustomPress"
+
+#: ui-admin/shortcodes.php:16
+#, fuzzy
+msgid "Benutzerdefinierter Felder Eingabe"
+msgstr "Champs personnalisés Entrée"
+
+#: ui-admin/shortcodes.php:19
+#, fuzzy
+msgid ""
+"Wird verwendet, um die Eingabefelder einer Reihe von benutzerdefinierten "
+"Feldern für den angegebenen Beitrag \"ID\" einzubetten. Muss innerhalb von "
+"&lt;form&gt; verwendet werden und nach dem Absenden muss der empfangende "
+"Formularcode das globale aufrufen:"
+msgstr ""
+"Utilisé pour intégrer les champs de saisie d'une série de champs "
+"personnalisés pour la contribution \"ID\" indiquée. Doit être utilisé à "
+"l'intérieur de &lt;form&gt ; et après l'envoi, le code de formulaire "
+"récepteur doit appeler le global :"
+
+#: ui-admin/shortcodes.php:21
+#, fuzzy
+msgid "um die Eingabe zurück in den Beitrag zu speichern."
+msgstr "pour enregistrer la saisie dans le message."
+
+#: ui-admin/shortcodes.php:24 ui-admin/shortcodes.php:71
+#, fuzzy
+msgid "Basis Shortcode"
+msgstr "Code court de base"
+
+#: ui-admin/shortcodes.php:26 ui-admin/shortcodes.php:73
+#, fuzzy
+msgid ""
+"Gibt einen vollständigen Satz von Eingabefeldern basierend auf dem "
+"Beitragstyp der angegebenen Beitrags-ID zurück."
+msgstr ""
+"Renvoie un ensemble complet de champs de saisie basés sur le type de "
+"publication de l'ID de publication indiquée."
+
+#: ui-admin/shortcodes.php:27
+#, fuzzy
+msgid ""
+"Wenn die post_id weggelassen wird, wird der aktuelle globale $ post als der "
+"Post angenommen, an dem gearbeitet wird."
+msgstr ""
+"Si le post_id est omis, le $ post global actuel est supposé être le post sur "
+"lequel on travaille."
+
+#: ui-admin/shortcodes.php:29 ui-admin/shortcodes.php:75
+#, fuzzy
+msgid "oder mit Feldliste"
+msgstr "ou avec liste de champs"
+
+#: ui-admin/shortcodes.php:31 ui-admin/shortcodes.php:77
+#, fuzzy
+msgid ""
+"Gibt eine Reihe von Eingabefeldern zurück, die von der Feld-ID-Liste im "
+"Shortcode bereitgestellt werden. Alle IDs, die nicht mit dem Beitragstyp "
+"verknüpft sind, werden ignoriert."
+msgstr ""
+"Renvoie une série de champs de saisie fournis par la liste des ID de champs "
+"dans le shortcode. Tous les identifiants qui ne sont pas liés au type de "
+"publication sont ignorés."
+
+#: ui-admin/shortcodes.php:33 ui-admin/shortcodes.php:79
+#, fuzzy
+msgid "oder mit nach Kategorien gefilterter Feldliste"
+msgstr "ou avec une liste de champs filtrée par catégorie"
+
+#: ui-admin/shortcodes.php:35 ui-admin/shortcodes.php:81
+#, fuzzy
+msgid "In einem Eingabeblock können mehrere Filter verwendet werden."
+msgstr "Plusieurs filtres peuvent être utilisés dans un bloc de saisie."
+
+#: ui-admin/shortcodes.php:37
+#, fuzzy
+msgid ""
+"oder verwende [ct_in] für einzelne Eingabefelder, um eine bessere "
+"Positionierung und Gestaltung zu ermöglichen."
+msgstr ""
+"ou utiliser [ct_in] pour des champs de saisie individuels afin de permettre "
+"un meilleur positionnement et une meilleure présentation."
+
+#: ui-admin/shortcodes.php:39
+#, fuzzy
+msgid ""
+"Wenn Du das Eigenschaftsattribut weglässt, wird standardmäßig das "
+"Eingabefeld HTML verwendet."
+msgstr ""
+"Si tu omets l'attribut de propriété, le champ de saisie HTML sera utilisé "
+"par défaut."
+
+#: ui-admin/shortcodes.php:40
+#, fuzzy
+msgid ""
+"Wenn Du das erforderliche Attribut weglässt, werden standardmäßig "
+"Einstellungen für benutzerdefinierte Felder vorgenommen. Andernfalls "
+"überschreibe es."
+msgstr ""
+"Si tu omets l'attribut requis, les paramètres des champs personnalisés "
+"seront appliqués par défaut. Sinon, remplace-le."
+
+#: ui-admin/shortcodes.php:41
+#, fuzzy
+msgid ""
+"Nimmt den aktuellen globalen $post als den Post an, an dem gearbeitet wird."
+msgstr ""
+"Prend le $post global actuel comme étant le post sur lequel on travaille."
+
+#: ui-admin/shortcodes.php:42
+#, fuzzy
+msgid ""
+"Die Nomenklatur \"title | description | input\" bedeutet, eine der "
+"Auswahlmöglichkeiten zu verwenden. \"title\" oder \"description oder \"input"
+"\"."
+msgstr ""
+"La nomenclature \"title | description | input\" implique d'utiliser l'un des "
+"choix possibles. \"title\" ou \"description ou \"input\"."
+
+#: ui-admin/shortcodes.php:48
+#, fuzzy
+msgid "Benutzerdefinierte Felder validieren"
+msgstr "Valider les champs définis par l'utilisateur"
+
+#: ui-admin/shortcodes.php:52
+#, fuzzy
+msgid ""
+"Bei Verwendung der einzelnen benutzerdefinierten Felder [ct_in] sammelt "
+"dieser Shortcode das erforderliche Skript und fügt es hinzu, um die "
+"Validierung für die Felder auszuführen. "
+msgstr ""
+"Lors de l'utilisation des différents champs personnalisés [ct_in], ce code "
+"court collecte et ajoute le script nécessaire pour effectuer la validation "
+"pour les champs."
+
+#: ui-admin/shortcodes.php:53
+#, fuzzy
+msgid ""
+"Der Shortcode [custom_fields_input] enthält dieses Tag automatisch in der "
+"Feldgruppe. Es ist nur für [ct_in] -Felder erforderlich."
+msgstr ""
+"Le shortcode [custom_fields_input] contient automatiquement cette balise "
+"dans le groupe de champs. Elle n'est nécessaire que pour les champs [ct_in]."
+
+#: ui-admin/shortcodes.php:57
+#, fuzzy
+msgid ""
+"Sollte direkt vor dem schließenden &lt;/form&gt; Tag des Formulars platziert "
+"werden, das die zu validierenden Felder enthält."
+msgstr ""
+"Doit être placé juste avant la balise fermante &lt;/form&gt ; du formulaire "
+"qui contient les champs à valider."
+
+#: ui-admin/shortcodes.php:64
+#, fuzzy
+msgid "Benutzerdefinierte Felder blockieren"
+msgstr "Bloquer les champs définis par l'utilisateur"
+
+#: ui-admin/shortcodes.php:68
+#, fuzzy
+msgid ""
+"Wird verwendet, um die Ausgabe einer Reihe von benutzerdefinierten Feldern "
+"für den aktuellen Beitrag einzubetten. Muss innerhalb der Schleife verwendet "
+"werden."
+msgstr ""
+"Utilisé pour intégrer la sortie d'une série de champs personnalisés pour la "
+"contribution actuelle. Doit être utilisé à l'intérieur de la boucle."
+
+#: ui-admin/shortcodes.php:84
+#, fuzzy
+msgid "Attribute für [custom_fields_block]"
+msgstr "Attributs pour [custom_fields_block]"
+
+#: ui-admin/shortcodes.php:85
+#, fuzzy
+msgid ""
+"property = So formatieren Sie die Ausgabe des Upload-Felds. Akzeptierte "
+"Werte sind \"value\" (Standard), \"link\" oder \"image\". Dies wird nur für "
+"Upload-Feldwerte berücksichtigt."
+msgstr ""
+"property = comment formater la sortie du champ de téléchargement. Les "
+"valeurs acceptées sont \"value\" (par défaut), \"link\" ou \"image\". Ceci "
+"n'est pris en compte que pour les valeurs de champ de téléchargement."
+
+#: ui-admin/shortcodes.php:86
+#, fuzzy
+msgid ""
+"wrap = Wickel die Felder entweder in eine \"table\", eine \"ul\" oder eine "
+"\"div\" -Struktur."
+msgstr ""
+"wrap = Enveloppe les champs dans une structure \"table\", \"ul\" ou \"div\"."
+
+#: ui-admin/shortcodes.php:87
+#, fuzzy
+msgid ""
+"Die Standard-Wrap-Attribute können mithilfe der folgenden Einzelattribute "
+"überschrieben werden:"
+msgstr ""
+"Les attributs de wrap par défaut peuvent être remplacés à l'aide des "
+"attributs individuels suivants :"
+
+#: ui-admin/shortcodes.php:88
+#, fuzzy
+msgid "open = HTML, mit dem der Block beginnt"
+msgstr "open = HTML avec lequel le bloc commence"
+
+#: ui-admin/shortcodes.php:89
+#, fuzzy
+msgid "close = HTML zum Beenden des Blocks"
+msgstr "close = HTML pour terminer le bloc"
+
+#: ui-admin/shortcodes.php:90
+#, fuzzy
+msgid "open_line = HTML, mit dem eine Zeile beginnen soll"
+msgstr "open_line = HTML par lequel une ligne doit commencer"
+
+#: ui-admin/shortcodes.php:91
+#, fuzzy
+msgid "close_line = HTML zum Beenden einer Zeile"
+msgstr "close_line = HTML pour terminer une ligne"
+
+#: ui-admin/shortcodes.php:92
+#, fuzzy
+msgid "open_title = HTML, mit dem der Titel beginnt"
+msgstr "open_title = HTML avec lequel commence le titre"
+
+#: ui-admin/shortcodes.php:93
+#, fuzzy
+msgid "close_title = HTML, mit dem der Titel beendet werden soll"
+msgstr "close_title = HTML avec lequel le titre doit être terminé"
+
+#: ui-admin/shortcodes.php:94
+#, fuzzy
+msgid "open_value = HTML, mit dem der Wert beginnt"
+msgstr "open_value = HTML par lequel commence la valeur"
+
+#: ui-admin/shortcodes.php:95
+#, fuzzy
+msgid "close_value = HTML, mit dem der Wert beendet werden soll"
+msgstr "close_value = HTML avec lequel la valeur doit être fermée"
+
+#: ui-admin/shortcodes.php:102
+#, fuzzy
+msgid "Benutzerdefinierter Feldfilter"
+msgstr "Filtre de champ défini par l'utilisateur"
+
+#: ui-admin/shortcodes.php:105
+#, fuzzy
+msgid ""
+"Wird verwendet, um die Liste der zurückgegebenen Felder abhängig von den "
+"Kategorien des Beitrags einzuschränken. Einem [custom_field_input] oder "
+"[custom_field_block] Shortcode können mehrere [ct_filter] Shortcodes "
+"hinzugefügt werden."
+msgstr ""
+"Utilisé pour restreindre la liste des champs retournés en fonction des "
+"catégories de la contribution. Plusieurs codes courts [ct_filter] peuvent "
+"être ajoutés à un code court [custom_field_input] ou [custom_field_block]."
+
+#: ui-admin/shortcodes.php:107
+#, fuzzy
+msgid "Attribute für [custom_field_filter]"
+msgstr "Attributs pour [custom_field_filter]"
+
+#: ui-admin/shortcodes.php:108
+#, fuzzy
+msgid ""
+"terms= Durch Kommas getrennte Kategorieliste zum Filtern. Kategorien, die "
+"nicht dem Beitragstyp des aktuellen Beitrags zugeordnet sind, werden "
+"ignoriert."
+msgstr ""
+"terms= Liste de catégories séparées par des virgules pour le filtrage. Les "
+"catégories qui ne sont pas associées au type de message du message actuel "
+"sont ignorées."
+
+#: ui-admin/shortcodes.php:109
+#, fuzzy
+msgid ""
+"not= Wenn true, wird der Filter invertiert und alle nicht ausgewählten "
+"Felder zurückgegeben. Der Standardwert ist false."
+msgstr ""
+"not= Si true, le filtre est inversé et tous les champs non sélectionnés sont "
+"renvoyés. La valeur par défaut est false."
+
+#: ui-admin/shortcodes.php:110
+#, fuzzy
+msgid ""
+"Die durch Kommas getrennte Liste der Felder zwischen dem öffnenden und dem "
+"schließenden Tag wird zurückgegeben, wenn die Kategorien übereinstimmen. "
+"Felder, die nicht dem Beitragstyp des aktuellen Beitrags zugeordnet sind, "
+"werden ignoriert."
+msgstr ""
+"La liste des champs entre la balise ouvrante et la balise fermante, séparés "
+"par des virgules, est renvoyée si les catégories correspondent. Les champs "
+"qui ne sont pas associés au type de message du message actuel sont ignorés."
+
+#: ui-admin/taxonomies.php:74
+#, fuzzy
+msgid "Bearbeite diese Taxonomie"
+msgstr "Traite cette taxinomie"
+
+#: ui-admin/taxonomies.php:132
+#, fuzzy
+msgid ""
+"Einbettungscode gibt eine HTML-Zeichenfolge mit Taxonomiebegriffen zurück, "
+"die einem Beitrag und einer bestimmten Taxonomie zugeordnet sind.<br /"
+">Begriffe sind mit den jeweiligen Seiten der Begriffsliste verknüpft. "
+"Verwende es in Vorlagen innerhalb der Schleife."
+msgstr ""
+"Le code d'intégration renvoie une chaîne de caractères HTML contenant des "
+"termes de taxinomie associés à une contribution et à une taxinomie "
+"spécifique.<br />Les termes sont liés aux pages respectives de la liste de "
+"termes. Utilise-le dans les modèles à l'intérieur de la boucle."
+
+#: ui-admin/taxonomies.php:136
+#, fuzzy
+msgid ""
+"Der Shortcode gibt eine HTML-Zeichenfolge mit Taxonomiebegriffen zurück, die "
+"einem Beitrag und einer bestimmten Taxonomie zugeordnet sind.<br />Begriffe "
+"sind mit den jeweiligen Seiten der Begriffsliste verknüpft. Verwende es in "
+"der Schleife."
+msgstr ""
+"Le shortcode renvoie une chaîne HTML avec des termes de taxinomie associés à "
+"une contribution et à une taxinomie spécifique.<br />Les termes sont liés "
+"aux pages respectives de la liste des termes. Utilise-le dans la boucle."
+
+#: ui-admin/update-message.php:5
+#, fuzzy
+msgid "Inhaltstyp aktualisiert"
+msgstr "Type de contenu mis à jour"
+
+#: ui-admin/wip-update-taxonomy.php:19
+#, fuzzy
+msgid "Add Taxonomy"
+msgstr "Ajouter une taxonomie"
+
+#: ui-admin/wip-update-taxonomy.php:32
+#, fuzzy
+msgid ""
+"Der Systemname der Taxonomie. Nur alphanumerische Zeichen und Unterstriche. "
+"Min. 2 Buchstaben. Nach dem Hinzufügen kann der Name des Taxonomiesystems "
+"nicht mehr geändert werden."
+msgstr ""
+"Le nom du système de la taxinomie. Uniquement des caractères alphanumériques "
+"et des traits de soulignement. Min. 2 lettres. Après l'ajout, le nom du "
+"système de taxonomie ne peut plus être modifié."
+
+#: ui-admin/wip-update-taxonomy.php:63
+#, fuzzy
+msgid ""
+"Wähle einen oder mehrere Beitragstypen aus, zu denen diese Taxonomie "
+"hinzugefügt werden soll."
+msgstr ""
+"Sélectionne un ou plusieurs types de publications auxquelles cette taxinomie "
+"doit être ajoutée."
+
+#: ui-admin/wip-update-taxonomy.php:155
+#, fuzzy
+msgid "Eltern Element"
+msgstr "Parents Élément"
+
+#: ui-admin/wip-update-taxonomy.php:231
+#, fuzzy
+msgid "Zeige Benutzerinterface"
+msgstr "Afficher l'interface utilisateur"
+
+#: ui-admin/wip-update-taxonomy.php:352
+#, fuzzy
+msgid "Benutzerdefiniertr Slug"
+msgstr "Slug personnalisé"
+
+#: ui-admin/wip-update-taxonomy.php:356
+#, fuzzy
+msgid "Stelle Beiträgen diesen Slug voran."
+msgstr "Précise cette phrase dans tes messages."
+
+#: ui-admin/wip-update-taxonomy.php:359
+#, fuzzy
+msgid "Front Base nicht zulassen"
+msgstr "Ne pas autoriser la Front Base"
+
+#: ui-admin/wip-update-taxonomy.php:361
+#, fuzzy
+msgid "Permalinks dürfen nicht mit der Front Base vorangestellt werden."
+msgstr "Les permaliens ne doivent pas être préfixés par la Front Base."
+
+#: ui-admin/wip-update-taxonomy.php:380
+#, fuzzy
+msgid ""
+"Falsch, um Abfragen zu verhindern. Standardmäßig wird der Name des "
+"Taxonomiesystems als Abfragevariable verwendet."
+msgstr ""
+"Faux, pour éviter les requêtes. Par défaut, le nom du système de taxonomie "
+"est utilisé comme variable de requête."
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://n3rds.work/piestingtal_source/psource-custompress-plugin/"
+msgstr "https://n3rds.work/piestingtal_source/psource-custompress-plugin/"
+
+#. Author of the plugin/theme
+msgid "WMS N@W"
+msgstr "WMS N@W"
