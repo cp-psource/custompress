@@ -28,56 +28,56 @@ Füge Kontrolle und Flexibilität für Content Management und Designkonsistenz h
 
 == GUIDE ==
 
-===Zur Installation:===
+= Zur Installation: =
 
 1. Lade die Plugin-Datei herunter
 2. Entpacke die Datei in einen Ordner auf Deiner Festplatte
 3. Lade den Ordner „custompress“ in das Verzeichnis „/wp-content/plugins/“ hoch.
 
-==Zur Aktivierung:==
+= Zur Aktivierung: =
 
 1. Melde Dich bei Deinem Admin-Panel für ClassicPress oder Multisite an und aktiviere das Plugin:
 
 2. Bei regulären ClassicPress-Installationen – besuche Plugins und aktiviere das Plugin.
 3. Für ClassicPress-Multisite-Installationen – besuche Netzwerkadministrator -> Plugins und Netzwerk. Aktiviere das Plugin.
 
-===CustomPress und Multisite:===
+= CustomPress und Multisite: =
 
 Durch die Netzwerkaktivierung von CustomPress erhält jede Webseite die Möglichkeit, auf benutzerdefinierte Beitragstypen zuzugreifen. 
 Du kannst dies auf eine der folgenden Arten einrichten:
 
-== 1.  Netzwerkweite Beitragstypen. ==
+= 1. Netzwerkweite Beitragstypen. =
 
 In diesem Szenario teilen alle Webseiten im Netzwerk einen bestimmten benutzerdefinierten Beitragstyp. 
 Wenn Du beispielsweise ein Buchrezensionsnetzwerk betreiben, müssen alle Webseiten Zugriff auf Deinen Beitragstyp „Bücher“ haben. 
 So funktioniert CustomPress standardmäßig. Gehe nach der Netzwerkaktivierung einfach zu Netzwerkadministrator->CustomPress->Einstellungen und stelle sicher, dass das Kontrollkästchen neben „Unterwebsite-Inhaltstypen aktivieren“ deaktiviert ist. 
 Stelle außerdem sicher, dass das Optionsfeld neben „Netzwerkweite Inhaltstypen auf Unterseiten beibehalten“ aktiviert ist.
 
-== 2. Webseite-für-Webseite-Beitragstypen ==
+= 2. Webseite-für-Webseite-Beitragstypen =
 
 In diesem Szenario kann jede einzelne Webseite in Deinem Netzwerk ihre eigenen benutzerdefinierten Beitragstypen erstellen und verwalten. 
 Eine Webseite kann Beitragstypen für Bücher haben, die nächste kann Beitragstypen für Autos haben. 
 Gehe dazu nach der Netzwerkaktivierung einfach zu Netzwerkadministrator->CustomPress->Einstellungen und aktiviere das Kontrollkästchen neben „Unterwebseiten-Inhaltstypen aktivieren“. 
 Markiere dann das Optionsfeld neben „Netzwerkweite Inhaltstypen von Unterseiten entfernen“.
 
-== 3. Sowohl Netzwerk- als auch Webseite-für-Webseite-Beitragstypen ==
+=  3. Sowohl Netzwerk- als auch Webseite-für-Webseite-Beitragstypen =
 
 Wenn Du schließlich allen Webseiten einen bestimmten Beitragstyp zur Verfügung stellen UND ihnen erlauben möchtest, ihre eigenen zu erstellen, gehe zu „Netzwerkadministrator“ -> „CustomPress“ -> „Einstellungen“ und aktiviere das Kontrollkästchen neben „Unterwebsite-Inhaltstypen aktivieren“. 
 Markiere dann das Optionsfeld neben „Netzwerkweite Inhaltstypen auf Unterseiten beibehalten“.
 
-==Andere häufige Fragen:==
+= Andere häufige Fragen: =
 
-==Aber was ist, wenn ich CustomPress nur auf bestimmten Webseiten aktivieren möchte?==
+= Aber was ist, wenn ich CustomPress nur auf bestimmten Webseiten aktivieren möchte? =
 
 Der einfachste Weg, dies zu tun, besteht darin, sich einfach über FTP bei Deiner Webseite anzumelden und zu wp-content/plugins/custompress/loader.php zu gehen. 
 Öffne einfach diese Datei in Deinem bevorzugten Code- oder Texteditor und löschen Sie Zeile 12 – die einfach „Network: true“ enthält
 Diese Funktion wird noch getestet und ist daher derzeit standardmäßig auf die Netzwerkaktivierung beschränkt.
 
-==Was ist, wenn ich dieses Plugin nur für Premium-Benutzer mit dem Supporter-Plugin zulassen möchte?==
+= Was ist, wenn ich dieses Plugin nur für Premium-Benutzer mit dem Supporter-Plugin zulassen möchte? =
 
 Du kannst dieselbe oben beschriebene Methode verwenden, um den Abschnitt „Netzwerk: true“ zu löschen und das Plugin dann als „Nur für Unterstützer“ zu markieren.
 
-==Über benutzerdefinierte Beiträge:==
+= Über benutzerdefinierte Beiträge: =
 
 Benutzerdefinierte Beiträge sind eine einfache Möglichkeit, Informationen zu erstellen, zu bearbeiten und zu speichern, genau wie Blog-Beiträge, jedoch mit viel mehr kreativer Kontrolle. 
 Sie eignen sich ideal für Situationen, in denen Du Inhalte in verschiedene Kategorien einteilen möchtest.
@@ -95,7 +95,7 @@ Schritt 2: Erstelle Taxonomien
 Schritt 3: Erstelle benutzerdefinierten Felder
 Schritt 4: Erstelle benutzerdefinierte Vorlage für Deinen benutzerdefinierten Beitragstyp
 
-==So erstellst Du einen benutzerdefinierten Beitragstyp==
+= So erstellst Du einen benutzerdefinierten Beitragstyp =
 
 Wenn Du mit CustomPress einen benutzerdefinierten Beitragstyp erstellst, ist die Verwaltungsoberfläche dieselbe wie bei Blogbeiträgen und -seiten, außer dass Du auswählst, welche Labels verwendet werden und welche Funktionen enthalten sind.
 In diesem Beispiel erstellen wir eine Buchdatenbank, die zum Rezensieren von Büchern verwendet werden kann.
@@ -115,7 +115,7 @@ In diesem Beispiel erstellen wir eine Buchdatenbank, die zum Rezensieren von Bü
 11. Klicke unten auf der Seite auf „Beitragstyp hinzufügen“.
 12. Dein benutzerdefinierter Beitrag wird nun erstellt und Du solltest die neuen Menüelemente für Deinen benutzerdefinierten Beitrag in Deiner Admin-Oberfläche sehen.
 
-==So erstellst Du Taxonomien ==
+= So erstellst Du Taxonomien =
 
 Taxonomien werden verwendet, um Dinge zu ordnen, zu klassifizieren und zu gruppieren. 
 Standardmäßig sind Taxonomien in ClassicPress Tags und Kategorien, die ClassicPress für den Beitrag verwendet. 
@@ -139,7 +139,7 @@ Wenn Sie den Wert auf „Falsch“ setzt, funktioniert die Taxonomie wie normale
 * Wenn Du Deine neue Taxonomie hinzufügst, wird ein Einbettungscode für Deinen neuen benutzerdefinierten Beitragstyp erstellt.
 * Kopiere einfach den Einbettungscode und platziere ihn in Deiner Schleife, um die neue Taxonomie mit Deinem Theme anzuzeigen
 
-==So erstellst Du benutzerdefinierte Felder==
+= So erstellst Du benutzerdefinierte Felder =
 
 Benutzerdefinierte Felder werden zum Einfügen benutzerdefinierter Benutzereingabefelder verwendet. 
 Ihr Ziel ist es, ein Feld zu erstellen, das ausgefüllt werden soll, wenn jemand einen benutzerdefinierten Beitrag schreibt.
@@ -161,7 +161,7 @@ Für unsere Buchdatenbank erstellen wir benutzerdefinierte Felder für Jahr und 
 [ct id="_ct_radio_4f64ede7607ee" property="description"] würde die Beschreibung des benutzerdefinierten Feldes anzeigen.
 [ct id="_ct_radio_4f64ede7607ee" property="value"] würde den Wert des benutzerdefinierten Feldes anzeigen. Wenn Du die Eigenschaft deaktiviert lässt, zeigt der Code standardmäßig den Wert an.
 
-==So erstellst Du eine benutzerdefinierte Vorlage für Deinen benutzerdefinierten Beitragstyp==
+= So erstellst Du eine benutzerdefinierte Vorlage für Deinen benutzerdefinierten Beitragstyp =
 
 Dieses Plugin bietet die Möglichkeit, eine benutzerdefinierte Vorlage zu erstellen, um Deinen benutzerdefinierten Beitragstyp anzuzeigen. 
 Nach der Erstellung kannst Du den Einbettungscode für Deine Taxonomien und Dein benutzerdefiniertes Feld hinzufügen. 
@@ -180,7 +180,7 @@ Der Einfachheit halber verwenden wir in diesem Handbuch den in ClassicPress enth
 9. Platziere Deine Taxonomien und den Einbettungscode für benutzerdefinierte Felder in Deiner Schleife in Deiner neu erstellten benutzerdefinierten Vorlage
 10. Klicke auf „Datei aktualisieren“. Wenn Du einen benutzerdefinierten Beitrag veröffentlichen und zur Beitrags-URL gehst, wird nun Deine benutzerdefinierte Beitragsvorlage angezeigt:
 
-==Erfahre mehr über benutzerdefinierte Beiträge:==
+= Erfahre mehr über benutzerdefinierte Beiträge: =
 
 Wenn Du ein besseres Verständnis für Folgendes erlangen möchtest:
 
@@ -196,12 +196,14 @@ Wirf einen Blick in unser [PSOURCE Sortiment](https://n3rds.work/psource_kategor
 
 Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswork-digalize-das-piestingtal/newsletter-management/) über unsere Piestingtal.Source informiert!
 
-== UNTERSTÜTZEN ==
+== Support ==
+
+Hilfe & Support erhältst Du [HIER](https://n3rds.work)
+
+= Unterstütze uns =
 
 Viele, viele Kaffees konsumieren wir während wir an unseren Plugins und Themes arbeiten.
 Wie wärs? Möchtest Du uns mit einer Kaffee-Spende bei der Arbeit an unseren Plugins unterstützen?
-
-= Unterstütze uns =
 
 Mach eine [Spende per Überweisung oder PayPal](https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free-werke/) wir Danken Dir!
 
