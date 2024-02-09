@@ -3,8 +3,8 @@
 /**
  * CustomPress_Core
  *
- * @copyright WMS N@W 2020 {@link https://n3rds.work}
- * @author DerN3rd (WMS N@W)
+ * @copyright PSOURCE 2020 {@link https://n3rds.work}
+ * @author DerN3rd (PSOURCE)
  * @license GNU General Public License (Version 2 - GPLv2) {@link http://www.gnu.org/licenses/gpl-2.0.html}
  */
 
@@ -603,9 +603,7 @@ if ( ! class_exists( 'CustomPress_Core' ) ):
 				// Retrieves categories list of current post.
 				$list = array();
 				foreach ( $categories as $category ) {
-					if ( ! empty( $post ) && is_object( $post ) ) {
-						$list[] = get_the_term_list( $post->ID, $category, '', $separator, '' );
-					}
+					$list[] = get_the_term_list( $post->ID, $category, '', $separator, '' );
 				}
 				$list    = array_filter( $list );
 				$thelist = implode( $separator, $list );

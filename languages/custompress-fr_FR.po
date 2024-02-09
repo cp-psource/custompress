@@ -75,8 +75,8 @@ msgstr ""
 
 #: loader.php:24
 #, fuzzy
-msgid "DerN3rd (WMS N@W)"
-msgstr "LeN3rd (WMS N@W)"
+msgid "DerN3rd (PSOURCE)"
+msgstr "LeN3rd (PSOURCE)"
 
 #. Author URI of the plugin/theme
 #: loader.php:25
@@ -2647,5 +2647,5 @@ msgid "https://n3rds.work/piestingtal_source/psource-custompress-plugin/"
 msgstr "https://n3rds.work/piestingtal_source/psource-custompress-plugin/"
 
 #. Author of the plugin/theme
-msgid "WMS N@W"
-msgstr "WMS N@W"
+msgid "PSOURCE"
+msgstr "PSOURCE"

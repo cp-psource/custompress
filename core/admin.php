@@ -4,8 +4,8 @@
 * CustomPress_Core_Admin
 *
 * @uses CustomPress_Core
-* @copyright WMS N@W 2020 {@link https://n3rds.work}
-* @author DerN3rd (WMS N@W)
+* @copyright PSOURCE 2020 {@link https://n3rds.work}
+* @author DerN3rd (PSOURCE)
 * @license GNU General Public License (Version 2 - GPLv2) {@link http://www.gnu.org/licenses/gpl-2.0.html}
 */
 

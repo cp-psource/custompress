@@ -1,32 +1,37 @@
 <?php
 /*
 Plugin Name: CustomPress
-Plugin URI: https://n3rds.work/piestingtal_source/psource-custompress-plugin/
+Plugin URI: https://cp-psource.github.io/custompress/
 Description: CustomPress - Benutzerdefinierter Post-, Taxonomie- und Feldmanager.
 Version: 1.4.2
-Author: WMS N@W
-Author URI: https://n3rds.work
+Author: PSOURCE
+Author URI: https://github.com/cp-psource
 Text Domain: custompress
 Domain Path: languages
 License: GNU General Public License (Version 2 - GPLv2)
 Network: false
 */
-require 'psource/psource-plugin-update/psource-plugin-updater.php';
-use Psource\PluginUpdateChecker\v5\PucFactory;
-$MyUpdateChecker = PucFactory::buildUpdateChecker(
-	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=custompress', 
-	__FILE__, 
-	'custompress' 
+
+require 'psource/psource-plugin-update/plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+
+$myUpdateChecker = PucFactory::buildUpdateChecker(
+	'https://github.com/cp-psource/custompress',
+	__FILE__,
+	'custompress'
 );
+
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('master');
 
 $plugin_header_translate = array(
 __('CustomPress - Benutzerdefinierter Post-, Taxonomie- und Feldmanager.', 'custompress'),
-__('DerN3rd (WMS N@W)', 'custompress'),
-__('https://n3rds.work', 'custompress'),
+__('DerN3rd (PSOURCE)', 'custompress'),
+__('https://github.com/cp-psource', 'custompress'),
 __('CustomPress', 'custompress'));
 
 /*
-Copyright 2020 WMS N@W, (https://n3rds.work)
+Copyright 2020-2024 PSOURCE, (https://github.com/cp-psource)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License (Version 2 - GPLv2) as published by

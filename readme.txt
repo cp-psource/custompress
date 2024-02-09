@@ -1,6 +1,5 @@
 === CustomPress ===
-Contributors: DerN3rd (WMS N@W)
-Donate link: https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free-werke/
+Contributors: DerN3rd (PSOURCE)
 Tags: widget, custom,post, wordpress, classicpress
 Requires at least: 4.9
 Tested up to: 4.9
@@ -21,9 +20,9 @@ Macht, Organisation und Kontrolle
 Erstelle und sortiere Inhalte in benutzerdefinierten Beitragstypen für alles, von Filmen über Bücher, Immobilienanzeigen bis hin zum Entwerfen von Galerien. 
 Füge Kontrolle und Flexibilität für Content Management und Designkonsistenz hinzu.
 
-[POWERED BY PSOURCE](https://n3rds.work/psource_kategorien/psource-plugins/)
+[POWERED BY PSOURCE](https://github.com/cp-psource)
 
-[Projektseite](https://n3rds.work/piestingtal_source/psource-custompress-plugin/)
+[Projektseite](https://cp-psource.github.io/custompress/)
 [GitHub](hhttps://github.com/piestingtal-source/custompress)
 
 == GUIDE ==
@@ -187,27 +186,6 @@ Wenn Du ein besseres Verständnis für Folgendes erlangen möchtest:
 * Benutzerdefinierte Beitragstypen und ihre Leistungsfähigkeit findest Du in diesem Artikel auf Codex.WordPress.org: http://codex.wordpress.org/Custom_Post_Types
 * Benutzerdefinierte Taxonomien und ihre Anwendung findest Du in diesem Artikel auf Codex.WordPress.org: http://codex.wordpress.org/Custom_Taxonomies
 * Benutzerdefinierte Felder und ihre Anwendung findest Du in diesem Artikel auf Codex.WordPress.org: http://codex.wordpress.org/Custom_Fields
-
-== PSOURCE ==
-
-= Finde mehr Piestingtal.Source =
-
-Wirf einen Blick in unser [PSOURCE Sortiment](https://n3rds.work/psource_kategorien/psource-plugins/) und hole noch mehr aus Deinem WordPress/ClassicPress!
-
-Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswork-digalize-das-piestingtal/newsletter-management/) über unsere Piestingtal.Source informiert!
-
-== Support ==
-
-Hilfe & Support erhältst Du [HIER](https://n3rds.work)
-
-= Unterstütze uns =
-
-Viele, viele Kaffees konsumieren wir während wir an unseren Plugins und Themes arbeiten.
-Wie wärs? Möchtest Du uns mit einer Kaffee-Spende bei der Arbeit an unseren Plugins unterstützen?
-
-Mach eine [Spende per Überweisung oder PayPal](https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free-werke/) wir Danken Dir!
-
-Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswork-digalize-das-piestingtal/newsletter-management/) über unsere Piestingtal.Source informiert!
 
 == ChangeLog ==
 
