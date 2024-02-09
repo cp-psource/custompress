@@ -3,7 +3,7 @@ Contributors: DerN3rd (PSOURCE)
 Tags: widget, custom,post, wordpress, classicpress
 Requires at least: 4.9
 Tested up to: 4.9
-Stable tag: 1.4.2
+Stable tag: 1.4.3
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -188,6 +188,11 @@ Wenn Du ein besseres Verständnis für Folgendes erlangen möchtest:
 * Benutzerdefinierte Felder und ihre Anwendung findest Du in diesem Artikel auf Codex.WordPress.org: http://codex.wordpress.org/Custom_Fields
 
 == ChangeLog ==
+
+= 1.4.3 =
+
+* Updater 1.3
+* Textanpassungen
 
 = 1.4.2 =
 
