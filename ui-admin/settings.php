@@ -20,13 +20,15 @@ $options = $this->get_options();
 
 //Get or initialize post type display
 $cp_post_type = empty($options['display_post_types']) ?
-array(
-'home' => array('post_type' => array()),
-'front_page' => array('post_type' => array() ),
-'archive' => array('post_type' => array() ),
-'search' => array('post_type' => array() )
-)
-: $options['display_post_types'];
+	array(
+		'home' => array('post_type' => array()),
+		'front_page' => array('post_type' => array() ),
+		'archive' => array('post_type' => array() ),
+		'search' => array('post_type' => array() )
+	)
+	: $options['display_post_types'];
+	// Define $date_format if it's not defined
+	$date_format = !empty($options['date_format']) ? $options['date_format'] : 'mm/dd/yy';
 ?>
 
 <div class="wrap">
@@ -308,12 +310,13 @@ array(
 
 	</form>
 </div>
+
 <script type="text/javascript">
-	jQuery(document).ready(function(){
-		//Make em pickers
-		jQuery('.pickdate').datepicker({ dateFormat : '<?php echo esc_js($date_format); ?>' });
-		//Default date for display
-		jQuery('#datepicker').attr('value', jQuery.datepicker.formatDate('<?php echo esc_js( $date_format ); ?>', new Date(), {}) );
-	});
+    jQuery(document).ready(function ($) {
+        //Make em pickers
+        $('.pickdate').datepicker({ dateFormat: '<?php echo esc_js($date_format); ?>' });
+        //Default date for display
+        $('#datepicker').val($.datepicker.formatDate('<?php echo esc_js( $date_format ); ?>', new Date()));
+    });
 </script>
 

@@ -189,6 +189,11 @@ Wenn Du ein besseres Verständnis für Folgendes erlangen möchtest:
 
 == ChangeLog ==
 
+= 1.4.4 =
+
+* PhP8 Updates
+* jQuery Fixes
+
 = 1.4.3 =
 
 * Updater 1.3

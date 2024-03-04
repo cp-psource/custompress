@@ -12,6 +12,10 @@ License: GNU General Public License (Version 2 - GPLv2)
 Network: false
 */
 
+/**
+ * @@@@@@@@@@@@@@@@@ PS UPDATER 1.3 @@@@@@@@@@@
+ **/
+
 require 'psource/psource-plugin-update/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
@@ -23,6 +27,10 @@ $myUpdateChecker = PucFactory::buildUpdateChecker(
 
 //Set the branch that contains the stable release.
 $myUpdateChecker->setBranch('master');
+
+/**
+ * @@@@@@@@@@@@@@@@@ ENDE PS UPDATER 1.3 @@@@@@@@@@@
+ **/
 
 $plugin_header_translate = array(
 __('CustomPress - Benutzerdefinierter Post-, Taxonomie- und Feldmanager.', 'custompress'),

@@ -287,7 +287,7 @@ if ( ! class_exists( 'CustomPress_Core' ) ):
 			wp_register_script( 'dynamic-css', $this->plugin_url . "datepicker/js/cp-dynamic-css.js", array(), 'CP-' . CPT_VERSION );
 			//wp_enqueue_script('dynamic-css');
 
-			wp_register_script( 'jquery-validate', $this->plugin_url . "ui-admin/js/jquery.validate.min.js", array( 'jquery' ), '1.8.18' );
+			wp_register_script( 'jquery-validate', $this->plugin_url . "ui-admin/js/jquery.validate.js", array( 'jquery' ), '1.8.18' );
 
 			wp_register_script( 'jquery-combobox', $this->plugin_url . "datepicker/js/jquery.combobox/jquery.combobox.js", array( 'jquery' ), '1.8.18' );
 
