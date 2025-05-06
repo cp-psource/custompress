@@ -192,33 +192,33 @@ var content_types = {
         );
 
         // bind functions
-        $(window).bind('load', init_public_checked_post_type);
-        $('.ct-post-type input[name="public"]').bind('change', init_public_checked_post_type);
-        $(window).bind('load', init_has_archive_checked_post_type);
-        $('.ct-post-type input[name="has_archive"]').bind('change', init_has_archive_checked_post_type);
-        $(window).bind('load', init_rewrite_checked_post_type);
-        $('.ct-post-type input[name="rewrite"]').bind('change', init_rewrite_checked_post_type);
-        $(window).bind('load', init_capability_checked_post_type);
-        $('.ct-post-type input[name="capability_type_edit"]').bind('change', init_capability_checked_post_type);
-        $(window).bind('load', init_public_checked_taxonomy);
-        $('.ct-taxonomy input[name="public"]').bind('change', init_public_checked_taxonomy);
-        $(window).bind('load', init_rewrite_checked_taxonomy);
-        $('.ct-taxonomy input[name="rewrite"]').bind('change', init_rewrite_checked_taxonomy);
-        $(window).bind('load', field_type_options);
-        $('.ct-custom-fields select[name="field_type"]').bind('change', field_type_options);
+        init_public_checked_post_type();
+        $('.ct-post-type input[name="public"]').on('change', init_public_checked_post_type);
+        init_has_archive_checked_post_type();
+        $('.ct-post-type input[name="has_archive"]').on('change', init_has_archive_checked_post_type);
+        init_rewrite_checked_post_type();
+        $('.ct-post-type input[name="rewrite"]').on('change', init_rewrite_checked_post_type);
+        init_capability_checked_post_type();
+        $('.ct-post-type input[name="capability_type_edit"]').on('change', init_capability_checked_post_type);
+        init_public_checked_taxonomy();
+        $('.ct-taxonomy input[name="public"]').on('change', init_public_checked_taxonomy);
+        init_rewrite_checked_taxonomy();
+        $('.ct-taxonomy input[name="rewrite"]').on('change', init_rewrite_checked_taxonomy);
+        field_type_options();
+        $('.ct-custom-fields select[name="field_type"]').on('change', field_type_options);
 
         // custom fields add options
-        $('.ct-field-add-option').click(function () {
+        $('.ct-field-add-option').on("click", function () {
             $('.ct-field-additional-options').append(function () {
                 var count = parseInt($('input[name="track_number"]').val(), 10) + 1;
                 $('input[name="track_number"]').val(count);
 
                 input = '<p>Option ' + count + ': ' +
-                '<input type="text" name="field_options[' + count + ']"> ' +
-                '<input type="radio" value="' + count + '" name="field_default_option"> ' +
-                'Default Value ' +
-                '<a href="#" class="ct-field-delete-option">[x]</a>' +
-                '</p>';
+                    '<input type="text" name="field_options[' + count + ']"> ' +
+                    '<input type="radio" value="' + count + '" name="field_default_option"> ' +
+                    'Default Value ' +
+                    '<a href="#" class="ct-field-delete-option">[x]</a>' +
+                    '</p>';
                 return input;
             });
 
@@ -231,7 +231,7 @@ var content_types = {
             $(this).parent().remove();
         });
 
-        $('#embed-code-link').click(function () {
+        $('#embed-code-link').on('click', function () {
 
 
         });
@@ -255,7 +255,7 @@ var content_types = {
             "'day' d 'of' MM 'in the year' yy"
         ]);
 
-        $('#save_roles').click(function () {
+        $('#save_roles').on('click', function () {
             $('#ajax-loader').show();
             var data = $(this).closest('form').serializeArray();
             $.post(ajaxurl, data, function (data) {
@@ -264,7 +264,7 @@ var content_types = {
             return false;
         });
 
-        $('#roles').change(role_checkboxes);
+        $('#roles').on('change', role_checkboxes);
 
         role_checkboxes();
 

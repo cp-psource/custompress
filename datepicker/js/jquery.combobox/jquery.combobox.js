@@ -42,7 +42,7 @@
 		this.textInputElement.css('margin', '0 '+showSelectorButton.outerWidth()+'px 0 0');
 		var thisSelector = this.selector;
 		var thisCombobox = this;
-		showSelectorButton.click(function (e) {
+		showSelectorButton.on('click', function (e) {
 			$('html').trigger('click');
 			thisSelector.buildSelectOptionList();
 			thisSelector.show();
@@ -61,20 +61,22 @@
 
 		bindKeypress : function () {
 			var thisCombobox = this;
-			this.textInputElement.keyup(function (event) {
+			this.textInputElement.on('input', function () {
+				thisCombobox.selector.buildSelectOptionList(thisCombobox.getValue());
+				thisCombobox.selector.show();
+			}).on('keydown', function (event) {
 				if (event.keyCode == Combobox.keys.TAB
 				|| event.keyCode == Combobox.keys.SHIFT)
 				{
 					return;
 				}
-				if (event.keyCode != Combobox.keys.DOWNARROW
-				&& event.keyCode != Combobox.keys.UPARROW
-				&& event.keyCode != Combobox.keys.ESCAPE
-				&& event.keyCode != Combobox.keys.ENTER)
+				if (event.keyCode == Combobox.keys.DOWNARROW
+				|| event.keyCode == Combobox.keys.UPARROW
+				|| event.keyCode == Combobox.keys.ESCAPE
+				|| event.keyCode == Combobox.keys.ENTER)
 				{
-					thisCombobox.selector.buildSelectOptionList(thisCombobox.getValue());
+					return false;
 				}
-				thisCombobox.selector.show()
 			});
 		},
 
@@ -165,12 +167,12 @@
 				ulElement.append('<li>'+selectOptions[i]+'</li>');
 			}
 			var thisSelector = this;
-			this.selectorElement.find('li').click(function (e) {
+			this.selectorElement.find('li').on('click', function (e) {
 				thisSelector.hide();
 				thisSelector.combobox.setValue(this.innerHTML);
 				thisSelector.combobox.focus();
 			});
-			this.selectorElement.mouseover(function (e) {
+			this.selectorElement.on('mouseover', function (e) {
 				thisSelector.unselect();
 			});
 			this.htmlClickHandler = function () {
