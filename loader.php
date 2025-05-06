@@ -32,14 +32,8 @@ $myUpdateChecker->setBranch('master');
  * @@@@@@@@@@@@@@@@@ ENDE PS UPDATER 1.3 @@@@@@@@@@@
  **/
 
-$plugin_header_translate = array(
-__('CustomPress - Benutzerdefinierter Post-, Taxonomie- und Feldmanager.', 'custompress'),
-__('DerN3rd (PSOURCE)', 'custompress'),
-__('https://github.com/cp-psource', 'custompress'),
-__('CustomPress', 'custompress'));
-
 /*
-Copyright 2020-2024 PSOURCE, (https://github.com/cp-psource)
+Copyright 2020-2025 PSOURCE, (https://github.com/cp-psource)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License (Version 2 - GPLv2) as published by

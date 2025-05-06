@@ -48,10 +48,19 @@ if ( ! class_exists( 'CustomPress_Core' ) ):
 		 * @return void
 		 */
 		function on_plugins_loaded() {
-			load_plugin_textdomain( $this->text_domain, false, plugin_basename( $this->plugin_dir . 'languages' ) );
+			add_action( 'init', array( $this, 'load_textdomain' ) );
 
 			// maybe check upgrade version here
-            $this->maybe_upgrade_version();
+			$this->maybe_upgrade_version();
+		}
+
+		/**
+		 * Load the plugin textdomain for translations.
+		 *
+		 * @return void
+		 */
+		function load_textdomain() {
+			load_plugin_textdomain( $this->text_domain, false, plugin_basename( $this->plugin_dir . 'languages' ) );
 		}
 
 
