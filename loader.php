@@ -3,7 +3,7 @@
 Plugin Name: CustomPress
 Plugin URI: https://cp-psource.github.io/custompress/
 Description: CustomPress - Benutzerdefinierter Post-, Taxonomie- und Feldmanager.
-Version: 1.4.3
+Version: 
 Author: PSOURCE
 Author URI: https://github.com/cp-psource
 Text Domain: custompress
@@ -51,7 +51,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 
 /* Define plugin version */
-if( !defined('CPT_VERSION') ) define ( 'CPT_VERSION', '1.4.3' );
+if( !defined('CPT_VERSION') ) define ( 'CPT_VERSION', '' );
 /* define the plugin folder url */
 if( !defined('CPT_PLUGIN_URL') ) define ( 'CPT_PLUGIN_URL', plugin_dir_url(__FILE__) );
 /* define the plugin folder dir */
