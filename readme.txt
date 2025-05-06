@@ -2,7 +2,7 @@
 Contributors: DerN3rd (PSOURCE)
 Tags: widget, custom,post, wordpress, classicpress
 Requires at least: 4.9
-Tested up to: 4.9
+Tested up to: 6.8.1
 Stable tag: 1.4.3
 Requires PHP: 7.0
 License: GPLv2 or later
